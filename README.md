@@ -20,6 +20,7 @@
 
 ### INTEGRAÇÃO CHAT GPT
 
-| Rota                        | Método | Descrição         |
-|-----------------------------|--------|-------------------|
-| /integracaoGpt/resumirTexto | POST   | Resumo de textos. |
+| Rota                                   | Método | Descrição           |
+|----------------------------------------|--------|---------------------|
+| /integracaoGpt/resumirTexto            | POST   | Resumo de textos.   |
+| /integracaoGpt/converterAudioParaTexto | POST   | Transcrever áudios. |
