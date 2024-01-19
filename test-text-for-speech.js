@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const openai = new OpenAI({
-    apiKey: 'SUA API KEY AQUI'
+    apiKey: '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'
 });
 
 const speechFile = path.resolve("./speech.mp3");

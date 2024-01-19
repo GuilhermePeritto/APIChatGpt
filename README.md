@@ -24,3 +24,5 @@
 |----------------------------------------|--------|---------------------|
 | /integracaoGpt/resumirTexto            | POST   | Resumo de textos.   |
 | /integracaoGpt/converterAudioParaTexto | POST   | Transcrever áudios. |
+| /converterTextoParaAudio               | POST   | Gerar áudios.       |
+| /criarImagem                           | POST   | Criar imagem.       |

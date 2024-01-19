@@ -3,6 +3,8 @@ import { openai } from "../../globals/openAi";
 import { bufferToStream } from "../../utils/bufferToStream";
 import axios from "axios";
 import FormData from "form-data";
+import path from "path";
+import fs from "fs";
 
 class IntegracaoGptController {
 
@@ -54,6 +56,44 @@ class IntegracaoGptController {
         }
     }
 
+    public async converterTextoParaAudio(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto?.length) return res.status(400).send("Texto não informado")
+
+            const speechFile = path.resolve("./speech.mp3");
+
+            const mp3 = await openai.audio.speech.create({
+                model: "tts-1",
+                voice: "shimmer",
+                input: texto
+            });
+            const buffer = Buffer.from(await mp3.arrayBuffer());
+            await fs.promises.writeFile(speechFile, buffer);
+
+            res.status(200).send("Audio gerado com sucesso!")
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+    public async criarImagem(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto?.length) return res.status(400).send("Texto não informado")
+
+            const image = await openai.images.generate({ 
+                model: "dall-e-2",
+                prompt: "DESCRICÃO DA IMAGEM AQUI" 
+            });
+                              
+            res.status(200).send(image.data)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
 
 }
 
