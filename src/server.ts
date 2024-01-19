@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { integracaoGptRoutes } from "../routes/integracaoGpt.routes";
+import { integracaoGptRoutes } from "./routes/integracaoGpt.routes";
 
 const app = express();
 
