@@ -9,4 +9,4 @@ app.use(express.json());
 
 app.use('/integracaoGPT', integracaoGptRoutes);
 
-app.listen(3333, () => console.log("Api rodando na porta 3334 ~🚀"));
+app.listen(3334, () => console.log("Api rodando na porta 3334 ~🚀"));

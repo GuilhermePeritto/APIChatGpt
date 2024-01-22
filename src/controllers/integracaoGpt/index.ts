@@ -111,6 +111,23 @@ class IntegracaoGptController {
             res.status(500).send(error)
         }
     }
+
+    public async traduzirMensagemDeErro(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto?.length) return res.status(400).send("Texto não informado")
+
+            const response = await openai.chat.completions.create({
+                messages: [{ role: "system", content: `Explique a seguinte mensagem de erro para não programadores: ${texto}` }],
+                model: "gpt-3.5-turbo",
+            })
+
+            res.status(200).send(response)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
 }
 
 export default new IntegracaoGptController()

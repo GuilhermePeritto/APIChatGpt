@@ -27,3 +27,4 @@
 | /integracaoGpt/converterTextoParaAudio | POST   | Gerar áudios.               |
 | /integracaoGpt/criarImagem             | POST   | Criar imagem.               |
 | /integracaoGpt/gerarSugestaoDeResposta | POST   | Gerar sugestao de resposta. |
+| /integracaoGpt/traduzirMensagemDeErro  | POST   | Traduzir mensagem de erro.  |

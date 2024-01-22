@@ -9,5 +9,6 @@ integracaoGptRoutes.post('/converterAudioParaTexto', multer().single('file'), In
 integracaoGptRoutes.post('/converterTextoParaAudio', IntegracaoGptController.converterTextoParaAudio)
 integracaoGptRoutes.post('/criarImagem', IntegracaoGptController.criarImagem)
 integracaoGptRoutes.post('/gerarSugestaoDeResposta', IntegracaoGptController.gerarSugestaoDeResposta)
+integracaoGptRoutes.post('/traduzirMensagemDeErro', IntegracaoGptController.traduzirMensagemDeErro)
 
 export { integracaoGptRoutes }
