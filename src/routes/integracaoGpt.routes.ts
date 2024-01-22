@@ -8,5 +8,6 @@ integracaoGptRoutes.post('/resumirConversasPorTexto', IntegracaoGptController.re
 integracaoGptRoutes.post('/converterAudioParaTexto', multer().single('file'), IntegracaoGptController.converterAudioParaTexto)
 integracaoGptRoutes.post('/converterTextoParaAudio', IntegracaoGptController.converterTextoParaAudio)
 integracaoGptRoutes.post('/criarImagem', IntegracaoGptController.criarImagem)
+integracaoGptRoutes.post('/gerarSugestaoDeResposta', IntegracaoGptController.gerarSugestaoDeResposta)
 
 export { integracaoGptRoutes }

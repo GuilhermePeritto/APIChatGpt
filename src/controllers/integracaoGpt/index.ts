@@ -84,17 +84,33 @@ class IntegracaoGptController {
 
             if (!texto?.length) return res.status(400).send("Texto não informado")
 
-            const image = await openai.images.generate({ 
+            const image = await openai.images.generate({
                 model: "dall-e-2",
-                prompt: "DESCRICÃO DA IMAGEM AQUI" 
+                prompt: texto
             });
-                              
+
             res.status(200).send(image.data)
         } catch (error) {
             res.status(500).send(error)
         }
     }
 
+    public async gerarSugestaoDeResposta(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto?.length) return res.status(400).send("Texto não informado")
+
+            const response = await openai.chat.completions.create({
+                messages: [{ role: "system", content: `Sugira uma resposta para a seguinte conversa: ${texto}` }],
+                model: "gpt-3.5-turbo",
+            })
+
+            res.status(200).send(response)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
 }
 
 export default new IntegracaoGptController()
