@@ -119,7 +119,7 @@ class IntegracaoGptController {
             if (!texto?.length) return res.status(400).send("Texto não informado")
 
             const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Explique a seguinte mensagem de erro para não programadores: ${texto}` }],
+                messages: [{ role: "system", content: `Explique a seguinte mensagem de erro para não programadores: ${texto}. E sugira uma solução.` }],
                 model: "gpt-3.5-turbo",
             })
 
