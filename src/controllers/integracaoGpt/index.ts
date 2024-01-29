@@ -5,6 +5,7 @@ import axios from "axios";
 import FormData from "form-data";
 import path from "path";
 import fs from "fs";
+import { PdfDocument } from "@ironsoftware/ironpdf";
 
 class IntegracaoGptController {
 
@@ -124,6 +125,57 @@ class IntegracaoGptController {
             })
 
             res.status(200).send(response)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+
+    public async treinando(req: Request, res: Response) {
+        try {
+            const pdf = await PdfDocument.open("acesso_ip.pdf"),
+                text = await pdf.extractText();
+
+            var chunks: string[] = [];
+
+            for (var i = 0; i < text.length; i += 1024) {
+                chunks.push(text.substring(i, i + 1024));
+            }
+
+            interface test {
+                text: string,
+                embedding: number[]
+            }
+
+            const embedding: test[] = [];
+
+            for (const chunk of chunks) {
+
+                const { data } = await openai.embeddings.create({
+                    input: chunk,
+                    model: "text-embedding-ada-002",
+                });
+
+                embedding.push({
+                    text: chunk,
+                    embedding: data[0].embedding
+                })
+            }
+
+            const contexto = embedding.map((item) => item.text + item.embedding.join(", "));
+            const prompt = `. Contexto: ${contexto.join(". ")}`;
+            const response = await openai.chat.completions.create({
+                messages: [
+                    { role: "system", content: "Responda as perguntas com base no contexto abaixo, e se a pergunta não puder ser respondida diga 'Eu não sei responder isso'" },
+                    { role: "system", content: `contexto: ${prompt.substring(0, 10000)}` },
+                    { role: "system", content: "Pergunta: que dia é amanhã?" }
+                ],
+                model: "gpt-4",
+                temperature: 0,
+
+            });
+
+            return res.send(response);
         } catch (error) {
             res.status(500).send(error)
         }

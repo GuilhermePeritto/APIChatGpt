@@ -10,5 +10,6 @@ integracaoGptRoutes.post('/converterTextoParaAudio', IntegracaoGptController.con
 integracaoGptRoutes.post('/criarImagem', IntegracaoGptController.criarImagem)
 integracaoGptRoutes.post('/gerarSugestaoDeResposta', IntegracaoGptController.gerarSugestaoDeResposta)
 integracaoGptRoutes.post('/traduzirMensagemDeErro', IntegracaoGptController.traduzirMensagemDeErro)
+integracaoGptRoutes.post('/treinando', IntegracaoGptController.treinando)
 
 export { integracaoGptRoutes }
