@@ -15,9 +15,12 @@ class IntegracaoGptController {
 
             if (!texto?.length) return res.status(400).send("Texto não informado")
 
-            const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Resuma a seguinte conversa: ${texto}` }],
-                model: "gpt-3.5-turbo",
+            const response = await openai.completions.create({
+                prompt: 'Como habilitar o uso dos registros de contas financeiras?',
+                model: "ft:babbage-002:useall-software::8mQ0sWmr",
+                temperature: 0.5,
+                max_tokens: 300,
+                
             });
 
             res.status(200).send(response)
@@ -187,7 +190,7 @@ class IntegracaoGptController {
         return texto;
     }
 
-    public gerarPlanilhaFineTuning = async (req: Request, res: Response) => {
+    public gerarPlanilhaFineTunning = async (req: Request, res: Response) => {
         try {
             const texto = await this.readPdf("configGeral.pdf");
 
@@ -197,20 +200,35 @@ class IntegracaoGptController {
                     todas as perguntas possiveis que voce consiga formular uma resposta e voce deverá responder
                     exatamente conforme exemplo abaixo no jsonl, por exemplo:
                     Oque voce deviria devolver: {"prompt": "Texto da pergunta formulada por voce com base no texto fornecido", "completion": "resposta gerada por voce com base no texto fornecido."}
-                    voce devera apenas devolver o texto em formato Jsonl, sem explicações, e separando os objetos por vírgulas, é importante que cada objeto estaja em sua propria linha onde nunca todos os objetos na mesma linha,
-                    crie tres variações de resposta para a mesma pergunta e para a mesma resposta, sem alterar o sentido, apenas as palavras,
+                    voce devera apenas devolver o texto em formato json, sem explicações, e separando os objetos por vírgulas, com todos os objetos em uma mesma linha,
+                    crie 3 variações de resposta para a mesma pergunta e para a mesma resposta, sem alterar o sentido, apenas as palavras,
                     segue o texto real da documentação para voce gerar as todas as perguntas possiveis do documento: ${texto}`
                 }],
                 model: "gpt-3.5-turbo",
             })
 
-            const response = choices[0].message.content;
+            const response = choices[0].message.content?.replaceAll("},", "}");
             const file_content = fs.readFileSync("./file_tunning.jsonl");
             const file = file_content.toString() + response!.toString();
 
             fs.writeFileSync("./file_tunning.jsonl", file);
 
-            res.status(200).send(response)
+            const training_file = await openai.files.create({ file: fs.createReadStream("./file_tunning.jsonl"), purpose: "fine-tune" }),
+                trained_model = await openai.fineTuning.jobs.create({
+                    training_file: training_file.id,
+                    model: "babbage-002",
+                });
+
+            return res.status(200).send(trained_model)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+    public async listAllJobs(req: Request, res: Response) {
+        try {
+            let events = await openai.fineTuning.jobs.list({ limit: 10 });
+            return res.status(200).send(events)
         } catch (error) {
             res.status(500).send(error)
         }

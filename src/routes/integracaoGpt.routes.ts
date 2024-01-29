@@ -11,6 +11,7 @@ integracaoGptRoutes.post('/criarImagem', IntegracaoGptController.criarImagem)
 integracaoGptRoutes.post('/gerarSugestaoDeResposta', IntegracaoGptController.gerarSugestaoDeResposta)
 integracaoGptRoutes.post('/traduzirMensagemDeErro', IntegracaoGptController.traduzirMensagemDeErro)
 integracaoGptRoutes.post('/treinando', IntegracaoGptController.treinando)
-integracaoGptRoutes.post('/gerarPlanilhaFineTuning', IntegracaoGptController.gerarPlanilhaFineTuning)
+integracaoGptRoutes.post('/gerarPlanilhaFineTunning', IntegracaoGptController.gerarPlanilhaFineTunning)
+integracaoGptRoutes.post('/listAllJobs', IntegracaoGptController.listAllJobs)
 
 export { integracaoGptRoutes }
