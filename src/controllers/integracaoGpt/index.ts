@@ -130,10 +130,9 @@ class IntegracaoGptController {
         }
     }
 
-
     public async treinando(req: Request, res: Response) {
         try {
-            const pdf = await PdfDocument.open("acesso_ip.pdf"),
+            const pdf = await PdfDocument.open("configGeral.pdf"),
                 text = await pdf.extractText();
 
             var chunks: string[] = [];
@@ -168,7 +167,7 @@ class IntegracaoGptController {
                 messages: [
                     { role: "system", content: "Responda as perguntas com base no contexto abaixo, e se a pergunta não puder ser respondida diga 'Eu não sei responder isso'" },
                     { role: "system", content: `contexto: ${prompt.substring(0, 10000)}` },
-                    { role: "system", content: "Pergunta: que dia é amanhã?" }
+                    { role: "system", content: "Pergunta: Como Habilitar filial para emissão de NFC-e em Santa Catarina?" }
                 ],
                 model: "gpt-4",
                 temperature: 0,
@@ -176,6 +175,29 @@ class IntegracaoGptController {
             });
 
             return res.send(response);
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+    private readPdf = async (pdf : string) => {
+        const _pdf = await PdfDocument.open(pdf);
+        const texto = await _pdf.extractText();
+
+        return texto;
+    }
+
+    public gerarPlanilhaFineTuning = async (req: Request, res: Response) => {
+        try {
+            const texto = this.readPdf("configGeral.pdf");
+
+            const response = await openai.chat.completions.create({
+                messages: [{ role: "system", content: `Você deverá me ajudar a converter uma documentação completo de software em faqs de perguntas e respostas, eu vou lhe enviar textos da documentação e você deve me decolcer a mesma informação que lhe enviei mas no formato de perunta e resposta, vou lhe dar uma exemplo: texto que eu enviaria: como exibir a lista de locais do cliente, Oque voce deviria devolver: {"prompt": "como exibir a lista de locais do cliente", "completion": "Essa configuração é habilitada quando precisar escolher um local de entrega para o cliente a partir de uma lista pré-cadastrada."}
+                voce devera apenas devolver o texto em formato Jsonl, sem explicações, para que eu copie e cole diretamente em outra ferramenta, crie tres variações de resposta para a mesma pergunta e para a mesma respossta, sem alterar o sentido, apenas as palavras, segue o texto da documentação: ${texto}` }],
+                model: "gpt-3.5-turbo",
+            })
+
+            res.status(200).send(response)
         } catch (error) {
             res.status(500).send(error)
         }

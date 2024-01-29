@@ -2497,3 +2497,901 @@
 [2024-01-29 09:51:31] Document 0 has 1 references remaining (+1)
 [2024-01-29 09:51:31] In-memory object store fetching document 1ce16f50-0ca4-4f48-88b2-25d67c0f2d1d
 [2024-01-29 09:51:31] In-memory object store fetching document 1ce16f50-0ca4-4f48-88b2-25d67c0f2d1d
+[2024-01-29 10:27:03] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:27:03] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:27:03] Creating folder deployments for win-x64
+[2024-01-29 10:27:03] Creating embedded deployments for win-x64
+[2024-01-29 10:27:03] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:27:03] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:27:03] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:27:03] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:27:03] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Creating new job collection resource
+[2024-01-29 10:27:03] Creating new document collection resource
+[2024-01-29 10:27:03] Successfully initialized local pdf client
+[2024-01-29 10:27:03] Initializing local Chrome client...
+[2024-01-29 10:27:03] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:27:03] Creating folder deployments for win-x64
+[2024-01-29 10:27:03] Creating embedded deployments for win-x64
+[2024-01-29 10:27:03] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:27:03] Using deployment instructions for 'default' v
+[2024-01-29 10:27:03] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:27:03] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:27:03] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:27:03] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:27:03] 10:27:03 (15228): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:27:03] 10:27:03 (15228): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:27:03] 10:27:03 (15228): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:27:03] 10:27:03 (15228): IsSingleProcess: 0
+[2024-01-29 10:27:03] 10:27:03 (15228): Creating Cef proxy controller
+[2024-01-29 10:27:03] 10:27:03 (15228): Creating Cef interface
+[2024-01-29 10:27:03] 10:27:03 (15228): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:27:03] 10:27:03 (15228): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:27:03] 10:27:03 (15228): Destroying Cef proxy event handler
+[2024-01-29 10:27:03] 10:27:03 (15228): Initializing Cef proxy controller
+[2024-01-29 10:27:03] 10:27:03 (15228): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:27:03] 10:27:03 (15228): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] 10:27:03 (15228): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:27:03] 10:27:03 (15228): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:27:03] 10:27:03 (15228): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:27:03] 10:27:03 (15228): gpu_mode: '0'
+[2024-01-29 10:27:03] 10:27:03 (10500): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:27:03] 10:27:03 (10500): gpu_mode: '0'
+[2024-01-29 10:27:03] 10:27:03 (15228): Cef initialization succeeded
+[2024-01-29 10:27:03] Successfully initialized local Chrome client
+[2024-01-29 10:27:03] 10:27:03 (10500): Cef context initialized
+[2024-01-29 10:27:03] 10:27:03 (10500): Registering custom scheme for rendering raw html
+[2024-01-29 10:27:03] 10:27:03 (10500): Successfully registered custom scheme
+[2024-01-29 10:27:03] 10:27:03 (10500): Cef engine initialization complete
+[2024-01-29 10:27:03] 10:27:03 (10500): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:27:03] 10:27:03 (10500): gpu_mode: '0'
+[2024-01-29 10:27:13] 'UsageData' module is disabled
+[2024-01-29 10:27:13] Created directory 'C:\Users\Guilherme.peritto\AppData\Local\IronSoftware\UsageData'
+[2024-01-29 10:27:13] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:27:13] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:27:13] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:27:13] Warning! Error while retrieving app settings value
+[2024-01-29 10:27:13] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:27:13] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:27:13] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:27:13] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:27:13] Warning! Error while retrieving app settings value
+[2024-01-29 10:27:13] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:27:13] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:27:13] Error 0x00 while validating license key
+[2024-01-29 10:27:13] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:27:13] 10:27:13 (15592): PdfDocumentFactory created document 0000024B5263E590 from 519928 bytes
+[2024-01-29 10:27:13] 10:27:13 (15592): Document opened from vector
+[2024-01-29 10:27:13] 10:27:13 (15592): Storing new document 0
+[2024-01-29 10:27:13] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:27:13] In-memory object store fetching document 7b1fe1f5-66a0-478e-a5a1-4c6cb1b1ead0
+[2024-01-29 10:27:13] In-memory object store fetching document 7b1fe1f5-66a0-478e-a5a1-4c6cb1b1ead0
+[2024-01-29 10:28:29] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:28:29] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:28:29] Creating folder deployments for win-x64
+[2024-01-29 10:28:29] Creating embedded deployments for win-x64
+[2024-01-29 10:28:29] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:28:29] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:28:29] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:28:29] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:28:29] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Creating new job collection resource
+[2024-01-29 10:28:29] Creating new document collection resource
+[2024-01-29 10:28:29] Successfully initialized local pdf client
+[2024-01-29 10:28:29] Initializing local Chrome client...
+[2024-01-29 10:28:29] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:28:29] Creating folder deployments for win-x64
+[2024-01-29 10:28:29] Creating embedded deployments for win-x64
+[2024-01-29 10:28:29] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:28:29] Using deployment instructions for 'default' v
+[2024-01-29 10:28:29] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:28:29] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:28:29] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:28:29] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:29] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:30] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:28:30] 10:28:30 (14692): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:28:30] 10:28:30 (14692): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:28:30] 10:28:30 (14692): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:28:30] 10:28:30 (14692): IsSingleProcess: 0
+[2024-01-29 10:28:30] 10:28:30 (14692): Creating Cef proxy controller
+[2024-01-29 10:28:30] 10:28:30 (14692): Creating Cef interface
+[2024-01-29 10:28:30] 10:28:30 (14692): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:28:30] 10:28:30 (14692): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:28:30] 10:28:30 (14692): Destroying Cef proxy event handler
+[2024-01-29 10:28:30] 10:28:30 (14692): Initializing Cef proxy controller
+[2024-01-29 10:28:30] 10:28:30 (14692): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:28:30] 10:28:30 (14692): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:30] 10:28:30 (14692): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:28:30] 10:28:30 (14692): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:28:30] 10:28:30 (14692): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:28:30] 10:28:30 (14692): gpu_mode: '0'
+[2024-01-29 10:28:30] 10:28:30 (10400): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:28:30] 10:28:30 (10400): gpu_mode: '0'
+[2024-01-29 10:28:30] 10:28:30 (14692): Cef initialization succeeded
+[2024-01-29 10:28:30] Successfully initialized local Chrome client
+[2024-01-29 10:28:30] 10:28:30 (10400): Cef context initialized
+[2024-01-29 10:28:30] 10:28:30 (10400): Registering custom scheme for rendering raw html
+[2024-01-29 10:28:30] 10:28:30 (10400): Successfully registered custom scheme
+[2024-01-29 10:28:30] 10:28:30 (10400): Cef engine initialization complete
+[2024-01-29 10:28:30] 10:28:30 (10400): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:28:30] 10:28:30 (10400): gpu_mode: '0'
+[2024-01-29 10:28:39] 'UsageData' module is disabled
+[2024-01-29 10:28:39] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:28:39] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:28:39] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:28:39] Warning! Error while retrieving app settings value
+[2024-01-29 10:28:39] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:28:39] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:28:39] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:28:39] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:28:39] Warning! Error while retrieving app settings value
+[2024-01-29 10:28:39] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:28:39] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:28:39] Error 0x00 while validating license key
+[2024-01-29 10:28:39] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:28:39] 10:28:39 (1016): PdfDocumentFactory created document 00000263800C61E0 from 519928 bytes
+[2024-01-29 10:28:39] 10:28:39 (1016): Document opened from vector
+[2024-01-29 10:28:39] 10:28:39 (1016): Storing new document 0
+[2024-01-29 10:28:39] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:28:39] In-memory object store fetching document e5a38ea2-2549-41b5-80e1-e4bc2d0cacd8
+[2024-01-29 10:28:39] In-memory object store fetching document e5a38ea2-2549-41b5-80e1-e4bc2d0cacd8
+[2024-01-29 10:29:41] Error 0x01 while validating license key
+[2024-01-29 10:29:41] 10:29:41 (2900): PdfDocumentFactory created document 00000263800C6480 from 519928 bytes
+[2024-01-29 10:29:41] 10:29:41 (2900): Document opened from vector
+[2024-01-29 10:29:41] 10:29:41 (2900): Storing new document 1
+[2024-01-29 10:29:41] Document 1 has 1 references remaining (+1)
+[2024-01-29 10:29:41] In-memory object store fetching document 93d693ef-5232-4cfb-8d26-c14765d43d93
+[2024-01-29 10:29:41] In-memory object store fetching document 93d693ef-5232-4cfb-8d26-c14765d43d93
+[2024-01-29 10:29:59] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:29:59] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:29:59] Creating folder deployments for win-x64
+[2024-01-29 10:29:59] Creating embedded deployments for win-x64
+[2024-01-29 10:29:59] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:29:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:29:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:29:59] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:29:59] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Creating new job collection resource
+[2024-01-29 10:29:59] Creating new document collection resource
+[2024-01-29 10:29:59] Successfully initialized local pdf client
+[2024-01-29 10:29:59] Initializing local Chrome client...
+[2024-01-29 10:29:59] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:29:59] Creating folder deployments for win-x64
+[2024-01-29 10:29:59] Creating embedded deployments for win-x64
+[2024-01-29 10:29:59] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:29:59] Using deployment instructions for 'default' v
+[2024-01-29 10:29:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:29:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:29:59] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:29:59] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:29:59] 10:29:59 (13476): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:29:59] 10:29:59 (13476): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:29:59] 10:29:59 (13476): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:29:59] 10:29:59 (13476): IsSingleProcess: 0
+[2024-01-29 10:29:59] 10:29:59 (13476): Creating Cef proxy controller
+[2024-01-29 10:29:59] 10:29:59 (13476): Creating Cef interface
+[2024-01-29 10:29:59] 10:29:59 (13476): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:29:59] 10:29:59 (13476): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:29:59] 10:29:59 (13476): Destroying Cef proxy event handler
+[2024-01-29 10:29:59] 10:29:59 (13476): Initializing Cef proxy controller
+[2024-01-29 10:29:59] 10:29:59 (13476): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:29:59] 10:29:59 (13476): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] 10:29:59 (13476): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:29:59] 10:29:59 (13476): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:29:59] 10:29:59 (13476): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:29:59] 10:29:59 (13476): gpu_mode: '0'
+[2024-01-29 10:29:59] 10:29:59 (12680): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:29:59] 10:29:59 (12680): gpu_mode: '0'
+[2024-01-29 10:29:59] 10:29:59 (13476): Cef initialization succeeded
+[2024-01-29 10:29:59] Successfully initialized local Chrome client
+[2024-01-29 10:29:59] 10:29:59 (12680): Cef context initialized
+[2024-01-29 10:29:59] 10:29:59 (12680): Registering custom scheme for rendering raw html
+[2024-01-29 10:29:59] 10:29:59 (12680): Successfully registered custom scheme
+[2024-01-29 10:29:59] 10:29:59 (12680): Cef engine initialization complete
+[2024-01-29 10:29:59] 10:29:59 (12680): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:29:59] 10:29:59 (12680): gpu_mode: '0'
+[2024-01-29 10:30:09] 'UsageData' module is disabled
+[2024-01-29 10:30:09] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:30:09] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:30:09] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:30:09] Warning! Error while retrieving app settings value
+[2024-01-29 10:30:09] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:30:09] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:30:09] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:30:09] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:30:09] Warning! Error while retrieving app settings value
+[2024-01-29 10:30:09] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:30:09] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:30:09] Error 0x00 while validating license key
+[2024-01-29 10:30:09] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:30:09] 10:30:09 (12568): PdfDocumentFactory created document 00000268A2143DB0 from 519928 bytes
+[2024-01-29 10:30:09] 10:30:09 (12568): Document opened from vector
+[2024-01-29 10:30:09] 10:30:09 (12568): Storing new document 0
+[2024-01-29 10:30:09] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:30:09] In-memory object store fetching document 4a378d18-b5ba-4130-8f99-83c4a79d33d7
+[2024-01-29 10:30:09] In-memory object store fetching document 4a378d18-b5ba-4130-8f99-83c4a79d33d7
+[2024-01-29 10:42:43] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:42:43] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:42:43] Creating folder deployments for win-x64
+[2024-01-29 10:42:43] Creating embedded deployments for win-x64
+[2024-01-29 10:42:43] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:42:43] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:42:43] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:42:43] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:42:43] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Creating new job collection resource
+[2024-01-29 10:42:43] Creating new document collection resource
+[2024-01-29 10:42:43] Successfully initialized local pdf client
+[2024-01-29 10:42:43] Initializing local Chrome client...
+[2024-01-29 10:42:43] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:42:43] Creating folder deployments for win-x64
+[2024-01-29 10:42:43] Creating embedded deployments for win-x64
+[2024-01-29 10:42:43] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:42:43] Using deployment instructions for 'default' v
+[2024-01-29 10:42:43] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:42:43] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:42:43] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:42:43] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:42:43] 10:42:43 (14196): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:42:43] 10:42:43 (14196): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:42:43] 10:42:43 (14196): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:42:43] 10:42:43 (14196): IsSingleProcess: 0
+[2024-01-29 10:42:43] 10:42:43 (14196): Creating Cef proxy controller
+[2024-01-29 10:42:43] 10:42:43 (14196): Creating Cef interface
+[2024-01-29 10:42:43] 10:42:43 (14196): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:42:43] 10:42:43 (14196): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:42:43] 10:42:43 (14196): Destroying Cef proxy event handler
+[2024-01-29 10:42:43] 10:42:43 (14196): Initializing Cef proxy controller
+[2024-01-29 10:42:43] 10:42:43 (14196): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:42:43] 10:42:43 (14196): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] 10:42:43 (14196): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:42:43] 10:42:43 (14196): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:42:43] 10:42:43 (14196): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:42:43] 10:42:43 (14196): gpu_mode: '0'
+[2024-01-29 10:42:43] 10:42:43 (12856): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:42:43] 10:42:43 (12856): gpu_mode: '0'
+[2024-01-29 10:42:43] 10:42:43 (14196): Cef initialization succeeded
+[2024-01-29 10:42:43] 10:42:43 (12856): Cef context initialized
+[2024-01-29 10:42:43] 10:42:43 (12856): Registering custom scheme for rendering raw html
+[2024-01-29 10:42:43] 10:42:43 (12856): Successfully registered custom scheme
+[2024-01-29 10:42:43] 10:42:43 (12856): Cef engine initialization complete
+[2024-01-29 10:42:43] Successfully initialized local Chrome client
+[2024-01-29 10:42:43] 10:42:43 (12856): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:42:43] 10:42:43 (12856): gpu_mode: '0'
+[2024-01-29 10:42:53] 'UsageData' module is disabled
+[2024-01-29 10:42:53] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:42:53] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:42:53] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:42:53] Warning! Error while retrieving app settings value
+[2024-01-29 10:42:53] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:42:53] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:42:53] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:42:53] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:42:53] Warning! Error while retrieving app settings value
+[2024-01-29 10:42:53] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:42:53] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:42:53] Error 0x00 while validating license key
+[2024-01-29 10:42:53] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:42:53] 10:42:53 (9356): PdfDocumentFactory created document 000001D7BA4EEB80 from 519928 bytes
+[2024-01-29 10:42:53] 10:42:53 (9356): Document opened from vector
+[2024-01-29 10:42:53] 10:42:53 (9356): Storing new document 0
+[2024-01-29 10:42:53] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:42:53] In-memory object store fetching document c2670c7b-d27c-40e6-81a6-c0cc24fce3f1
+[2024-01-29 10:42:53] In-memory object store fetching document c2670c7b-d27c-40e6-81a6-c0cc24fce3f1
+[2024-01-29 10:43:59] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:43:59] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:43:59] Creating folder deployments for win-x64
+[2024-01-29 10:43:59] Creating embedded deployments for win-x64
+[2024-01-29 10:43:59] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:43:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:43:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:43:59] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:43:59] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Creating new job collection resource
+[2024-01-29 10:43:59] Creating new document collection resource
+[2024-01-29 10:43:59] Successfully initialized local pdf client
+[2024-01-29 10:43:59] Initializing local Chrome client...
+[2024-01-29 10:43:59] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:43:59] Creating folder deployments for win-x64
+[2024-01-29 10:43:59] Creating embedded deployments for win-x64
+[2024-01-29 10:43:59] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:43:59] Using deployment instructions for 'default' v
+[2024-01-29 10:43:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:43:59] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:43:59] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:43:59] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:43:59] 10:43:59 (15972): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:43:59] 10:43:59 (15972): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:43:59] 10:43:59 (15972): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:43:59] 10:43:59 (15972): IsSingleProcess: 0
+[2024-01-29 10:43:59] 10:43:59 (15972): Creating Cef proxy controller
+[2024-01-29 10:43:59] 10:43:59 (15972): Creating Cef interface
+[2024-01-29 10:43:59] 10:43:59 (15972): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:43:59] 10:43:59 (15972): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:43:59] 10:43:59 (15972): Destroying Cef proxy event handler
+[2024-01-29 10:43:59] 10:43:59 (15972): Initializing Cef proxy controller
+[2024-01-29 10:43:59] 10:43:59 (15972): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:43:59] 10:43:59 (15972): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] 10:43:59 (15972): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:43:59] 10:43:59 (15972): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:43:59] 10:43:59 (15972): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:43:59] 10:43:59 (15972): gpu_mode: '0'
+[2024-01-29 10:43:59] 10:43:59 (8112): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:43:59] 10:43:59 (8112): gpu_mode: '0'
+[2024-01-29 10:43:59] 10:43:59 (15972): Cef initialization succeeded
+[2024-01-29 10:43:59] Successfully initialized local Chrome client
+[2024-01-29 10:43:59] 10:43:59 (8112): Cef context initialized
+[2024-01-29 10:43:59] 10:43:59 (8112): Registering custom scheme for rendering raw html
+[2024-01-29 10:43:59] 10:43:59 (8112): Successfully registered custom scheme
+[2024-01-29 10:43:59] 10:43:59 (8112): Cef engine initialization complete
+[2024-01-29 10:43:59] 10:43:59 (8112): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:43:59] 10:43:59 (8112): gpu_mode: '0'
+[2024-01-29 10:44:09] 'UsageData' module is disabled
+[2024-01-29 10:44:09] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:44:09] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:44:09] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:44:09] Warning! Error while retrieving app settings value
+[2024-01-29 10:44:09] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:44:09] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:44:09] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:44:09] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:44:09] Warning! Error while retrieving app settings value
+[2024-01-29 10:44:09] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:44:09] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:44:09] Error 0x00 while validating license key
+[2024-01-29 10:44:09] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:44:09] 10:44:09 (7728): PdfDocumentFactory created document 00000199A6336960 from 519928 bytes
+[2024-01-29 10:44:09] 10:44:09 (7728): Document opened from vector
+[2024-01-29 10:44:09] 10:44:09 (7728): Storing new document 0
+[2024-01-29 10:44:09] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:44:09] In-memory object store fetching document d36c4e5f-eefa-4523-b6b1-93e55dabbb7f
+[2024-01-29 10:44:09] In-memory object store fetching document d36c4e5f-eefa-4523-b6b1-93e55dabbb7f
+[2024-01-29 10:48:10] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:48:10] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:48:10] Creating folder deployments for win-x64
+[2024-01-29 10:48:10] Creating embedded deployments for win-x64
+[2024-01-29 10:48:10] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:48:10] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:48:10] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:48:10] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:48:10] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Creating new job collection resource
+[2024-01-29 10:48:10] Creating new document collection resource
+[2024-01-29 10:48:10] Successfully initialized local pdf client
+[2024-01-29 10:48:10] Initializing local Chrome client...
+[2024-01-29 10:48:10] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:48:10] Creating folder deployments for win-x64
+[2024-01-29 10:48:10] Creating embedded deployments for win-x64
+[2024-01-29 10:48:10] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:48:10] Using deployment instructions for 'default' v
+[2024-01-29 10:48:10] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:48:10] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:48:10] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:48:10] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:48:10] 10:48:10 (3268): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:48:10] 10:48:10 (3268): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:48:10] 10:48:10 (3268): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:48:10] 10:48:10 (3268): IsSingleProcess: 0
+[2024-01-29 10:48:10] 10:48:10 (3268): Creating Cef proxy controller
+[2024-01-29 10:48:10] 10:48:10 (3268): Creating Cef interface
+[2024-01-29 10:48:10] 10:48:10 (3268): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:48:10] 10:48:10 (3268): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:48:10] 10:48:10 (3268): Destroying Cef proxy event handler
+[2024-01-29 10:48:10] 10:48:10 (3268): Initializing Cef proxy controller
+[2024-01-29 10:48:10] 10:48:10 (3268): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:48:10] 10:48:10 (3268): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] 10:48:10 (3268): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:48:10] 10:48:10 (3268): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:48:10] 10:48:10 (3268): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:48:10] 10:48:10 (3268): gpu_mode: '0'
+[2024-01-29 10:48:10] 10:48:10 (8232): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:48:10] 10:48:10 (8232): gpu_mode: '0'
+[2024-01-29 10:48:10] 10:48:10 (3268): Cef initialization succeeded
+[2024-01-29 10:48:10] Successfully initialized local Chrome client
+[2024-01-29 10:48:10] 10:48:10 (8232): Cef context initialized
+[2024-01-29 10:48:10] 10:48:10 (8232): Registering custom scheme for rendering raw html
+[2024-01-29 10:48:10] 10:48:10 (8232): Successfully registered custom scheme
+[2024-01-29 10:48:10] 10:48:10 (8232): Cef engine initialization complete
+[2024-01-29 10:48:10] 10:48:10 (8232): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:48:10] 10:48:10 (8232): gpu_mode: '0'
+[2024-01-29 10:48:20] 'UsageData' module is disabled
+[2024-01-29 10:48:20] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:48:20] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:48:20] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:48:20] Warning! Error while retrieving app settings value
+[2024-01-29 10:48:20] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:48:20] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:48:20] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:48:20] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:48:20] Warning! Error while retrieving app settings value
+[2024-01-29 10:48:20] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:48:20] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:48:20] Error 0x00 while validating license key
+[2024-01-29 10:48:20] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:48:20] 10:48:20 (7464): PdfDocumentFactory created document 00000265F25D3380 from 519928 bytes
+[2024-01-29 10:48:20] 10:48:20 (7464): Document opened from vector
+[2024-01-29 10:48:20] 10:48:20 (7464): Storing new document 0
+[2024-01-29 10:48:20] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:48:20] In-memory object store fetching document 956bf850-ce68-4b06-9521-4d07f424f634
+[2024-01-29 10:48:20] In-memory object store fetching document 956bf850-ce68-4b06-9521-4d07f424f634
+[2024-01-29 10:52:18] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:52:18] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:52:18] Creating folder deployments for win-x64
+[2024-01-29 10:52:18] Creating embedded deployments for win-x64
+[2024-01-29 10:52:18] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:52:18] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:52:18] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:52:18] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:52:18] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Creating new job collection resource
+[2024-01-29 10:52:18] Creating new document collection resource
+[2024-01-29 10:52:18] Successfully initialized local pdf client
+[2024-01-29 10:52:18] Initializing local Chrome client...
+[2024-01-29 10:52:18] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:52:18] Creating folder deployments for win-x64
+[2024-01-29 10:52:18] Creating embedded deployments for win-x64
+[2024-01-29 10:52:18] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:52:18] Using deployment instructions for 'default' v
+[2024-01-29 10:52:18] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:52:18] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:52:18] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:52:18] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:52:18] 10:52:18 (3596): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:52:18] 10:52:18 (3596): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:52:18] 10:52:18 (3596): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:52:18] 10:52:18 (3596): IsSingleProcess: 0
+[2024-01-29 10:52:18] 10:52:18 (3596): Creating Cef proxy controller
+[2024-01-29 10:52:18] 10:52:18 (3596): Creating Cef interface
+[2024-01-29 10:52:18] 10:52:18 (3596): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:52:18] 10:52:18 (3596): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:52:18] 10:52:18 (3596): Destroying Cef proxy event handler
+[2024-01-29 10:52:18] 10:52:18 (3596): Initializing Cef proxy controller
+[2024-01-29 10:52:18] 10:52:18 (3596): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:52:18] 10:52:18 (3596): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] 10:52:18 (3596): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:52:18] 10:52:18 (3596): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:52:18] 10:52:18 (3596): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:52:18] 10:52:18 (3596): gpu_mode: '0'
+[2024-01-29 10:52:18] 10:52:18 (5480): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:52:18] 10:52:18 (5480): gpu_mode: '0'
+[2024-01-29 10:52:18] 10:52:18 (3596): Cef initialization succeeded
+[2024-01-29 10:52:18] Successfully initialized local Chrome client
+[2024-01-29 10:52:18] 10:52:18 (5480): Cef context initialized
+[2024-01-29 10:52:18] 10:52:18 (5480): Registering custom scheme for rendering raw html
+[2024-01-29 10:52:18] 10:52:18 (5480): Successfully registered custom scheme
+[2024-01-29 10:52:18] 10:52:18 (5480): Cef engine initialization complete
+[2024-01-29 10:52:18] 10:52:18 (5480): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:52:18] 10:52:18 (5480): gpu_mode: '0'
+[2024-01-29 10:52:28] 'UsageData' module is disabled
+[2024-01-29 10:52:28] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:52:28] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:52:28] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:52:28] Warning! Error while retrieving app settings value
+[2024-01-29 10:52:28] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:52:28] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:52:28] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:52:28] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:52:28] Warning! Error while retrieving app settings value
+[2024-01-29 10:52:28] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:52:28] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:52:28] Error 0x00 while validating license key
+[2024-01-29 10:52:28] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:52:28] 10:52:28 (15544): PdfDocumentFactory created document 00000133E6A9CFF0 from 519928 bytes
+[2024-01-29 10:52:28] 10:52:28 (15544): Document opened from vector
+[2024-01-29 10:52:28] 10:52:28 (15544): Storing new document 0
+[2024-01-29 10:52:28] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:52:28] In-memory object store fetching document 2bcadca5-6d0e-419c-8656-8d76a38429c1
+[2024-01-29 10:52:28] In-memory object store fetching document 2bcadca5-6d0e-419c-8656-8d76a38429c1
+[2024-01-29 10:53:12] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:53:12] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:53:12] Creating folder deployments for win-x64
+[2024-01-29 10:53:12] Creating embedded deployments for win-x64
+[2024-01-29 10:53:12] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:53:12] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:53:12] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:53:12] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:53:12] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Creating new job collection resource
+[2024-01-29 10:53:12] Creating new document collection resource
+[2024-01-29 10:53:12] Successfully initialized local pdf client
+[2024-01-29 10:53:12] Initializing local Chrome client...
+[2024-01-29 10:53:12] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:53:12] Creating folder deployments for win-x64
+[2024-01-29 10:53:12] Creating embedded deployments for win-x64
+[2024-01-29 10:53:12] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:53:12] Using deployment instructions for 'default' v
+[2024-01-29 10:53:12] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:53:12] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:53:12] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:53:12] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:53:12] 10:53:12 (4040): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:53:12] 10:53:12 (4040): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:53:12] 10:53:12 (4040): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:53:12] 10:53:12 (4040): IsSingleProcess: 0
+[2024-01-29 10:53:12] 10:53:12 (4040): Creating Cef proxy controller
+[2024-01-29 10:53:12] 10:53:12 (4040): Creating Cef interface
+[2024-01-29 10:53:12] 10:53:12 (4040): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:53:12] 10:53:12 (4040): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:53:12] 10:53:12 (4040): Destroying Cef proxy event handler
+[2024-01-29 10:53:12] 10:53:12 (4040): Initializing Cef proxy controller
+[2024-01-29 10:53:12] 10:53:12 (4040): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:53:12] 10:53:12 (4040): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] 10:53:12 (4040): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:53:12] 10:53:12 (4040): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:53:12] 10:53:12 (4040): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:53:12] 10:53:12 (4040): gpu_mode: '0'
+[2024-01-29 10:53:12] 10:53:12 (14492): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:53:12] 10:53:12 (14492): gpu_mode: '0'
+[2024-01-29 10:53:12] 10:53:12 (4040): Cef initialization succeeded
+[2024-01-29 10:53:12] Successfully initialized local Chrome client
+[2024-01-29 10:53:12] 10:53:12 (14492): Cef context initialized
+[2024-01-29 10:53:12] 10:53:12 (14492): Registering custom scheme for rendering raw html
+[2024-01-29 10:53:12] 10:53:12 (14492): Successfully registered custom scheme
+[2024-01-29 10:53:12] 10:53:12 (14492): Cef engine initialization complete
+[2024-01-29 10:53:12] 10:53:12 (14492): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:53:12] 10:53:12 (14492): gpu_mode: '0'
+[2024-01-29 10:53:22] 'UsageData' module is disabled
+[2024-01-29 10:53:22] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:53:22] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:53:22] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:53:22] Warning! Error while retrieving app settings value
+[2024-01-29 10:53:22] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:53:22] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:53:22] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:53:22] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:53:22] Warning! Error while retrieving app settings value
+[2024-01-29 10:53:22] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:53:22] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:53:22] Error 0x00 while validating license key
+[2024-01-29 10:53:22] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:53:22] 10:53:22 (9800): PdfDocumentFactory created document 000001A245CEF5D0 from 519928 bytes
+[2024-01-29 10:53:22] 10:53:22 (9800): Document opened from vector
+[2024-01-29 10:53:22] 10:53:22 (9800): Storing new document 0
+[2024-01-29 10:53:22] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:53:22] In-memory object store fetching document a94d2233-dedb-444c-9465-3bb21f591ced
+[2024-01-29 10:53:22] In-memory object store fetching document a94d2233-dedb-444c-9465-3bb21f591ced
+[2024-01-29 10:54:00] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:54:00] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:00] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:54:00] Creating folder deployments for win-x64
+[2024-01-29 10:54:00] Creating embedded deployments for win-x64
+[2024-01-29 10:54:00] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:00] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:00] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:54:00] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:54:00] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:54:00] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:54:00] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:00] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:00] Creating new job collection resource
+[2024-01-29 10:54:00] Creating new document collection resource
+[2024-01-29 10:54:00] Successfully initialized local pdf client
+[2024-01-29 10:54:00] Initializing local Chrome client...
+[2024-01-29 10:54:00] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:00] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:54:00] Creating folder deployments for win-x64
+[2024-01-29 10:54:00] Creating embedded deployments for win-x64
+[2024-01-29 10:54:00] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:01] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:54:01] Using deployment instructions for 'default' v
+[2024-01-29 10:54:01] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:54:01] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:54:01] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:54:01] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:01] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:01] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:54:01] 10:54:01 (13772): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:54:01] 10:54:01 (13772): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:54:01] 10:54:01 (13772): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:54:01] 10:54:01 (13772): IsSingleProcess: 0
+[2024-01-29 10:54:01] 10:54:01 (13772): Creating Cef proxy controller
+[2024-01-29 10:54:01] 10:54:01 (13772): Creating Cef interface
+[2024-01-29 10:54:01] 10:54:01 (13772): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:54:01] 10:54:01 (13772): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:54:01] 10:54:01 (13772): Destroying Cef proxy event handler
+[2024-01-29 10:54:01] 10:54:01 (13772): Initializing Cef proxy controller
+[2024-01-29 10:54:01] 10:54:01 (13772): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:54:01] 10:54:01 (13772): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:01] 10:54:01 (13772): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:54:01] 10:54:01 (13772): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:54:01] 10:54:01 (13772): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:54:01] 10:54:01 (13772): gpu_mode: '0'
+[2024-01-29 10:54:01] 10:54:01 (14516): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:54:01] 10:54:01 (14516): gpu_mode: '0'
+[2024-01-29 10:54:01] 10:54:01 (13772): Cef initialization succeeded
+[2024-01-29 10:54:01] Successfully initialized local Chrome client
+[2024-01-29 10:54:01] 10:54:01 (14516): Cef context initialized
+[2024-01-29 10:54:01] 10:54:01 (14516): Registering custom scheme for rendering raw html
+[2024-01-29 10:54:01] 10:54:01 (14516): Successfully registered custom scheme
+[2024-01-29 10:54:01] 10:54:01 (14516): Cef engine initialization complete
+[2024-01-29 10:54:01] 10:54:01 (14516): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:54:01] 10:54:01 (14516): gpu_mode: '0'
+[2024-01-29 10:54:10] 'UsageData' module is disabled
+[2024-01-29 10:54:10] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:54:10] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:54:10] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:54:10] Warning! Error while retrieving app settings value
+[2024-01-29 10:54:10] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:54:10] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:54:10] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:54:10] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:54:10] Warning! Error while retrieving app settings value
+[2024-01-29 10:54:10] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:54:10] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:54:10] Error 0x00 while validating license key
+[2024-01-29 10:54:10] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:54:10] 10:54:10 (14764): PdfDocumentFactory created document 00000145F9E66E70 from 519928 bytes
+[2024-01-29 10:54:10] 10:54:10 (14764): Document opened from vector
+[2024-01-29 10:54:10] 10:54:10 (14764): Storing new document 0
+[2024-01-29 10:54:11] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:54:11] In-memory object store fetching document 36f8ac88-585a-4fca-b0fe-44e0b3ff6bc0
+[2024-01-29 10:54:11] In-memory object store fetching document 36f8ac88-585a-4fca-b0fe-44e0b3ff6bc0
+[2024-01-29 10:55:22] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-01-29 10:55:22] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:55:22] Creating folder deployments for win-x64
+[2024-01-29 10:55:22] Creating embedded deployments for win-x64
+[2024-01-29 10:55:22] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-01-29 10:55:22] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:55:22] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:55:22] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-01-29 10:55:22] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Creating new job collection resource
+[2024-01-29 10:55:22] Creating new document collection resource
+[2024-01-29 10:55:22] Successfully initialized local pdf client
+[2024-01-29 10:55:22] Initializing local Chrome client...
+[2024-01-29 10:55:22] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-01-29 10:55:22] Creating folder deployments for win-x64
+[2024-01-29 10:55:22] Creating embedded deployments for win-x64
+[2024-01-29 10:55:22] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-01-29 10:55:22] Using deployment instructions for 'default' v
+[2024-01-29 10:55:22] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:55:22] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:55:22] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-01-29 10:55:22] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-01-29 10:55:22] 10:55:22 (7856): ~ Chrome renderer v2024.1.0.143~
+[2024-01-29 10:55:22] 10:55:22 (7856): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:55:22] 10:55:22 (7856): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-01-29 10:55:22] 10:55:22 (7856): IsSingleProcess: 0
+[2024-01-29 10:55:22] 10:55:22 (7856): Creating Cef proxy controller
+[2024-01-29 10:55:22] 10:55:22 (7856): Creating Cef interface
+[2024-01-29 10:55:22] 10:55:22 (7856): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:55:22] 10:55:22 (7856): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-01-29 10:55:22] 10:55:22 (7856): Destroying Cef proxy event handler
+[2024-01-29 10:55:22] 10:55:22 (7856): Initializing Cef proxy controller
+[2024-01-29 10:55:22] 10:55:22 (7856): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-01-29 10:55:22] 10:55:22 (7856): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] 10:55:22 (7856): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-01-29 10:55:22] 10:55:22 (7856): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-01-29 10:55:22] 10:55:22 (7856): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-01-29 10:55:22] 10:55:22 (7856): gpu_mode: '0'
+[2024-01-29 10:55:22] 10:55:22 (16288): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-01-29 10:55:22] 10:55:22 (16288): gpu_mode: '0'
+[2024-01-29 10:55:22] 10:55:22 (7856): Cef initialization succeeded
+[2024-01-29 10:55:22] Successfully initialized local Chrome client
+[2024-01-29 10:55:22] 10:55:22 (16288): Cef context initialized
+[2024-01-29 10:55:22] 10:55:22 (16288): Registering custom scheme for rendering raw html
+[2024-01-29 10:55:22] 10:55:22 (16288): Successfully registered custom scheme
+[2024-01-29 10:55:22] 10:55:22 (16288): Cef engine initialization complete
+[2024-01-29 10:55:22] 10:55:22 (16288): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-01-29 10:55:22] 10:55:22 (16288): gpu_mode: '0'
+[2024-01-29 10:55:32] 'UsageData' module is disabled
+[2024-01-29 10:55:32] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-01-29 10:55:32] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:55:32] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:55:32] Warning! Error while retrieving app settings value
+[2024-01-29 10:55:32] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:55:32] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-01-29 10:55:32] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:55:32] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-01-29 10:55:32] Warning! Error while retrieving app settings value
+[2024-01-29 10:55:32] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-01-29 10:55:32] Setting license key to 'AppAnalytics' module
+[2024-01-29 10:55:32] Error 0x00 while validating license key
+[2024-01-29 10:55:32] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-01-29 10:55:32] 10:55:32 (15200): PdfDocumentFactory created document 000001983DA00100 from 519928 bytes
+[2024-01-29 10:55:32] 10:55:32 (15200): Document opened from vector
+[2024-01-29 10:55:32] 10:55:32 (15200): Storing new document 0
+[2024-01-29 10:55:32] Document 0 has 1 references remaining (+1)
+[2024-01-29 10:55:32] In-memory object store fetching document d685f135-447c-4db9-819a-e7738d31bf16
+[2024-01-29 10:55:32] In-memory object store fetching document d685f135-447c-4db9-819a-e7738d31bf16
