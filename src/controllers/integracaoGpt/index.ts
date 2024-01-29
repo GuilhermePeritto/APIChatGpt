@@ -180,7 +180,7 @@ class IntegracaoGptController {
         }
     }
 
-    private readPdf = async (pdf : string) => {
+    private readPdf = async (pdf: string) => {
         const _pdf = await PdfDocument.open(pdf);
         const texto = await _pdf.extractText();
 
@@ -191,11 +191,19 @@ class IntegracaoGptController {
         try {
             const texto = this.readPdf("configGeral.pdf");
 
-            const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Você deverá me ajudar a converter uma documentação completo de software em faqs de perguntas e respostas, eu vou lhe enviar textos da documentação e você deve me decolcer a mesma informação que lhe enviei mas no formato de perunta e resposta, vou lhe dar uma exemplo: texto que eu enviaria: como exibir a lista de locais do cliente, Oque voce deviria devolver: {"prompt": "como exibir a lista de locais do cliente", "completion": "Essa configuração é habilitada quando precisar escolher um local de entrega para o cliente a partir de uma lista pré-cadastrada."}
-                voce devera apenas devolver o texto em formato Jsonl, sem explicações, para que eu copie e cole diretamente em outra ferramenta, crie tres variações de resposta para a mesma pergunta e para a mesma respossta, sem alterar o sentido, apenas as palavras, segue o texto da documentação: ${texto}` }],
+            const { choices } = await openai.chat.completions.create({
+                messages: [{
+                    role: "system", content: `Você deverá me ajudar a converter uma documentação completo de software em faqs de perguntas e respostas, eu vou lhe enviar textos da documentação e você deve me decolcer a mesma informação que lhe enviei mas no formato de perunta e resposta, vou lhe dar uma exemplo: texto que eu enviaria: como exibir a lista de locais do cliente, Oque voce deviria devolver: {"prompt": "como exibir a lista de locais do cliente", "completion": "Essa configuração é habilitada quando precisar escolher um local de entrega para o cliente a partir de uma lista pré-cadastrada."}
+                voce devera apenas devolver o texto em formato Jsonl, sem explicações, sem a quebra de linha e separando os objetos por vírgulas, para que eu copie e cole diretamente em outra ferramenta, crie tres variações de resposta para a mesma pergunta e para a mesma respossta, sem alterar o sentido, apenas as palavras, segue o texto da documentação: ${texto}`
+                }],
                 model: "gpt-3.5-turbo",
             })
+
+            const response = choices[0].message.content;
+            const file_content = fs.readFileSync("./file_tunning.jsonl");
+            const file = file_content.toString() + response!.toString();
+
+            fs.writeFileSync("./file_tunning.jsonl", file);
 
             res.status(200).send(response)
         } catch (error) {
