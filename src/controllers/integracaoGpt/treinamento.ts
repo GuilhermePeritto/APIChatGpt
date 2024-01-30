@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { openai } from "../../globals/openAi";
 import fs from "fs";
 import { embeddingObject } from "../../types/embedding";
-import embeddings from "../../services/embeddings";
+import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
 
 class TreinamentoGptController {
@@ -15,20 +15,20 @@ class TreinamentoGptController {
                 formattedText = text.replaceAll("\n", " "),
                 embedding: embeddingObject[] = [];
 
-            for (var i = 0; i < formattedText.length; i += 1024) {
+            for (var i = 0; i < formattedText.length; i += 500) {
 
                 const { data } = await openai.embeddings.create({
-                    input: formattedText.substring(i, i + 1024),
+                    input: formattedText.substring(i, i + 500),
                     model: "text-embedding-ada-002",
                 });
 
                 const emb = {
-                    text: formattedText.substring(i, i + 1024),
+                    text: formattedText.substring(i, i + 500),
                     embedding: data[0].embedding
                 }
 
                 embedding.push(emb);
-                await embeddings.create(emb);
+                await embeddingService.create(emb);
             }
 
             return res.send(embedding);
@@ -67,6 +67,25 @@ class TreinamentoGptController {
                 });
 
             return res.status(200).send(trained_model)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+    public async semanticSearch(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto) return res.status(400).send({ message: "Texto não informado" });
+
+            const { data } = await openai.embeddings.create({
+                input: texto,
+                model: "text-embedding-ada-002",
+            })
+
+            const response = await embeddingService.semanticSearch(data[0].embedding);
+
+            return res.status(200).send(response)
         } catch (error) {
             res.status(500).send(error)
         }
