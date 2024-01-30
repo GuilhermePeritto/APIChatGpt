@@ -15,7 +15,7 @@ class IntegracaoGPTController {
             if (!texto?.length) return res.status(400).send("Texto não informado")
 
             const response = await openai.completions.create({
-                prompt: 'Como habilitar o uso dos registros de contas financeiras?',
+                prompt: texto,
                 model: "ft:babbage-002:useall-software::8mQ0sWmr",
                 temperature: 0.5,
                 max_tokens: 300,

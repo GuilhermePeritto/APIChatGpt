@@ -83,7 +83,16 @@ class TreinamentoGptController {
                 model: "text-embedding-ada-002",
             })
 
-            const response = await embeddingService.semanticSearch(data[0].embedding);
+            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding);
+
+            if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
+
+            const contexto = semanticSearch[0].text;
+
+            const response = await openai.chat.completions.create({
+                messages: [{ role: "system", content: `Com base neste contexto ${contexto}. Qual a resposta para a pergunta: ${texto}` }],
+                model: "gpt-3.5-turbo",
+            });
 
             return res.status(200).send(response)
         } catch (error) {

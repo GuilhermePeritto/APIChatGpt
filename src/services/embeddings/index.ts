@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import { embeddingObject } from "../../types/embedding";
+import { SemanticSearch } from "../../types/SemanticSearch";
 
 const prisma = new PrismaClient();
 
@@ -47,7 +48,7 @@ class EmbeddingService {
             $$ LANGUAGE plpgsql;
         `);
 
-        const res = await prisma.$queryRawUnsafe(`
+        const res : SemanticSearch[] = await prisma.$queryRawUnsafe(`
             SELECT
                 _id,
                 "text",
