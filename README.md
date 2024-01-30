@@ -20,11 +20,16 @@
 
 ### INTEGRAÇÃO CHAT GPT
 
-| Rota                                   | Método | Descrição                   |
-|----------------------------------------|--------|-----------------------------|
-| /integracaoGpt/resumirTexto            | POST   | Resumo de textos.           |
-| /integracaoGpt/converterAudioParaTexto | POST   | Transcrever áudios.         |
-| /integracaoGpt/converterTextoParaAudio | POST   | Gerar áudios.               |
-| /integracaoGpt/criarImagem             | POST   | Criar imagem.               |
-| /integracaoGpt/gerarSugestaoDeResposta | POST   | Gerar sugestao de resposta. |
-| /integracaoGpt/traduzirMensagemDeErro  | POST   | Traduzir mensagem de erro.  |
+| Rota                                                                | Método |
+|---------------------------------------------------------------------|--------|
+| /integracaoGPT/resumirConversasPorTexto                             | POST   |
+| /integracaoGPT/converterAudioParaTexto                              | POST   |
+| /integracaoGPT/converterTextoParaAudio                              | POST   |
+| /integracaoGPT/criarImagem                                          | POST   |
+| /integracaoGPT/gerarSugestaoDeResposta                              | POST   |
+| /integracaoGPT/traduzirMensagemDeErro                               | POST   |
+
+#### Treinamento
+
+| /integracaoGPT/treinamento/gerarEmbeddingBaseadoEmArquivoPDF        | POST   |
+| /integracaoGPT/treinamento/gerarFineTunningModelBaseadoEmArquivoPDF | POST   |
