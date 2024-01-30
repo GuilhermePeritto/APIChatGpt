@@ -87,14 +87,14 @@ class TreinamentoGptController {
 
             if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
 
-            const contexto = semanticSearch[0].text;
+            const contexto = semanticSearch.map(el => el.text);
 
             const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Com base neste contexto ${contexto}. Qual a resposta para a pergunta: ${texto}` }],
+                messages: [{ role: "system", content: `Com base neste contexto ${contexto.join(" ")}. Qual a resposta para a pergunta usando apenas oque esta escrito no texto: ${texto}` }],
                 model: "gpt-3.5-turbo",
             });
 
-            return res.status(200).send(response)
+            return res.status(200).send({ ...response, contexto })
         } catch (error) {
             res.status(500).send(error)
         }
@@ -105,9 +105,9 @@ class TreinamentoGptController {
         try {
             // const prisma = new PrismaClient()
             // await prisma.embedding.deleteMany()
-            
+
             const pasta = 'PDF',
-            embedding: embeddingObject[] = [];
+                embedding: embeddingObject[] = [];
 
             fs.readdir(pasta, async (err, arquivos) => {
                 if (err) {
@@ -119,15 +119,15 @@ class TreinamentoGptController {
                     const text = await readPdf(`${pasta}/${arquivos[i]}`),
                         formattedText = text.replaceAll("\n", " ");
 
-                    for (var f = 0; f < formattedText.length; f += 500) {
+                    for (var f = 0; f < formattedText.length; f += 10000) {
 
                         const { data } = await openai.embeddings.create({
-                            input: formattedText.substring(f, f + 500),
+                            input: formattedText.substring(f, f + 10000),
                             model: "text-embedding-ada-002",
                         });
 
                         const emb = {
-                            text: formattedText.substring(f, f + 500),
+                            text: formattedText.substring(f, f + 10000),
                             embedding: data[0].embedding
                         }
 
@@ -137,9 +137,9 @@ class TreinamentoGptController {
 
                 }
                 return res.send(embedding);
-                
+
             });
-            
+
 
 
         } catch (error) {
