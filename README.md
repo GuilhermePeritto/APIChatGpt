@@ -31,5 +31,7 @@
 
 #### Treinamento
 
+| Rota                                                                | Método |
+|---------------------------------------------------------------------|--------|
 | /integracaoGPT/treinamento/gerarEmbeddingBaseadoEmArquivoPDF        | POST   |
 | /integracaoGPT/treinamento/gerarFineTunningModelBaseadoEmArquivoPDF | POST   |
