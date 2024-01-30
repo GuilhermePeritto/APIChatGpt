@@ -2,10 +2,11 @@ import { Router } from "express";
 import multer from "multer";
 import treinamentoGPTController from "../../controllers/integracaoGPT/treinamento";
 
-const trainamentoGPTRoutes = Router()
+const treinamentoGPTRoutes = Router()
 
-trainamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmArquivoPDF', multer().single('file'), treinamentoGPTController.gerarEmbeddingBaseadoEmArquivoPDF)
-trainamentoGPTRoutes.post('/gerarFineTunningModelBaseadoEmArquivoPDF', treinamentoGPTController.gerarFineTunningModelBaseadoEmArquivoPDF)
-trainamentoGPTRoutes.get('/semanticSearch', treinamentoGPTController.semanticSearch)
+treinamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmArquivoPDF', multer().single('file'), treinamentoGPTController.gerarEmbeddingBaseadoEmArquivoPDF)
+treinamentoGPTRoutes.post('/gerarFineTunningModelBaseadoEmArquivoPDF', treinamentoGPTController.gerarFineTunningModelBaseadoEmArquivoPDF)
+treinamentoGPTRoutes.get('/semanticSearch', treinamentoGPTController.semanticSearch)
+treinamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmVariosPDF', treinamentoGPTController.gerarEmbeddingBaseadoEmVariosPDF)
 
-export { trainamentoGPTRoutes }
+export { treinamentoGPTRoutes }

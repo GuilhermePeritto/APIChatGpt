@@ -4,7 +4,7 @@ import fs from "fs";
 import { embeddingObject } from "../../types/embedding";
 import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
-
+import { PrismaClient } from "@prisma/client";
 class TreinamentoGptController {
 
     public async gerarEmbeddingBaseadoEmArquivoPDF(req: Request, res: Response) {
@@ -95,6 +95,53 @@ class TreinamentoGptController {
             });
 
             return res.status(200).send(response)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+
+    public async gerarEmbeddingBaseadoEmVariosPDF(req: Request, res: Response) {
+        try {
+            // const prisma = new PrismaClient()
+            // await prisma.embedding.deleteMany()
+            
+            const pasta = 'PDF',
+            embedding: embeddingObject[] = [];
+
+            fs.readdir(pasta, async (err, arquivos) => {
+                if (err) {
+                    console.error('Erro ao ler a pasta:', err);
+                    return;
+                }
+
+                for (let i = 0; i < arquivos.length; i++) {
+                    const text = await readPdf(`${pasta}/${arquivos[i]}`),
+                        formattedText = text.replaceAll("\n", " ");
+
+                    for (var f = 0; f < formattedText.length; f += 500) {
+
+                        const { data } = await openai.embeddings.create({
+                            input: formattedText.substring(f, f + 500),
+                            model: "text-embedding-ada-002",
+                        });
+
+                        const emb = {
+                            text: formattedText.substring(f, f + 500),
+                            embedding: data[0].embedding
+                        }
+
+                        embedding.push(emb);
+                        await embeddingService.create(emb);
+                    }
+
+                }
+                return res.send(embedding);
+                
+            });
+            
+
+
         } catch (error) {
             res.status(500).send(error)
         }

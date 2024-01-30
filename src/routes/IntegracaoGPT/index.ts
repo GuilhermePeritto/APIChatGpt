@@ -1,7 +1,7 @@
 import { Router } from "express";
 import IntegracaoGPTController from "../../controllers/integracaoGPT";
 import multer from "multer";
-import { trainamentoGPTRoutes } from "./treinamento";
+import { treinamentoGPTRoutes } from "./treinamento";
 
 const integracaoGPTRoutes = Router()
 
@@ -12,6 +12,6 @@ integracaoGPTRoutes.post('/criarImagem', IntegracaoGPTController.criarImagem)
 integracaoGPTRoutes.post('/gerarSugestaoDeResposta', IntegracaoGPTController.gerarSugestaoDeResposta)
 integracaoGPTRoutes.post('/traduzirMensagemDeErro', IntegracaoGPTController.traduzirMensagemDeErro)
 
-integracaoGPTRoutes.use('/treinamento', trainamentoGPTRoutes)
+integracaoGPTRoutes.use('/treinamento', treinamentoGPTRoutes)
 
 export { integracaoGPTRoutes }
