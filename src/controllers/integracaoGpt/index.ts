@@ -14,9 +14,12 @@ class IntegracaoGPTController {
 
             if (!texto?.length) return res.status(400).send("Texto não informado")
 
-            const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Resuma a seguinte conversa: ${texto}` }],
-                model: "gpt-3.5-turbo",
+            const response = await openai.completions.create({
+                prompt: 'Como habilitar o uso dos registros de contas financeiras?',
+                model: "ft:babbage-002:useall-software::8mQ0sWmr",
+                temperature: 0.5,
+                max_tokens: 300,
+                
             });
 
             res.status(200).send(response)
@@ -128,7 +131,6 @@ class IntegracaoGPTController {
             res.status(500).send(error)
         }
     }
-
 }
 
 export default new IntegracaoGPTController()
