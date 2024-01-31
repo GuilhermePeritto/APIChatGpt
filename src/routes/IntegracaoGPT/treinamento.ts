@@ -5,7 +5,7 @@ import treinamentoGPTController from "../../controllers/integracaoGPT/treinament
 const treinamentoGPTRoutes = Router()
 
 treinamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmArquivoPDF', multer().single('file'), treinamentoGPTController.gerarEmbeddingBaseadoEmArquivoPDF)
-treinamentoGPTRoutes.post('/gerarFineTunningModelBaseadoEmArquivoPDF', treinamentoGPTController.gerarFineTunningModelBaseadoEmArquivoPDF)
+treinamentoGPTRoutes.post('/gerarFineTunningJSONL', treinamentoGPTController.gerarFineTunningJSONL)
 treinamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmVariosPDF', treinamentoGPTController.gerarEmbeddingBaseadoEmVariosPDF)
 
 export { treinamentoGPTRoutes }
