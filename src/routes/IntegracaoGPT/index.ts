@@ -11,6 +11,7 @@ integracaoGPTRoutes.post('/converterTextoParaAudio', IntegracaoGPTController.con
 integracaoGPTRoutes.post('/criarImagem', IntegracaoGPTController.criarImagem)
 integracaoGPTRoutes.post('/gerarSugestaoDeResposta', IntegracaoGPTController.gerarSugestaoDeResposta)
 integracaoGPTRoutes.post('/traduzirMensagemDeErro', IntegracaoGPTController.traduzirMensagemDeErro)
+integracaoGPTRoutes.post('/perguntaComBaseEmManuais', IntegracaoGPTController.perguntaComBaseEmManuais)
 
 integracaoGPTRoutes.use('/treinamento', treinamentoGPTRoutes)
 

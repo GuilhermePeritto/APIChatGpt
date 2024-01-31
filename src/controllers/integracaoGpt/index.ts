@@ -1,10 +1,11 @@
 import { Request, Response } from "express";
-import { openai } from "../../globals/openAi";
+import { openai } from "../../global/openAi";
 import { bufferToStream } from "../../utils/bufferToStream";
 import axios from "axios";
 import FormData from "form-data";
 import path from "path";
 import fs from "fs";
+import embeddingService from "../../services/embeddings";
 
 class IntegracaoGPTController {
 
@@ -19,7 +20,7 @@ class IntegracaoGPTController {
                 model: "ft:babbage-002:useall-software::8mQ0sWmr",
                 temperature: 0.5,
                 max_tokens: 300,
-                
+
             });
 
             res.status(200).send(response)
@@ -127,6 +128,34 @@ class IntegracaoGPTController {
             })
 
             res.status(200).send(response)
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
+
+    public async perguntaComBaseEmManuais(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto) return res.status(400).send({ message: "Texto não informado" });
+
+            const { data } = await openai.embeddings.create({
+                input: texto,
+                model: "text-embedding-ada-002",
+            })
+
+            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding);
+
+            if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
+
+            const contexto = semanticSearch.map(el => el.text);
+
+            const response = await openai.chat.completions.create({
+                messages: [{ role: "system", content: `Com base neste contexto ${contexto.join(" ")}. Qual a resposta para a pergunta usando apenas oque esta escrito no texto: ${texto}` }],
+                model: "gpt-3.5-turbo",
+            });
+
+            return res.status(200).send({ ...response, contexto })
         } catch (error) {
             res.status(500).send(error)
         }

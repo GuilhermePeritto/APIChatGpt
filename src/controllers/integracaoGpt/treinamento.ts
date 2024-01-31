@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import { openai } from "../../globals/openAi";
+import { openai } from "../../global/openAi";
 import fs from "fs";
 import { embeddingObject } from "../../types/embedding";
 import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
-import { PrismaClient } from "@prisma/client";
+
 class TreinamentoGptController {
 
     public async gerarEmbeddingBaseadoEmArquivoPDF(req: Request, res: Response) {
@@ -72,76 +72,39 @@ class TreinamentoGptController {
         }
     }
 
-    public async semanticSearch(req: Request, res: Response) {
-        try {
-            const { texto } = req.body;
-
-            if (!texto) return res.status(400).send({ message: "Texto não informado" });
-
-            const { data } = await openai.embeddings.create({
-                input: texto,
-                model: "text-embedding-ada-002",
-            })
-
-            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding);
-
-            if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
-
-            const contexto = semanticSearch.map(el => el.text);
-
-            const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Com base neste contexto ${contexto.join(" ")}. Qual a resposta para a pergunta usando apenas oque esta escrito no texto: ${texto}` }],
-                model: "gpt-3.5-turbo",
-            });
-
-            return res.status(200).send({ ...response, contexto })
-        } catch (error) {
-            res.status(500).send(error)
-        }
-    }
-
-
     public async gerarEmbeddingBaseadoEmVariosPDF(req: Request, res: Response) {
         try {
-            // const prisma = new PrismaClient()
-            // await prisma.embedding.deleteMany()
-
-            const pasta = 'PDF',
+            const path = 'PDF',
                 embedding: embeddingObject[] = [];
 
-            fs.readdir(pasta, async (err, arquivos) => {
+            fs.readdir(path, async (err, arquivos) => {
                 if (err) {
-                    console.error('Erro ao ler a pasta:', err);
-                    return;
+                    return res.status(500).send(err);
                 }
 
-                for (let i = 0; i < arquivos.length; i++) {
-                    const text = await readPdf(`${pasta}/${arquivos[i]}`),
+                for (const arquivo of arquivos) {
+                    const text = await readPdf(`${path}/${arquivo}`),
                         formattedText = text.replaceAll("\n", " ");
 
-                    for (var f = 0; f < formattedText.length; f += 10000) {
+                    for (var i = 0; i < formattedText.length; i += 10000) {
 
                         const { data } = await openai.embeddings.create({
-                            input: formattedText.substring(f, f + 10000),
+                            input: formattedText.substring(i, i + 10000),
                             model: "text-embedding-ada-002",
                         });
 
                         const emb = {
-                            text: formattedText.substring(f, f + 10000),
+                            text: formattedText.substring(i, i + 10000),
                             embedding: data[0].embedding
                         }
 
-                        embedding.push(emb);
                         await embeddingService.create(emb);
+                        embedding.push(emb);
                     }
 
                 }
                 return res.send(embedding);
-
             });
-
-
-
         } catch (error) {
             res.status(500).send(error)
         }
