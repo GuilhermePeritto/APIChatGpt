@@ -16,7 +16,7 @@ class EmbeddingService {
         return res
     }
 
-    public async semanticSearch(embedding: number[], trashHold = 0.78, limit = 4) {
+    public async semanticSearch(embedding: number[], trashHold = 0.5, limit = 4) {
         await prisma.$queryRawUnsafe(`
                     CREATE OR REPLACE FUNCTION cosine_similarity(vector1 double precision[], vector2 double precision[])
             RETURNS double precision AS $$

@@ -160,6 +160,34 @@ class IntegracaoGPTController {
             res.status(500).send(error)
         }
     }
+
+    public async perguntaComBaseEmManuaisV2(req: Request, res: Response) {
+        try {
+            const { texto } = req.body;
+
+            if (!texto) return res.status(400).send({ message: "Texto não informado" });
+
+            const { data } = await openai.embeddings.create({
+                input: texto,
+                model: "text-embedding-3-small",
+            })
+
+            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding);
+
+            if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
+
+            const contexto = semanticSearch.map(el => el.text);
+
+            const response = await openai.chat.completions.create({
+                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${texto}` }],
+                model: "gpt-4"
+            });
+
+            return res.status(200).send({ ...response, contexto })
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
 }
 
 export default new IntegracaoGPTController()

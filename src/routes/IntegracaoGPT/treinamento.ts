@@ -11,5 +11,6 @@ treinamentoGPTRoutes.post('/gerarFineTunningCompletionsModel', treinamentoGPTCon
 treinamentoGPTRoutes.post('/gerarFineTunningChatModel', treinamentoGPTController.gerarFineTunningChatModel)
 treinamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmVariosPDF', treinamentoGPTController.gerarEmbeddingBaseadoEmVariosPDF)
 treinamentoGPTRoutes.get('/verificarFineTunnedModel', treinamentoGPTController.verificarFineTunnedModel)
+treinamentoGPTRoutes.post('/geradorEmbeddingV2', treinamentoGPTController.geradorEmbeddingV2)
 
 export { treinamentoGPTRoutes }
