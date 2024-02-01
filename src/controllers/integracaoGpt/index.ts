@@ -151,8 +151,8 @@ class IntegracaoGPTController {
             const contexto = semanticSearch.map(el => el.text);
 
             const response = await openai.chat.completions.create({
-                messages: [{ role: "system", content: `Com base neste contexto ${contexto.join(" ")}. Qual a resposta para a pergunta usando apenas oque esta escrito no texto: ${texto}` }],
-                model: "gpt-3.5-turbo",
+                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")} e na sua base de conhecimento responda: ${texto}` }],
+                model: "ft:gpt-3.5-turbo-0613:useall-software::8nCeawSt",
             });
 
             return res.status(200).send({ ...response, contexto })
