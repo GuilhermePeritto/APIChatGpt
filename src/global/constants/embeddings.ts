@@ -1,1 +1,1 @@
-export const chunkSize = 1024
+export const chunkSize = 200
