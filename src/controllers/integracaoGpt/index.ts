@@ -163,12 +163,12 @@ class IntegracaoGPTController {
 
     public async perguntaComBaseEmManuaisV2(req: Request, res: Response) {
         try {
-            const { texto } = req.body;
+            const pergunta = req.body.texto;
 
-            if (!texto) return res.status(400).send({ message: "Texto não informado" });
+            if (!pergunta) return res.status(400).send({ message: "Texto não informado" });
 
             const { data } = await openai.embeddings.create({
-                input: texto,
+                input: pergunta,
                 model: "text-embedding-3-small",
             })
 
@@ -178,12 +178,21 @@ class IntegracaoGPTController {
 
             const contexto = semanticSearch.map(el => el.text);
 
-            const response = await openai.chat.completions.create({
-                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${texto}` }],
+            let response = await openai.chat.completions.create({
+                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${pergunta} e caso nao
+                 consiga responder, responda: Não consigo responder a essa pergunta` }],
                 model: "gpt-4"
             });
 
-            return res.status(200).send({ ...response, contexto })
+            if(response.choices[0].message.content === "Não consigo responder a essa pergunta"){
+                 response = await openai.chat.completions.create({
+                    messages: [{ role: 'user', content: `Com base na sua base de conhecimento responda ${pergunta} e caso nao 
+                    consiga responder, responda: Não consigo responder a essa pergunta` }],
+                    model: "ft:gpt-3.5-turbo-0613:useall-software::8nRvUp93",
+                });
+            }
+
+            return res.status(200).send( response.choices[0].message.content )
         } catch (error) {
             res.status(500).send(error)
         }
