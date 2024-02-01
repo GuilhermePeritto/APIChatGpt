@@ -12,6 +12,7 @@ integracaoGPTRoutes.post('/criarImagem', IntegracaoGPTController.criarImagem)
 integracaoGPTRoutes.post('/gerarSugestaoDeResposta', IntegracaoGPTController.gerarSugestaoDeResposta)
 integracaoGPTRoutes.post('/traduzirMensagemDeErro', IntegracaoGPTController.traduzirMensagemDeErro)
 integracaoGPTRoutes.post('/perguntaComBaseEmManuais', IntegracaoGPTController.perguntaComBaseEmManuais)
+integracaoGPTRoutes.post('/perguntaComBaseEmManuaisV2', IntegracaoGPTController.perguntaComBaseEmManuaisV2)
 
 integracaoGPTRoutes.use('/treinamento', treinamentoGPTRoutes)
 

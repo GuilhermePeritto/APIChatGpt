@@ -179,7 +179,7 @@ class TreinamentoGptController {
             res.status(500).send(error)
         }
     }
-    
+
     public async gerarFineTunningChatModel(req: Request, res: Response) {
         try {
             const training_file = await openai.files.create({ file: fs.createReadStream("./fine_tunning_chat.jsonl"), purpose: "fine-tune" }),
@@ -202,9 +202,46 @@ class TreinamentoGptController {
         } catch (error) {
             res.status(500).send(error)
         }
-    
+
     }
 
+    public async geradorEmbeddingV2(req: Request, res: Response) {
+        try {
+            const path = 'PDF',
+                embedding: embeddingObject[] = [];
+
+            fs.readdir(path, async (err, arquivos) => {
+                if (err) {
+                    return res.status(500).send(err);
+                }
+
+                for (const arquivo of arquivos) {
+                    const text = await readPdf(`${path}/${arquivo}`),
+                        formattedText = formatTextToEmbbeding(text);
+
+                    for (var i = 0; i < formattedText.length; i += chunkSize) {
+
+                        const { data } = await openai.embeddings.create({
+                            input: formattedText.substring(i, i + chunkSize),
+                            model: "text-embedding-3-small",
+                        });
+
+                        const emb = {
+                            text: formattedText.substring(i, i + chunkSize),
+                            embedding: data[0].embedding
+                        }
+
+                        await embeddingService.create(emb);
+                        embedding.push(emb);
+                    }
+
+                }
+                return res.send(embedding);
+            });
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    }
 }
 
 export default new TreinamentoGptController()
