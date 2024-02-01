@@ -51,17 +51,17 @@ class TreinamentoGptController {
 
                 for (const arquivo of arquivos) {
                     const text = await readPdf(`${path}/${arquivo}`),
-                        formattedText = formatTextToEmbbeding(text);
+                        formattedText = formatTextToEmbbeding(text).split(" ");
 
                     for (var i = 0; i < formattedText.length; i += chunkSize) {
 
                         const { data } = await openai.embeddings.create({
-                            input: formattedText.substring(i, i + chunkSize),
+                            input: formattedText.slice(i, i + chunkSize).join(" "),
                             model: "text-embedding-ada-002",
                         });
 
                         const emb = {
-                            text: formattedText.substring(i, i + chunkSize),
+                            text: formattedText.slice(i, i + chunkSize).join(" "),
                             embedding: data[0].embedding
                         }
 
