@@ -10,6 +10,6 @@ treinamentoGPTRoutes.post('/gerarFineTunningChatJSONL', treinamentoGPTController
 treinamentoGPTRoutes.post('/gerarFineTunningCompletionsModel', treinamentoGPTController.gerarFineTunningCompletitionsModel)
 treinamentoGPTRoutes.post('/gerarFineTunningChatModel', treinamentoGPTController.gerarFineTunningChatModel)
 treinamentoGPTRoutes.post('/gerarEmbeddingBaseadoEmVariosPDF', treinamentoGPTController.gerarEmbeddingBaseadoEmVariosPDF)
-treinamentoGPTRoutes.post('/verificarFineTunnedModel', treinamentoGPTController.verificarFineTunnedModel)
+treinamentoGPTRoutes.get('/verificarFineTunnedModel', treinamentoGPTController.verificarFineTunnedModel)
 
 export { treinamentoGPTRoutes }

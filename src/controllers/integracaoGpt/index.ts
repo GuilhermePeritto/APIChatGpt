@@ -152,7 +152,7 @@ class IntegracaoGPTController {
 
             const response = await openai.chat.completions.create({
                 messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")} e na sua base de conhecimento responda: ${texto}` }],
-                model: "ft:gpt-3.5-turbo-0613:useall-software::8nCeawSt",
+                model: "ft:gpt-3.5-turbo-0613:useall-software::8nRvUp93",
             });
 
             return res.status(200).send({ ...response, contexto })
