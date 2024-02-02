@@ -6,88 +6,19 @@ import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
 import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
+import { PDFPath } from "../../global/constants/PDFPath";
 
 class TreinamentoGptController {
 
-    public async gerarEmbeddingBaseadoEmArquivoPDF(req: Request, res: Response) {
+    public createCompletitionsJSONL = async (req: Request, res: Response) => {
         try {
-            const pdfFile = req.file;
-
-            const text = await readPdf(pdfFile?.buffer!),
-                formattedText = formatTextToEmbbeding(text),
-                embedding: embeddingObject[] = [];
-
-            for (var i = 0; i < formattedText.length; i += chunkSize) {
-
-                const { data } = await openai.embeddings.create({
-                    input: formattedText.substring(i, i + chunkSize),
-                    model: "text-embedding-ada-002",
-                });
-
-                const emb = {
-                    text: formattedText.substring(i, i + chunkSize),
-                    embedding: data[0].embedding
-                }
-
-                embedding.push(emb);
-                await embeddingService.create(emb);
-            }
-
-            return res.send(embedding);
-        } catch (error) {
-            res.status(500).send(error)
-        }
-    }
-
-    public async gerarEmbeddingBaseadoEmVariosPDF(req: Request, res: Response) {
-        try {
-            const path = 'PDF',
-                embedding: embeddingObject[] = [];
-
-            fs.readdir(path, async (err, arquivos) => {
+            fs.readdir(PDFPath, async (err, arquivos) => {
                 if (err) {
                     return res.status(500).send(err);
                 }
 
                 for (const arquivo of arquivos) {
-                    const text = await readPdf(`${path}/${arquivo}`),
-                        formattedText = formatTextToEmbbeding(text).split(" ");
-
-                    for (var i = 0; i < formattedText.length; i += chunkSize) {
-
-                        const { data } = await openai.embeddings.create({
-                            input: formattedText.slice(i, i + chunkSize).join(" "),
-                            model: "text-embedding-ada-002",
-                        });
-
-                        const emb = {
-                            text: formattedText.slice(i, i + chunkSize).join(" "),
-                            embedding: data[0].embedding
-                        }
-
-                        await embeddingService.create(emb);
-                        embedding.push(emb);
-                    }
-
-                }
-                return res.send(embedding);
-            });
-        } catch (error) {
-            res.status(500).send(error)
-        }
-    }
-
-    public gerarFineTunningCompletitionsJSONL = async (req: Request, res: Response) => {
-        try {
-            const path = 'PDF';
-
-            fs.readdir(path, async (err, arquivos) => {
-                if (err) {
-                    return res.status(500).send(err);
-                }
-
-                for (const arquivo of arquivos) {
-                    const text = await readPdf(`${path}/${arquivo}`),
+                    const text = await readPdf(`${PDFPath}/${arquivo}`),
                         formattedText = formatTextToEmbbeding(text);
 
                     const { choices } = await openai.chat.completions.create({
@@ -120,19 +51,15 @@ class TreinamentoGptController {
         }
     }
 
-    public gerarFineTunningChatJSONL = async (req: Request, res: Response) => {
+    public createChatJSONL = async (req: Request, res: Response) => {
         try {
-            const path = 'PDF';
-            console.log("Iniciando")
-
-            fs.readdir(path, async (err, arquivos) => {
+            fs.readdir(PDFPath, async (err, arquivos) => {
                 if (err) {
                     return res.status(500).send(err);
                 }
 
                 for (const arquivo of arquivos) {
-                    console.log(arquivo)
-                    const text = await readPdf(`${path}/${arquivo}`),
+                    const text = await readPdf(`${PDFPath}/${arquivo}`),
                         formattedText = formatTextToEmbbeding(text);
 
                     const { choices } = await openai.chat.completions.create({
@@ -157,7 +84,6 @@ class TreinamentoGptController {
                     fs.writeFileSync("./fine_tunning_chat.jsonl", newJsonlContent);
                 }
 
-                console.log("Concluído")
                 return res.status(200).send("Fine tunning jsonl gerado com sucesso!")
             });
 
@@ -166,7 +92,7 @@ class TreinamentoGptController {
         }
     }
 
-    public async gerarFineTunningCompletitionsModel(req: Request, res: Response) {
+    public async createCompletitionsModel(req: Request, res: Response) {
         try {
             const training_file = await openai.files.create({ file: fs.createReadStream("./fine_tunning_completitions.jsonl"), purpose: "fine-tune" }),
                 trained_model = await openai.fineTuning.jobs.create({
@@ -180,7 +106,7 @@ class TreinamentoGptController {
         }
     }
 
-    public async gerarFineTunningChatModel(req: Request, res: Response) {
+    public async createChatModels(req: Request, res: Response) {
         try {
             const training_file = await openai.files.create({ file: fs.createReadStream("./fine_tunning_chat.jsonl"), purpose: "fine-tune" }),
                 trained_model = await openai.fineTuning.jobs.create({
@@ -194,7 +120,7 @@ class TreinamentoGptController {
         }
     }
 
-    public async verificarFineTunnedModel(req: Request, res: Response) {
+    public async list(req: Request, res: Response) {
         try {
             const data = await openai.fineTuning.jobs.list({ limit: 10 });
 
@@ -205,18 +131,18 @@ class TreinamentoGptController {
 
     }
 
-    public async geradorEmbeddingV2(req: Request, res: Response) {
+    public async geradorEmbedding(req: Request, res: Response) {
         try {
-            const path = 'PDF',
+            const PDFPath = 'PDF',
                 embedding: embeddingObject[] = [];
 
-            fs.readdir(path, async (err, arquivos) => {
+            fs.readdir(PDFPath, async (err, arquivos) => {
                 if (err) {
                     return res.status(500).send(err);
                 }
 
                 for (const arquivo of arquivos) {
-                    const text = await readPdf(`${path}/${arquivo}`),
+                    const text = await readPdf(`${PDFPath}/${arquivo}`),
                         formattedText = formatTextToEmbbeding(text);
 
                     for (var i = 0; i < formattedText.length; i += chunkSize) {

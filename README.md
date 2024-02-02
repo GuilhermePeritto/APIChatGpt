@@ -25,6 +25,7 @@
 | /integracaoGPT/resumirConversasPorTexto                             | POST   |
 | /integracaoGPT/converterAudioParaTexto                              | POST   |
 | /integracaoGPT/converterTextoParaAudio                              | POST   |
+| /integracaoGPT/converterTextoParaAudio                              | POST   |
 | /integracaoGPT/criarImagem                                          | POST   |
 | /integracaoGPT/gerarSugestaoDeResposta                              | POST   |
 | /integracaoGPT/traduzirMensagemDeErro                               | POST   |
