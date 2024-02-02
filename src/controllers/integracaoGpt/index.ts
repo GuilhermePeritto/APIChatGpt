@@ -179,7 +179,7 @@ class IntegracaoGPTController {
             const contexto = semanticSearch.map(el => el.text);
 
             let response = await openai.chat.completions.create({
-                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${pergunta} e caso nao
+                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${pergunta} e apenas isso, e caso nao
                  consiga responder, responda: Não consigo responder a essa pergunta` }],
                 model: "gpt-4"
             });
