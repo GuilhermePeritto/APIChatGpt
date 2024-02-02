@@ -135,7 +135,8 @@ class IntegracaoGPTController {
 
     public async perguntaComBaseEmManuais(req: Request, res: Response) {
         try {
-            const pergunta = req.body.texto;
+            const pergunta = req.body.texto,
+            enumTipoSistemas = req.body.enumTipoSistemas;
 
             if (!pergunta) return res.status(400).send({ message: "Texto não informado" });
 
@@ -144,7 +145,7 @@ class IntegracaoGPTController {
                 model: "text-embedding-3-small",
             })
 
-            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding);
+            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding, 0.5, 4, enumTipoSistemas);
 
             if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
 

@@ -19,6 +19,7 @@ class EmbeddingController {
                     [EnumTipoSistemas.Crm]: `${PDFPath}/Crm`,
                 };
 
+            if (Object.keys(dictPDFPath).includes(enumTipoSistema) === false) return res.status(500).send("Tipo de sistema não encontrado.")
             fs.readdir(dictPDFPath[enumTipoSistema], async (err, arquivos) => {
                 if (err) {
                     return res.status(500).send(err);
@@ -34,16 +35,15 @@ class EmbeddingController {
                             model: "text-embedding-3-small",
                         });
 
-                        const emb = {
+                        const emb: embeddingObject = {
                             text: formattedText.substring(i, i + chunkSize),
                             embedding: data[0].embedding,
-                            enum: EnumTipoSistemas.Loja
+                            enum: enumTipoSistema
                         }
 
                         await embeddingService.create(emb);
                         embedding.push(emb);
                     }
-
                 }
                 return res.send(embedding);
             });
