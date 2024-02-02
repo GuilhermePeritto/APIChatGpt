@@ -7,15 +7,13 @@ import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
 import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
 import { PDFPath } from "../../global/constants/PDFPath";
-import { EnumTipoSistemas } from "../../Enum/EnumTipoSistemas";
+import { EnumTipoSistemas } from "@prisma/client";
 
 class EmbeddingController {
     public async create(req: Request, res: Response) {
         try {
-
-
             const embedding: embeddingObject[] = [],
-                enumTipoSistema: EnumTipoSistemas = req.body.enum,
+                enumTipoSistema: EnumTipoSistemas = req.body.enumTipoSistema,
                 dictPDFPath = {
                     [EnumTipoSistemas.Loja]: `${PDFPath}/Loja`,
                     [EnumTipoSistemas.Crm]: `${PDFPath}/Crm`,

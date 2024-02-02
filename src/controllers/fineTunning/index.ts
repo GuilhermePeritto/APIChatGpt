@@ -1,13 +1,13 @@
 import { Request, Response } from "express";
 import { openai } from "../../global/openAi";
 import fs from "fs";
-import { embeddingObject } from "../../types/embedding";
 import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
 import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
 import { PDFPath } from "../../global/constants/PDFPath";
-import { EnumTipoSistemas } from "../../Enum/EnumTipoSistemas";
+import { embeddingObject } from "../../types/embedding";
+import { EnumTipoSistemas } from "@prisma/client";
 
 class TreinamentoGptController {
 

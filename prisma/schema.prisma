@@ -9,9 +9,15 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+enum EnumTipoSistemas {
+  Loja
+  Crm
+}
+
 model Embedding {
-  id               String           @id @default(uuid()) @map("_id")
+  id               String  @id @default(uuid()) @map("_id")
   data             Float[]
   text             String
-  EnumTipoSistemas Int
+  EnumTipoSistemas EnumTipoSistemas
 }
