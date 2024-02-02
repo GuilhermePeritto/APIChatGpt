@@ -9,6 +9,6 @@ app.use(express.json());
 
 app.use(routes)
 
-const porta = 1234;
+const porta = 3214;
 
 app.listen(porta, () => console.log(`Api rodando na porta ${porta} ~🚀`));

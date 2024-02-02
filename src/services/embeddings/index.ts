@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import { EnumTipoSistemas, PrismaClient } from "@prisma/client";
 import { embeddingObject } from "../../types/embedding";
 import { SemanticSearch } from "../../types/SemanticSearch";
 const prisma = new PrismaClient();
@@ -9,14 +9,16 @@ class EmbeddingService {
             data: {
                 text: dto.text,
                 data: dto.embedding,
-                EnumTipoSistemas: dto.enum
+                tipoSistema: dto.enum
             }
         })
 
         return res
     }
 
-    public async semanticSearch(embedding: number[], trashHold = 0.5, limit = 4, enumTipoSistemas: number) {
+    public async semanticSearch(embedding: number[], trashHold = 0.5, limit = 4, enumTipoSistemas: EnumTipoSistemas) {
+        console.log(enumTipoSistemas)
+
         await prisma.$queryRawUnsafe(`
                     CREATE OR REPLACE FUNCTION cosine_similarity(vector1 double precision[], vector2 double precision[])
             RETURNS double precision AS $$
@@ -48,7 +50,7 @@ class EmbeddingService {
             $$ LANGUAGE plpgsql;
         `);
 
-        const res : SemanticSearch[] = await prisma.$queryRawUnsafe(`
+        const res: SemanticSearch[] = await prisma.$queryRawUnsafe(`
             SELECT
                 _id,
                 "text",
@@ -56,9 +58,9 @@ class EmbeddingService {
             FROM
                 "Embedding"
             WHERE
-                cosine_similarity("data", ARRAY[${embedding}]) > ${trashHold}
+                "tipoSistema" = '${enumTipoSistemas}'
             AND
-                EnumTipoSistemas = ${enumTipoSistemas}
+                cosine_similarity("data", ARRAY[${embedding}]) > ${trashHold}
             ORDER BY
                 similarity DESC
             LIMIT

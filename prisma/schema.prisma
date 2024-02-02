@@ -16,8 +16,8 @@ enum EnumTipoSistemas {
 }
 
 model Embedding {
-  id               String  @id @default(uuid()) @map("_id")
-  data             Float[]
-  text             String
-  EnumTipoSistemas EnumTipoSistemas
+  id          String           @id @default(uuid()) @map("_id")
+  data        Float[]
+  text        String
+  tipoSistema EnumTipoSistemas
 }
