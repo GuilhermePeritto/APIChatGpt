@@ -1,7 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import { embeddingObject } from "../../types/embedding";
 import { SemanticSearch } from "../../types/SemanticSearch";
-
 const prisma = new PrismaClient();
 
 class EmbeddingService {
@@ -9,7 +8,8 @@ class EmbeddingService {
         const res = await prisma.embedding.create({
             data: {
                 text: dto.text,
-                data: dto.embedding
+                data: dto.embedding,
+                EnumTipoSistemas: dto.enum
             }
         })
 

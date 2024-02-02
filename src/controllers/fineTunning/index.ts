@@ -7,6 +7,7 @@ import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
 import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
 import { PDFPath } from "../../global/constants/PDFPath";
+import { EnumTipoSistemas } from "../../Enum/EnumTipoSistemas";
 
 class TreinamentoGptController {
 
@@ -154,7 +155,8 @@ class TreinamentoGptController {
 
                         const emb = {
                             text: formattedText.substring(i, i + chunkSize),
-                            embedding: data[0].embedding
+                            embedding: data[0].embedding,
+                            enum: EnumTipoSistemas.Loja
                         }
 
                         await embeddingService.create(emb);

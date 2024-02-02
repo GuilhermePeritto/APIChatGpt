@@ -7,19 +7,26 @@ import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
 import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
 import { PDFPath } from "../../global/constants/PDFPath";
+import { EnumTipoSistemas } from "../../Enum/EnumTipoSistemas";
 
 class EmbeddingController {
     public async create(req: Request, res: Response) {
         try {
-            const embedding: embeddingObject[] = [];
 
-            fs.readdir(PDFPath, async (err, arquivos) => {
+
+            const embedding: embeddingObject[] = [],
+                enumTipoSistema: EnumTipoSistemas = req.body.enum,
+                dictPDFPath = {
+                    [EnumTipoSistemas.Loja]: `${PDFPath}/Loja`,
+                    [EnumTipoSistemas.Crm]: `${PDFPath}/Crm`,
+                };
+
+            fs.readdir(dictPDFPath[enumTipoSistema], async (err, arquivos) => {
                 if (err) {
                     return res.status(500).send(err);
                 }
-
                 for (const arquivo of arquivos) {
-                    const text = await readPdf(`${PDFPath}/${arquivo}`),
+                    const text = await readPdf(`${dictPDFPath[enumTipoSistema]}/${arquivo}`),
                         formattedText = formatTextToEmbbeding(text);
 
                     for (var i = 0; i < formattedText.length; i += chunkSize) {
@@ -31,7 +38,8 @@ class EmbeddingController {
 
                         const emb = {
                             text: formattedText.substring(i, i + chunkSize),
-                            embedding: data[0].embedding
+                            embedding: data[0].embedding,
+                            enum: EnumTipoSistemas.Loja
                         }
 
                         await embeddingService.create(emb);

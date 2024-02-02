@@ -2074,3 +2074,1828 @@
 [2024-01-31 13:16:43] Document 135 has 1 references remaining (+1)
 [2024-01-31 13:16:43] In-memory object store fetching document df7e8bb3-643a-4462-9f1d-5817534a735b
 [2024-01-31 13:16:43] In-memory object store fetching document df7e8bb3-643a-4462-9f1d-5817534a735b
+[2024-02-01 11:44:05] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-02-01 11:44:05] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 11:44:05] Creating folder deployments for win-x64
+[2024-02-01 11:44:05] Creating embedded deployments for win-x64
+[2024-02-01 11:44:05] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-01 11:44:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 11:44:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 11:44:05] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 11:44:05] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Creating new job collection resource
+[2024-02-01 11:44:05] Creating new document collection resource
+[2024-02-01 11:44:05] Successfully initialized local pdf client
+[2024-02-01 11:44:05] Initializing local Chrome client...
+[2024-02-01 11:44:05] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 11:44:05] Creating folder deployments for win-x64
+[2024-02-01 11:44:05] Creating embedded deployments for win-x64
+[2024-02-01 11:44:05] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-01 11:44:05] Using deployment instructions for 'default' v
+[2024-02-01 11:44:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 11:44:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 11:44:05] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 11:44:05] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-02-01 11:44:05] 11:44:05 (9236): ~ Chrome renderer v2024.1.0.143~
+[2024-02-01 11:44:05] 11:44:05 (9236): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 11:44:05] 11:44:05 (9236): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-01 11:44:05] 11:44:05 (9236): IsSingleProcess: 0
+[2024-02-01 11:44:05] 11:44:05 (9236): Creating Cef proxy controller
+[2024-02-01 11:44:05] 11:44:05 (9236): Creating Cef interface
+[2024-02-01 11:44:05] 11:44:05 (9236): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 11:44:05] 11:44:05 (9236): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 11:44:05] 11:44:05 (9236): Destroying Cef proxy event handler
+[2024-02-01 11:44:05] 11:44:05 (9236): Initializing Cef proxy controller
+[2024-02-01 11:44:05] 11:44:05 (9236): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-01 11:44:05] 11:44:05 (9236): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] 11:44:05 (9236): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-01 11:44:05] 11:44:05 (9236): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 11:44:05] 11:44:05 (9236): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-01 11:44:05] 11:44:05 (9236): gpu_mode: '0'
+[2024-02-01 11:44:06] 11:44:06 (17804): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-02-01 11:44:06] 11:44:06 (17804): gpu_mode: '0'
+[2024-02-01 11:44:06] 11:44:06 (9236): Cef initialization succeeded
+[2024-02-01 11:44:06] Successfully initialized local Chrome client
+[2024-02-01 11:44:06] 11:44:06 (17804): Cef context initialized
+[2024-02-01 11:44:06] 11:44:06 (17804): Registering custom scheme for rendering raw html
+[2024-02-01 11:44:06] 11:44:06 (17804): Successfully registered custom scheme
+[2024-02-01 11:44:06] 11:44:06 (17804): Cef engine initialization complete
+[2024-02-01 11:44:06] 11:44:06 (17804): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-02-01 11:44:06] 11:44:06 (17804): gpu_mode: '0'
+[2024-02-01 11:44:14] 'UsageData' module is disabled
+[2024-02-01 11:44:14] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-01 11:44:14] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 11:44:14] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 11:44:14] Warning! Error while retrieving app settings value
+[2024-02-01 11:44:14] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 11:44:14] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-01 11:44:14] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 11:44:14] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 11:44:14] Warning! Error while retrieving app settings value
+[2024-02-01 11:44:14] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 11:44:14] Setting license key to 'AppAnalytics' module
+[2024-02-01 11:44:14] Error 0x00 while validating license key
+[2024-02-01 11:44:14] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-01 11:44:15] 11:44:15 (20840): PdfDocumentFactory created document 000001E942136F50 from 401320 bytes
+[2024-02-01 11:44:15] 11:44:15 (20840): Document opened from vector
+[2024-02-01 11:44:15] 11:44:15 (20840): Storing new document 0
+[2024-02-01 11:44:15] Document 0 has 1 references remaining (+1)
+[2024-02-01 11:44:15] In-memory object store fetching document b221358a-29d0-45d9-b0aa-bfd34dd03afe
+[2024-02-01 11:44:15] In-memory object store fetching document b221358a-29d0-45d9-b0aa-bfd34dd03afe
+[2024-02-01 11:44:17] Error 0x01 while validating license key
+[2024-02-01 11:44:17] 11:44:17 (13400): PdfDocumentFactory created document 000001E942135EB0 from 267117 bytes
+[2024-02-01 11:44:17] 11:44:17 (13400): Document opened from vector
+[2024-02-01 11:44:17] 11:44:17 (13400): Storing new document 1
+[2024-02-01 11:44:17] Document 1 has 1 references remaining (+1)
+[2024-02-01 11:44:17] In-memory object store fetching document 5e636fa1-bb99-452d-8188-1dc5060ee503
+[2024-02-01 11:44:17] In-memory object store fetching document 5e636fa1-bb99-452d-8188-1dc5060ee503
+[2024-02-01 11:44:20] Error 0x01 while validating license key
+[2024-02-01 11:44:20] 11:44:20 (21228): PdfDocumentFactory created document 000001E9421357B0 from 663426 bytes
+[2024-02-01 11:44:20] 11:44:20 (21228): Document opened from vector
+[2024-02-01 11:44:20] 11:44:20 (21228): Storing new document 2
+[2024-02-01 11:44:20] Document 2 has 1 references remaining (+1)
+[2024-02-01 11:44:20] In-memory object store fetching document c81e857c-ecca-48c5-941c-af042fee3ad1
+[2024-02-01 11:44:20] In-memory object store fetching document c81e857c-ecca-48c5-941c-af042fee3ad1
+[2024-02-01 11:44:21] Error 0x01 while validating license key
+[2024-02-01 11:44:21] 11:44:21 (20616): PdfDocumentFactory created document 000001E942135270 from 348388 bytes
+[2024-02-01 11:44:21] 11:44:21 (20616): Document opened from vector
+[2024-02-01 11:44:21] 11:44:21 (20616): Storing new document 3
+[2024-02-01 11:44:21] Document 3 has 1 references remaining (+1)
+[2024-02-01 11:44:21] In-memory object store fetching document d1e6f3ca-38a1-4624-b538-3a5d3a975aac
+[2024-02-01 11:44:21] In-memory object store fetching document d1e6f3ca-38a1-4624-b538-3a5d3a975aac
+[2024-02-01 11:44:22] Error 0x01 while validating license key
+[2024-02-01 11:44:22] 11:44:22 (21228): PdfDocumentFactory created document 000001E942135350 from 519928 bytes
+[2024-02-01 11:44:22] 11:44:22 (21228): Document opened from vector
+[2024-02-01 11:44:22] 11:44:22 (21228): Storing new document 4
+[2024-02-01 11:44:22] Document 4 has 1 references remaining (+1)
+[2024-02-01 11:44:22] In-memory object store fetching document 49f7caf7-fe3f-4573-a084-0b4b80acdd23
+[2024-02-01 11:44:22] In-memory object store fetching document 49f7caf7-fe3f-4573-a084-0b4b80acdd23
+[2024-02-01 11:44:25] Error 0x01 while validating license key
+[2024-02-01 11:44:25] 11:44:25 (20840): PdfDocumentFactory created document 000001E948239160 from 291493 bytes
+[2024-02-01 11:44:25] 11:44:25 (20840): Document opened from vector
+[2024-02-01 11:44:25] 11:44:25 (20840): Storing new document 5
+[2024-02-01 11:44:25] Document 5 has 1 references remaining (+1)
+[2024-02-01 11:44:25] In-memory object store fetching document 52142dde-8bf7-499e-a722-47fd79214b2d
+[2024-02-01 11:44:25] In-memory object store fetching document 52142dde-8bf7-499e-a722-47fd79214b2d
+[2024-02-01 11:44:26] Error 0x01 while validating license key
+[2024-02-01 11:44:26] 11:44:26 (20436): PdfDocumentFactory created document 000001E948239780 from 173972 bytes
+[2024-02-01 11:44:26] 11:44:26 (20436): Document opened from vector
+[2024-02-01 11:44:26] 11:44:26 (20436): Storing new document 6
+[2024-02-01 11:44:26] Document 6 has 1 references remaining (+1)
+[2024-02-01 11:44:26] In-memory object store fetching document e2e93844-73de-4542-bc3d-46bf8892b038
+[2024-02-01 11:44:26] In-memory object store fetching document e2e93844-73de-4542-bc3d-46bf8892b038
+[2024-02-01 11:44:28] Error 0x01 while validating license key
+[2024-02-01 11:44:28] 11:44:28 (20436): PdfDocumentFactory created document 000001E948237C60 from 261013 bytes
+[2024-02-01 11:44:28] 11:44:28 (20436): Document opened from vector
+[2024-02-01 11:44:28] 11:44:28 (20436): Storing new document 7
+[2024-02-01 11:44:28] Document 7 has 1 references remaining (+1)
+[2024-02-01 11:44:28] In-memory object store fetching document e4fc714d-048e-4bc3-96c6-b4aecc2a231f
+[2024-02-01 11:44:28] In-memory object store fetching document e4fc714d-048e-4bc3-96c6-b4aecc2a231f
+[2024-02-01 11:44:29] Error 0x01 while validating license key
+[2024-02-01 11:44:29] 11:44:29 (20840): PdfDocumentFactory created document 000001E948237D40 from 362751 bytes
+[2024-02-01 11:44:29] 11:44:29 (20840): Document opened from vector
+[2024-02-01 11:44:29] 11:44:29 (20840): Storing new document 8
+[2024-02-01 11:44:29] Document 8 has 1 references remaining (+1)
+[2024-02-01 11:44:29] In-memory object store fetching document bb6af4f8-ad3f-4ffc-8a11-4bba32093be4
+[2024-02-01 11:44:29] In-memory object store fetching document bb6af4f8-ad3f-4ffc-8a11-4bba32093be4
+[2024-02-01 11:44:32] Error 0x01 while validating license key
+[2024-02-01 11:44:32] 11:44:32 (13400): PdfDocumentFactory created document 000001E9482380C0 from 287921 bytes
+[2024-02-01 11:44:32] 11:44:32 (13400): Document opened from vector
+[2024-02-01 11:44:32] 11:44:32 (13400): Storing new document 9
+[2024-02-01 11:44:32] Document 9 has 1 references remaining (+1)
+[2024-02-01 11:44:32] In-memory object store fetching document 3e674829-d404-4a21-9ea6-ff7f166dc5e1
+[2024-02-01 11:44:32] In-memory object store fetching document 3e674829-d404-4a21-9ea6-ff7f166dc5e1
+[2024-02-01 11:44:33] Error 0x01 while validating license key
+[2024-02-01 11:44:33] 11:44:33 (20840): PdfDocumentFactory created document 000001E948238980 from 139045 bytes
+[2024-02-01 11:44:33] 11:44:33 (20840): Document opened from vector
+[2024-02-01 11:44:33] 11:44:33 (20840): Storing new document 10
+[2024-02-01 11:44:33] Document 10 has 1 references remaining (+1)
+[2024-02-01 11:44:33] In-memory object store fetching document bdbb1d63-6824-4c9e-bfdc-1e45ac1d32b5
+[2024-02-01 11:44:33] In-memory object store fetching document bdbb1d63-6824-4c9e-bfdc-1e45ac1d32b5
+[2024-02-01 11:44:36] Error 0x01 while validating license key
+[2024-02-01 11:44:36] 11:44:36 (20436): PdfDocumentFactory created document 000001E9470F46E0 from 522100 bytes
+[2024-02-01 11:44:36] 11:44:36 (20436): Document opened from vector
+[2024-02-01 11:44:36] 11:44:36 (20436): Storing new document 11
+[2024-02-01 11:44:36] Document 11 has 1 references remaining (+1)
+[2024-02-01 11:44:36] In-memory object store fetching document 7ac05f8a-702b-4b03-8680-57c38029ad00
+[2024-02-01 11:44:36] In-memory object store fetching document 7ac05f8a-702b-4b03-8680-57c38029ad00
+[2024-02-01 11:44:38] Error 0x01 while validating license key
+[2024-02-01 11:44:38] 11:44:38 (20616): PdfDocumentFactory created document 000001E9470F3C60 from 183550 bytes
+[2024-02-01 11:44:38] 11:44:38 (20616): Document opened from vector
+[2024-02-01 11:44:38] 11:44:38 (20616): Storing new document 12
+[2024-02-01 11:44:38] Document 12 has 1 references remaining (+1)
+[2024-02-01 11:44:38] In-memory object store fetching document d45cbefb-eefb-4601-97ce-b3ca074ab177
+[2024-02-01 11:44:38] In-memory object store fetching document d45cbefb-eefb-4601-97ce-b3ca074ab177
+[2024-02-01 11:44:41] Error 0x01 while validating license key
+[2024-02-01 11:44:41] 11:44:41 (20840): PdfDocumentFactory created document 000001E9470F4980 from 273481 bytes
+[2024-02-01 11:44:41] 11:44:41 (20840): Document opened from vector
+[2024-02-01 11:44:41] 11:44:41 (20840): Storing new document 13
+[2024-02-01 11:44:41] Document 13 has 1 references remaining (+1)
+[2024-02-01 11:44:41] In-memory object store fetching document c5533624-0fff-427c-8d68-df7b4cc552b1
+[2024-02-01 11:44:41] In-memory object store fetching document c5533624-0fff-427c-8d68-df7b4cc552b1
+[2024-02-01 11:44:42] Error 0x01 while validating license key
+[2024-02-01 11:44:42] 11:44:42 (20616): PdfDocumentFactory created document 000001E9470F3560 from 273666 bytes
+[2024-02-01 11:44:42] 11:44:42 (20616): Document opened from vector
+[2024-02-01 11:44:42] 11:44:42 (20616): Storing new document 14
+[2024-02-01 11:44:42] Document 14 has 1 references remaining (+1)
+[2024-02-01 11:44:42] In-memory object store fetching document afa91cca-9e6e-4220-8d01-01db95d2c3cb
+[2024-02-01 11:44:42] In-memory object store fetching document afa91cca-9e6e-4220-8d01-01db95d2c3cb
+[2024-02-01 11:44:43] Error 0x01 while validating license key
+[2024-02-01 11:44:43] 11:44:43 (19772): PdfDocumentFactory created document 000001E9470F3800 from 397650 bytes
+[2024-02-01 11:44:43] 11:44:43 (19772): Document opened from vector
+[2024-02-01 11:44:43] 11:44:43 (19772): Storing new document 15
+[2024-02-01 11:44:43] Document 15 has 1 references remaining (+1)
+[2024-02-01 11:44:43] In-memory object store fetching document d1ec34fa-e89e-4593-a339-33872627875b
+[2024-02-01 11:44:43] In-memory object store fetching document d1ec34fa-e89e-4593-a339-33872627875b
+[2024-02-01 11:44:44] Error 0x01 while validating license key
+[2024-02-01 11:44:44] 11:44:44 (20436): PdfDocumentFactory created document 000001E9491A0440 from 81819 bytes
+[2024-02-01 11:44:44] 11:44:44 (20436): Document opened from vector
+[2024-02-01 11:44:44] 11:44:44 (20436): Storing new document 16
+[2024-02-01 11:44:44] Document 16 has 1 references remaining (+1)
+[2024-02-01 11:44:44] In-memory object store fetching document d305a8de-04de-4ecc-8db4-f62de6c473c7
+[2024-02-01 11:44:44] In-memory object store fetching document d305a8de-04de-4ecc-8db4-f62de6c473c7
+[2024-02-01 15:04:40] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-02-01 15:04:40] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 15:04:40] Creating folder deployments for win-x64
+[2024-02-01 15:04:40] Creating embedded deployments for win-x64
+[2024-02-01 15:04:40] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-01 15:04:40] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 15:04:40] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 15:04:40] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 15:04:40] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Creating new job collection resource
+[2024-02-01 15:04:40] Creating new document collection resource
+[2024-02-01 15:04:40] Successfully initialized local pdf client
+[2024-02-01 15:04:40] Initializing local Chrome client...
+[2024-02-01 15:04:40] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 15:04:40] Creating folder deployments for win-x64
+[2024-02-01 15:04:40] Creating embedded deployments for win-x64
+[2024-02-01 15:04:40] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-01 15:04:40] Using deployment instructions for 'default' v
+[2024-02-01 15:04:40] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 15:04:40] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 15:04:40] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 15:04:40] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-02-01 15:04:40] 15:04:40 (6704): ~ Chrome renderer v2024.1.0.143~
+[2024-02-01 15:04:40] 15:04:40 (6704): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 15:04:40] 15:04:40 (6704): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-01 15:04:40] 15:04:40 (6704): IsSingleProcess: 0
+[2024-02-01 15:04:40] 15:04:40 (6704): Creating Cef proxy controller
+[2024-02-01 15:04:40] 15:04:40 (6704): Creating Cef interface
+[2024-02-01 15:04:40] 15:04:40 (6704): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 15:04:40] 15:04:40 (6704): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 15:04:40] 15:04:40 (6704): Destroying Cef proxy event handler
+[2024-02-01 15:04:40] 15:04:40 (6704): Initializing Cef proxy controller
+[2024-02-01 15:04:40] 15:04:40 (6704): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-01 15:04:40] 15:04:40 (6704): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] 15:04:40 (6704): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-01 15:04:40] 15:04:40 (6704): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:04:40] 15:04:40 (6704): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-01 15:04:40] 15:04:40 (6704): gpu_mode: '0'
+[2024-02-01 15:04:40] 15:04:40 (17684): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-02-01 15:04:40] 15:04:40 (17684): gpu_mode: '0'
+[2024-02-01 15:04:40] 15:04:40 (6704): Cef initialization succeeded
+[2024-02-01 15:04:40] Successfully initialized local Chrome client
+[2024-02-01 15:04:40] 15:04:40 (17684): Cef context initialized
+[2024-02-01 15:04:40] 15:04:40 (17684): Registering custom scheme for rendering raw html
+[2024-02-01 15:04:40] 15:04:40 (17684): Successfully registered custom scheme
+[2024-02-01 15:04:40] 15:04:40 (17684): Cef engine initialization complete
+[2024-02-01 15:04:40] 15:04:40 (17684): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-02-01 15:04:40] 15:04:40 (17684): gpu_mode: '0'
+[2024-02-01 15:04:50] 'UsageData' module is disabled
+[2024-02-01 15:04:50] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-01 15:04:50] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:04:50] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:04:50] Warning! Error while retrieving app settings value
+[2024-02-01 15:04:50] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 15:04:50] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-01 15:04:50] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:04:50] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:04:50] Warning! Error while retrieving app settings value
+[2024-02-01 15:04:50] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 15:04:50] Setting license key to 'AppAnalytics' module
+[2024-02-01 15:04:50] Error 0x00 while validating license key
+[2024-02-01 15:04:50] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-01 15:04:50] 15:04:50 (17560): PdfDocumentFactory created document 000001B8C5ACD1C0 from 3118184 bytes
+[2024-02-01 15:04:50] 15:04:50 (17560): Document opened from vector
+[2024-02-01 15:04:50] 15:04:50 (17560): Storing new document 0
+[2024-02-01 15:04:50] Document 0 has 1 references remaining (+1)
+[2024-02-01 15:04:50] In-memory object store fetching document 570aa9cf-5936-407a-a58b-8ffe8a8f563c
+[2024-02-01 15:04:50] In-memory object store fetching document 570aa9cf-5936-407a-a58b-8ffe8a8f563c
+[2024-02-01 15:05:27] Error 0x01 while validating license key
+[2024-02-01 15:05:27] 15:05:27 (12964): PdfDocumentFactory created document 000001B8C5ACE0A0 from 777342 bytes
+[2024-02-01 15:05:27] 15:05:27 (12964): Document opened from vector
+[2024-02-01 15:05:27] 15:05:27 (12964): Storing new document 1
+[2024-02-01 15:05:27] Document 1 has 1 references remaining (+1)
+[2024-02-01 15:05:27] In-memory object store fetching document 1a6c72b6-5e3c-4fde-9c44-00d59b5f10f3
+[2024-02-01 15:05:27] In-memory object store fetching document 1a6c72b6-5e3c-4fde-9c44-00d59b5f10f3
+[2024-02-01 15:05:34] Error 0x01 while validating license key
+[2024-02-01 15:05:34] 15:05:34 (17872): PdfDocumentFactory created document 000001B8C5ACD2A0 from 292889 bytes
+[2024-02-01 15:05:34] 15:05:34 (17872): Document opened from vector
+[2024-02-01 15:05:34] 15:05:34 (17872): Storing new document 2
+[2024-02-01 15:05:34] Document 2 has 1 references remaining (+1)
+[2024-02-01 15:05:34] In-memory object store fetching document 07c1bc39-6959-4521-b19c-978d39f11bcb
+[2024-02-01 15:05:34] In-memory object store fetching document 07c1bc39-6959-4521-b19c-978d39f11bcb
+[2024-02-01 15:05:42] Error 0x01 while validating license key
+[2024-02-01 15:05:42] 15:05:42 (18464): PdfDocumentFactory created document 000001B8C5ACD9A0 from 517884 bytes
+[2024-02-01 15:05:42] 15:05:42 (18464): Document opened from vector
+[2024-02-01 15:05:42] 15:05:42 (18464): Storing new document 3
+[2024-02-01 15:05:42] Document 3 has 1 references remaining (+1)
+[2024-02-01 15:05:42] In-memory object store fetching document c1e3150b-0e6e-49c0-95fb-da896ef169b1
+[2024-02-01 15:05:42] In-memory object store fetching document c1e3150b-0e6e-49c0-95fb-da896ef169b1
+[2024-02-01 15:05:55] Error 0x01 while validating license key
+[2024-02-01 15:05:55] 15:05:55 (17872): PdfDocumentFactory created document 000001B8C5ACD700 from 1563171 bytes
+[2024-02-01 15:05:55] 15:05:55 (17872): Document opened from vector
+[2024-02-01 15:05:55] 15:05:55 (17872): Storing new document 4
+[2024-02-01 15:05:55] Document 4 has 1 references remaining (+1)
+[2024-02-01 15:05:55] In-memory object store fetching document ec9b0168-29ea-4b3e-bd8f-ca7a6d0e07b9
+[2024-02-01 15:05:55] In-memory object store fetching document ec9b0168-29ea-4b3e-bd8f-ca7a6d0e07b9
+[2024-02-01 15:06:18] Error 0x01 while validating license key
+[2024-02-01 15:06:18] 15:06:18 (12964): PdfDocumentFactory created document 000001B8C5ACCBA0 from 401320 bytes
+[2024-02-01 15:06:18] 15:06:18 (12964): Document opened from vector
+[2024-02-01 15:06:18] 15:06:18 (12964): Storing new document 5
+[2024-02-01 15:06:18] Document 5 has 1 references remaining (+1)
+[2024-02-01 15:06:18] In-memory object store fetching document 3c17cc81-d5cb-454a-b5a2-c340837bdfc3
+[2024-02-01 15:06:18] In-memory object store fetching document 3c17cc81-d5cb-454a-b5a2-c340837bdfc3
+[2024-02-01 15:06:33] Error 0x01 while validating license key
+[2024-02-01 15:06:33] 15:06:33 (22556): PdfDocumentFactory created document 000001B8CC7C5610 from 779683 bytes
+[2024-02-01 15:06:33] 15:06:33 (22556): Document opened from vector
+[2024-02-01 15:06:33] 15:06:33 (22556): Storing new document 6
+[2024-02-01 15:06:33] Document 6 has 1 references remaining (+1)
+[2024-02-01 15:06:33] In-memory object store fetching document 26e14d96-8759-496b-a97f-7fd3f7728acf
+[2024-02-01 15:06:33] In-memory object store fetching document 26e14d96-8759-496b-a97f-7fd3f7728acf
+[2024-02-01 15:06:37] Error 0x01 while validating license key
+[2024-02-01 15:06:37] 15:06:37 (22684): PdfDocumentFactory created document 000001B8CC7C5B50 from 230802 bytes
+[2024-02-01 15:06:37] 15:06:37 (22684): Document opened from vector
+[2024-02-01 15:06:37] 15:06:37 (22684): Storing new document 7
+[2024-02-01 15:06:37] Document 7 has 1 references remaining (+1)
+[2024-02-01 15:06:37] In-memory object store fetching document 813e629d-5a38-4c6f-9334-b138c7da8ee7
+[2024-02-01 15:06:37] In-memory object store fetching document 813e629d-5a38-4c6f-9334-b138c7da8ee7
+[2024-02-01 15:06:41] Error 0x01 while validating license key
+[2024-02-01 15:06:41] 15:06:41 (22684): PdfDocumentFactory created document 000001B8CC7C6870 from 170826 bytes
+[2024-02-01 15:06:41] 15:06:41 (22684): Document opened from vector
+[2024-02-01 15:06:41] 15:06:41 (22684): Storing new document 8
+[2024-02-01 15:06:41] Document 8 has 1 references remaining (+1)
+[2024-02-01 15:06:41] In-memory object store fetching document a0bfba8a-a5fe-4fe3-a337-8848d02bb0a0
+[2024-02-01 15:06:41] In-memory object store fetching document a0bfba8a-a5fe-4fe3-a337-8848d02bb0a0
+[2024-02-01 15:06:42] Error 0x01 while validating license key
+[2024-02-01 15:06:42] 15:06:42 (22556): PdfDocumentFactory created document 000001B8CC7C6950 from 267117 bytes
+[2024-02-01 15:06:42] 15:06:42 (22556): Document opened from vector
+[2024-02-01 15:06:42] 15:06:42 (22556): Storing new document 9
+[2024-02-01 15:06:42] Document 9 has 1 references remaining (+1)
+[2024-02-01 15:06:42] In-memory object store fetching document 5b41fe0d-3b3f-4b35-9f6d-df560a4f530f
+[2024-02-01 15:06:42] In-memory object store fetching document 5b41fe0d-3b3f-4b35-9f6d-df560a4f530f
+[2024-02-01 15:06:55] Error 0x01 while validating license key
+[2024-02-01 15:06:55] 15:06:55 (22372): PdfDocumentFactory created document 000001B8CC7C65D0 from 663426 bytes
+[2024-02-01 15:06:55] 15:06:55 (22372): Document opened from vector
+[2024-02-01 15:06:55] 15:06:55 (22372): Storing new document 10
+[2024-02-01 15:06:55] Document 10 has 1 references remaining (+1)
+[2024-02-01 15:06:55] In-memory object store fetching document d374576c-abcd-41e0-8d40-ef1387113fe9
+[2024-02-01 15:06:55] In-memory object store fetching document d374576c-abcd-41e0-8d40-ef1387113fe9
+[2024-02-01 15:07:02] Error 0x01 while validating license key
+[2024-02-01 15:07:02] 15:07:02 (22372): PdfDocumentFactory created document 000001B8CC7C64F0 from 348388 bytes
+[2024-02-01 15:07:02] 15:07:02 (22372): Document opened from vector
+[2024-02-01 15:07:02] 15:07:02 (22372): Storing new document 11
+[2024-02-01 15:07:02] Document 11 has 1 references remaining (+1)
+[2024-02-01 15:07:02] In-memory object store fetching document 53debcbb-bb0a-48d7-a389-3537632d9478
+[2024-02-01 15:07:02] In-memory object store fetching document 53debcbb-bb0a-48d7-a389-3537632d9478
+[2024-02-01 15:07:08] Error 0x01 while validating license key
+[2024-02-01 15:07:08] 15:07:08 (22684): PdfDocumentFactory created document 000001B8CC7C51B0 from 519928 bytes
+[2024-02-01 15:07:08] 15:07:08 (22684): Document opened from vector
+[2024-02-01 15:07:08] 15:07:08 (22684): Storing new document 12
+[2024-02-01 15:07:08] Document 12 has 1 references remaining (+1)
+[2024-02-01 15:07:08] In-memory object store fetching document 5eb604fe-da23-48ad-974d-e4202a2cb134
+[2024-02-01 15:07:08] In-memory object store fetching document 5eb604fe-da23-48ad-974d-e4202a2cb134
+[2024-02-01 15:07:20] Error 0x01 while validating license key
+[2024-02-01 15:07:20] 15:07:20 (14780): PdfDocumentFactory created document 000001B8CD9C12D0 from 291493 bytes
+[2024-02-01 15:07:20] 15:07:20 (14780): Document opened from vector
+[2024-02-01 15:07:20] 15:07:20 (14780): Storing new document 13
+[2024-02-01 15:07:20] Document 13 has 1 references remaining (+1)
+[2024-02-01 15:07:20] In-memory object store fetching document d358b4ce-c345-4ab7-93cd-06c91e5e4897
+[2024-02-01 15:07:21] In-memory object store fetching document d358b4ce-c345-4ab7-93cd-06c91e5e4897
+[2024-02-01 15:07:30] Error 0x01 while validating license key
+[2024-02-01 15:07:30] 15:07:30 (12964): PdfDocumentFactory created document 000001B8CD9C0BD0 from 173972 bytes
+[2024-02-01 15:07:30] 15:07:30 (12964): Document opened from vector
+[2024-02-01 15:07:30] 15:07:30 (12964): Storing new document 14
+[2024-02-01 15:07:30] Document 14 has 1 references remaining (+1)
+[2024-02-01 15:07:30] In-memory object store fetching document e1a5b696-fed1-43ed-b434-5edfb2934708
+[2024-02-01 15:07:30] In-memory object store fetching document e1a5b696-fed1-43ed-b434-5edfb2934708
+[2024-02-01 15:07:35] Error 0x01 while validating license key
+[2024-02-01 15:07:35] 15:07:35 (20980): PdfDocumentFactory created document 000001B8CD9C0CB0 from 736276 bytes
+[2024-02-01 15:07:35] 15:07:35 (20980): Document opened from vector
+[2024-02-01 15:07:35] 15:07:35 (20980): Storing new document 15
+[2024-02-01 15:07:35] Document 15 has 1 references remaining (+1)
+[2024-02-01 15:07:35] In-memory object store fetching document abd1bcf1-da7e-4298-9417-a9698c771816
+[2024-02-01 15:07:35] In-memory object store fetching document abd1bcf1-da7e-4298-9417-a9698c771816
+[2024-02-01 15:07:52] Error 0x01 while validating license key
+[2024-02-01 15:07:52] 15:07:52 (18760): PdfDocumentFactory created document 000001B8CD9C0F50 from 261013 bytes
+[2024-02-01 15:07:52] 15:07:52 (18760): Document opened from vector
+[2024-02-01 15:07:52] 15:07:52 (18760): Storing new document 16
+[2024-02-01 15:07:52] Document 16 has 1 references remaining (+1)
+[2024-02-01 15:07:52] In-memory object store fetching document 20a29397-0c25-4812-8474-e56575779080
+[2024-02-01 15:07:52] In-memory object store fetching document 20a29397-0c25-4812-8474-e56575779080
+[2024-02-01 15:07:55] Error 0x01 while validating license key
+[2024-02-01 15:07:55] 15:07:55 (14780): PdfDocumentFactory created document 000001B8CD9C1490 from 362751 bytes
+[2024-02-01 15:07:55] 15:07:55 (14780): Document opened from vector
+[2024-02-01 15:07:55] 15:07:55 (14780): Storing new document 17
+[2024-02-01 15:07:55] Document 17 has 1 references remaining (+1)
+[2024-02-01 15:07:55] In-memory object store fetching document f1981db1-ab34-41d9-bba1-a1a1e0d8150a
+[2024-02-01 15:07:55] In-memory object store fetching document f1981db1-ab34-41d9-bba1-a1a1e0d8150a
+[2024-02-01 15:08:04] Error 0x01 while validating license key
+[2024-02-01 15:08:04] 15:08:04 (14780): PdfDocumentFactory created document 000001B8CD9C1650 from 582412 bytes
+[2024-02-01 15:08:04] 15:08:04 (14780): Document opened from vector
+[2024-02-01 15:08:04] 15:08:04 (14780): Storing new document 18
+[2024-02-01 15:08:04] Document 18 has 1 references remaining (+1)
+[2024-02-01 15:08:04] In-memory object store fetching document 8c7ede4a-d709-4553-b51a-984362a59ce6
+[2024-02-01 15:08:04] In-memory object store fetching document 8c7ede4a-d709-4553-b51a-984362a59ce6
+[2024-02-01 15:08:08] Error 0x01 while validating license key
+[2024-02-01 15:08:08] 15:08:08 (18760): PdfDocumentFactory created document 000001B8CDE75260 from 210653 bytes
+[2024-02-01 15:08:08] 15:08:08 (18760): Document opened from vector
+[2024-02-01 15:08:08] 15:08:08 (18760): Storing new document 19
+[2024-02-01 15:08:08] Document 19 has 1 references remaining (+1)
+[2024-02-01 15:08:08] In-memory object store fetching document 58aedba9-f7bd-411b-b7c8-177155e40fd8
+[2024-02-01 15:08:08] In-memory object store fetching document 58aedba9-f7bd-411b-b7c8-177155e40fd8
+[2024-02-01 15:08:12] Error 0x01 while validating license key
+[2024-02-01 15:08:12] 15:08:12 (18760): PdfDocumentFactory created document 000001B8CDE750A0 from 152250 bytes
+[2024-02-01 15:08:12] 15:08:12 (18760): Document opened from vector
+[2024-02-01 15:08:12] 15:08:12 (18760): Storing new document 20
+[2024-02-01 15:08:12] Document 20 has 1 references remaining (+1)
+[2024-02-01 15:08:12] In-memory object store fetching document 4881a7f1-aa30-4b15-80bb-4866b722c8b2
+[2024-02-01 15:08:12] In-memory object store fetching document 4881a7f1-aa30-4b15-80bb-4866b722c8b2
+[2024-02-01 15:08:17] Error 0x01 while validating license key
+[2024-02-01 15:08:17] 15:08:17 (20980): PdfDocumentFactory created document 000001B8CDE749A0 from 382457 bytes
+[2024-02-01 15:08:17] 15:08:17 (20980): Document opened from vector
+[2024-02-01 15:08:17] 15:08:17 (20980): Storing new document 21
+[2024-02-01 15:08:17] Document 21 has 1 references remaining (+1)
+[2024-02-01 15:08:17] In-memory object store fetching document f3ad8ca9-d973-4bf5-b109-059f278e964e
+[2024-02-01 15:08:17] In-memory object store fetching document f3ad8ca9-d973-4bf5-b109-059f278e964e
+[2024-02-01 15:08:26] Error 0x01 while validating license key
+[2024-02-01 15:08:26] 15:08:26 (20980): PdfDocumentFactory created document 000001B8CDE74C40 from 1220154 bytes
+[2024-02-01 15:08:26] 15:08:26 (20980): Document opened from vector
+[2024-02-01 15:08:26] 15:08:26 (20980): Storing new document 22
+[2024-02-01 15:08:26] Document 22 has 1 references remaining (+1)
+[2024-02-01 15:08:26] In-memory object store fetching document 9d60f738-da31-47ae-a6dd-0c4797bcea43
+[2024-02-01 15:08:26] In-memory object store fetching document 9d60f738-da31-47ae-a6dd-0c4797bcea43
+[2024-02-01 15:08:32] Error 0x01 while validating license key
+[2024-02-01 15:08:32] 15:08:32 (18652): PdfDocumentFactory created document 000001B8CDE74E00 from 383671 bytes
+[2024-02-01 15:08:32] 15:08:32 (18652): Document opened from vector
+[2024-02-01 15:08:32] 15:08:32 (18652): Storing new document 23
+[2024-02-01 15:08:32] Document 23 has 1 references remaining (+1)
+[2024-02-01 15:08:32] In-memory object store fetching document 2fe346da-22bc-487f-ac4c-00a7d7b6ba0c
+[2024-02-01 15:08:32] In-memory object store fetching document 2fe346da-22bc-487f-ac4c-00a7d7b6ba0c
+[2024-02-01 15:08:34] Error 0x01 while validating license key
+[2024-02-01 15:08:34] 15:08:34 (19148): PdfDocumentFactory created document 000001B8CDE740E0 from 1525734 bytes
+[2024-02-01 15:08:34] 15:08:34 (19148): Document opened from vector
+[2024-02-01 15:08:34] 15:08:34 (19148): Storing new document 24
+[2024-02-01 15:08:34] Document 24 has 1 references remaining (+1)
+[2024-02-01 15:08:34] In-memory object store fetching document c93e3fe2-580f-4d9e-b9d8-df33829a4aa5
+[2024-02-01 15:08:34] In-memory object store fetching document c93e3fe2-580f-4d9e-b9d8-df33829a4aa5
+[2024-02-01 15:08:50] Error 0x01 while validating license key
+[2024-02-01 15:08:50] 15:08:50 (19148): PdfDocumentFactory created document 000001B8CDE73820 from 287921 bytes
+[2024-02-01 15:08:50] 15:08:50 (19148): Document opened from vector
+[2024-02-01 15:08:50] 15:08:50 (19148): Storing new document 25
+[2024-02-01 15:08:50] Document 25 has 1 references remaining (+1)
+[2024-02-01 15:08:50] In-memory object store fetching document e2ae1fc8-105c-4cac-b8f7-da0ffebe57f5
+[2024-02-01 15:08:50] In-memory object store fetching document e2ae1fc8-105c-4cac-b8f7-da0ffebe57f5
+[2024-02-01 15:08:56] Error 0x01 while validating license key
+[2024-02-01 15:08:56] 15:08:56 (14780): PdfDocumentFactory created document 000001B8CDE73F20 from 901182 bytes
+[2024-02-01 15:08:56] 15:08:56 (14780): Document opened from vector
+[2024-02-01 15:08:56] 15:08:56 (14780): Storing new document 26
+[2024-02-01 15:08:56] Document 26 has 1 references remaining (+1)
+[2024-02-01 15:08:56] In-memory object store fetching document 09d5f3c3-7684-49de-98ac-5af5da5e6d65
+[2024-02-01 15:08:56] In-memory object store fetching document 09d5f3c3-7684-49de-98ac-5af5da5e6d65
+[2024-02-01 15:09:12] Error 0x01 while validating license key
+[2024-02-01 15:09:12] 15:09:12 (20980): PdfDocumentFactory created document 000001B8CDE74620 from 186819 bytes
+[2024-02-01 15:09:12] 15:09:12 (20980): Document opened from vector
+[2024-02-01 15:09:12] 15:09:12 (20980): Storing new document 27
+[2024-02-01 15:09:12] Document 27 has 1 references remaining (+1)
+[2024-02-01 15:09:12] In-memory object store fetching document e350ba6b-053f-4bd8-ba5d-26ecbb34480d
+[2024-02-01 15:09:12] In-memory object store fetching document e350ba6b-053f-4bd8-ba5d-26ecbb34480d
+[2024-02-01 15:09:15] Error 0x01 while validating license key
+[2024-02-01 15:09:15] 15:09:15 (18760): PdfDocumentFactory created document 000001B8CF4BF5C0 from 139045 bytes
+[2024-02-01 15:09:15] 15:09:15 (18760): Document opened from vector
+[2024-02-01 15:09:15] 15:09:15 (18760): Storing new document 28
+[2024-02-01 15:09:15] Document 28 has 1 references remaining (+1)
+[2024-02-01 15:09:15] In-memory object store fetching document 2dc6471c-6926-4792-a364-9fa3c6e3c188
+[2024-02-01 15:09:15] In-memory object store fetching document 2dc6471c-6926-4792-a364-9fa3c6e3c188
+[2024-02-01 15:09:28] Error 0x01 while validating license key
+[2024-02-01 15:09:28] 15:09:28 (18652): PdfDocumentFactory created document 000001B8CF4BF320 from 522100 bytes
+[2024-02-01 15:09:28] 15:09:28 (18652): Document opened from vector
+[2024-02-01 15:09:28] 15:09:28 (18652): Storing new document 29
+[2024-02-01 15:09:28] Document 29 has 1 references remaining (+1)
+[2024-02-01 15:09:28] In-memory object store fetching document 9c08c408-54e5-43c1-bd91-024f7ecdcee7
+[2024-02-01 15:09:28] In-memory object store fetching document 9c08c408-54e5-43c1-bd91-024f7ecdcee7
+[2024-02-01 15:09:37] Error 0x01 while validating license key
+[2024-02-01 15:09:37] 15:09:37 (18760): PdfDocumentFactory created document 000001B8CF4BF6A0 from 183550 bytes
+[2024-02-01 15:09:37] 15:09:37 (18760): Document opened from vector
+[2024-02-01 15:09:37] 15:09:37 (18760): Storing new document 30
+[2024-02-01 15:09:37] Document 30 has 1 references remaining (+1)
+[2024-02-01 15:09:37] In-memory object store fetching document 19a6116d-a637-4720-bc85-76b6ba199035
+[2024-02-01 15:09:37] In-memory object store fetching document 19a6116d-a637-4720-bc85-76b6ba199035
+[2024-02-01 15:09:45] Error 0x01 while validating license key
+[2024-02-01 15:09:45] 15:09:45 (18760): PdfDocumentFactory created document 000001B8CF4C04A0 from 273481 bytes
+[2024-02-01 15:09:45] 15:09:45 (18760): Document opened from vector
+[2024-02-01 15:09:45] 15:09:45 (18760): Storing new document 31
+[2024-02-01 15:09:45] Document 31 has 1 references remaining (+1)
+[2024-02-01 15:09:45] In-memory object store fetching document 3a28f2c9-f5d2-42e2-b9f0-509da9de1c73
+[2024-02-01 15:09:45] In-memory object store fetching document 3a28f2c9-f5d2-42e2-b9f0-509da9de1c73
+[2024-02-01 15:09:49] Error 0x01 while validating license key
+[2024-02-01 15:09:49] 15:09:49 (20924): PdfDocumentFactory created document 000001B8CF4BFCC0 from 273666 bytes
+[2024-02-01 15:09:49] 15:09:49 (20924): Document opened from vector
+[2024-02-01 15:09:49] 15:09:49 (20924): Storing new document 32
+[2024-02-01 15:09:49] Document 32 has 1 references remaining (+1)
+[2024-02-01 15:09:49] In-memory object store fetching document df5d0bea-8e98-410e-8491-6d003ca83ca8
+[2024-02-01 15:09:49] In-memory object store fetching document df5d0bea-8e98-410e-8491-6d003ca83ca8
+[2024-02-01 15:09:55] Error 0x01 while validating license key
+[2024-02-01 15:09:55] 15:09:55 (16740): PdfDocumentFactory created document 000001B8CF1FC790 from 397650 bytes
+[2024-02-01 15:09:55] 15:09:55 (16740): Document opened from vector
+[2024-02-01 15:09:55] 15:09:55 (16740): Storing new document 33
+[2024-02-01 15:09:55] Document 33 has 1 references remaining (+1)
+[2024-02-01 15:09:55] In-memory object store fetching document d2b70331-253f-4b81-ab62-51c9d81d43d5
+[2024-02-01 15:09:55] In-memory object store fetching document d2b70331-253f-4b81-ab62-51c9d81d43d5
+[2024-02-01 15:10:04] Error 0x01 while validating license key
+[2024-02-01 15:10:04] 15:10:04 (16740): PdfDocumentFactory created document 000001B8CF1FCF70 from 1115486 bytes
+[2024-02-01 15:10:04] 15:10:04 (16740): Document opened from vector
+[2024-02-01 15:10:04] 15:10:04 (16740): Storing new document 34
+[2024-02-01 15:10:04] Document 34 has 1 references remaining (+1)
+[2024-02-01 15:10:04] In-memory object store fetching document eebd455a-1636-40d7-8c80-b2fbe6b1d9b1
+[2024-02-01 15:10:04] In-memory object store fetching document eebd455a-1636-40d7-8c80-b2fbe6b1d9b1
+[2024-02-01 15:10:17] Error 0x01 while validating license key
+[2024-02-01 15:10:17] 15:10:17 (16740): PdfDocumentFactory created document 000001B8CF1FC5D0 from 429682 bytes
+[2024-02-01 15:10:17] 15:10:17 (16740): Document opened from vector
+[2024-02-01 15:10:17] 15:10:17 (16740): Storing new document 35
+[2024-02-01 15:10:17] Document 35 has 1 references remaining (+1)
+[2024-02-01 15:10:17] In-memory object store fetching document a8562d24-9f85-4f81-bfac-d577b0449c7f
+[2024-02-01 15:10:17] In-memory object store fetching document a8562d24-9f85-4f81-bfac-d577b0449c7f
+[2024-02-01 15:10:21] Error 0x01 while validating license key
+[2024-02-01 15:10:21] 15:10:21 (15132): PdfDocumentFactory created document 000001B8CF1FB8B0 from 407212 bytes
+[2024-02-01 15:10:21] 15:10:21 (15132): Document opened from vector
+[2024-02-01 15:10:21] 15:10:21 (15132): Storing new document 36
+[2024-02-01 15:10:21] Document 36 has 1 references remaining (+1)
+[2024-02-01 15:10:21] In-memory object store fetching document a0a54311-cf9f-4858-814f-8e6e60e42178
+[2024-02-01 15:10:21] In-memory object store fetching document a0a54311-cf9f-4858-814f-8e6e60e42178
+[2024-02-01 15:10:25] Error 0x01 while validating license key
+[2024-02-01 15:10:25] 15:10:25 (20924): PdfDocumentFactory created document 000001B8CF1FBDF0 from 403441 bytes
+[2024-02-01 15:10:25] 15:10:25 (20924): Document opened from vector
+[2024-02-01 15:10:25] 15:10:25 (20924): Storing new document 37
+[2024-02-01 15:10:25] Document 37 has 1 references remaining (+1)
+[2024-02-01 15:10:25] In-memory object store fetching document 61123740-1fd8-4ec5-b19f-bf1a5f188b89
+[2024-02-01 15:10:25] In-memory object store fetching document 61123740-1fd8-4ec5-b19f-bf1a5f188b89
+[2024-02-01 15:10:26] Error 0x01 while validating license key
+[2024-02-01 15:10:26] 15:10:26 (20924): PdfDocumentFactory created document 000001B8CF1FD3D0 from 418629 bytes
+[2024-02-01 15:10:26] 15:10:26 (20924): Document opened from vector
+[2024-02-01 15:10:26] 15:10:26 (20924): Storing new document 38
+[2024-02-01 15:10:26] Document 38 has 1 references remaining (+1)
+[2024-02-01 15:10:26] In-memory object store fetching document 6c876244-8f1c-4e0a-823b-a117ccdf1b07
+[2024-02-01 15:10:26] In-memory object store fetching document 6c876244-8f1c-4e0a-823b-a117ccdf1b07
+[2024-02-01 15:10:34] Error 0x01 while validating license key
+[2024-02-01 15:10:34] 15:10:34 (20924): PdfDocumentFactory created document 000001B8CF1FBA70 from 282887 bytes
+[2024-02-01 15:10:34] 15:10:34 (20924): Document opened from vector
+[2024-02-01 15:10:34] 15:10:34 (20924): Storing new document 39
+[2024-02-01 15:10:34] Document 39 has 1 references remaining (+1)
+[2024-02-01 15:10:34] In-memory object store fetching document 19a3cf0e-2dd4-4b9e-864c-8940e911b206
+[2024-02-01 15:10:34] In-memory object store fetching document 19a3cf0e-2dd4-4b9e-864c-8940e911b206
+[2024-02-01 15:10:37] Error 0x01 while validating license key
+[2024-02-01 15:10:37] 15:10:37 (15132): PdfDocumentFactory created document 000001B8CF1FCCD0 from 81819 bytes
+[2024-02-01 15:10:37] 15:10:37 (15132): Document opened from vector
+[2024-02-01 15:10:37] 15:10:37 (15132): Storing new document 40
+[2024-02-01 15:10:37] Document 40 has 1 references remaining (+1)
+[2024-02-01 15:10:37] In-memory object store fetching document dd4c40cf-7abc-41dc-98c6-6cc92a0e31c5
+[2024-02-01 15:10:37] In-memory object store fetching document dd4c40cf-7abc-41dc-98c6-6cc92a0e31c5
+[2024-02-01 15:10:45] Error 0x01 while validating license key
+[2024-02-01 15:10:45] 15:10:45 (23212): PdfDocumentFactory created document 000001B8D0895D40 from 353330 bytes
+[2024-02-01 15:10:45] 15:10:45 (23212): Document opened from vector
+[2024-02-01 15:10:45] 15:10:45 (23212): Storing new document 41
+[2024-02-01 15:10:45] Document 41 has 1 references remaining (+1)
+[2024-02-01 15:10:45] In-memory object store fetching document fbe9a3c6-1053-4e14-85a8-281c6e012a9b
+[2024-02-01 15:10:45] In-memory object store fetching document fbe9a3c6-1053-4e14-85a8-281c6e012a9b
+[2024-02-01 15:55:36] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-02-01 15:55:36] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:36] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 15:55:36] Creating folder deployments for win-x64
+[2024-02-01 15:55:36] Creating embedded deployments for win-x64
+[2024-02-01 15:55:36] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:36] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:36] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-01 15:55:36] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 15:55:36] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 15:55:36] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 15:55:36] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:36] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:36] Creating new job collection resource
+[2024-02-01 15:55:36] Creating new document collection resource
+[2024-02-01 15:55:36] Successfully initialized local pdf client
+[2024-02-01 15:55:36] Initializing local Chrome client...
+[2024-02-01 15:55:36] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:36] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 15:55:36] Creating folder deployments for win-x64
+[2024-02-01 15:55:36] Creating embedded deployments for win-x64
+[2024-02-01 15:55:36] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:37] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-01 15:55:37] Using deployment instructions for 'default' v
+[2024-02-01 15:55:37] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 15:55:37] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 15:55:37] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 15:55:37] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:37] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:37] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-02-01 15:55:37] 15:55:37 (9992): ~ Chrome renderer v2024.1.0.143~
+[2024-02-01 15:55:37] 15:55:37 (9992): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 15:55:37] 15:55:37 (9992): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-01 15:55:37] 15:55:37 (9992): IsSingleProcess: 0
+[2024-02-01 15:55:37] 15:55:37 (9992): Creating Cef proxy controller
+[2024-02-01 15:55:37] 15:55:37 (9992): Creating Cef interface
+[2024-02-01 15:55:37] 15:55:37 (9992): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 15:55:37] 15:55:37 (9992): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 15:55:37] 15:55:37 (9992): Destroying Cef proxy event handler
+[2024-02-01 15:55:37] 15:55:37 (9992): Initializing Cef proxy controller
+[2024-02-01 15:55:37] 15:55:37 (9992): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-01 15:55:37] 15:55:37 (9992): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:37] 15:55:37 (9992): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-01 15:55:37] 15:55:37 (9992): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 15:55:37] 15:55:37 (9992): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-01 15:55:37] 15:55:37 (9992): gpu_mode: '0'
+[2024-02-01 15:55:37] 15:55:37 (2076): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-02-01 15:55:37] 15:55:37 (2076): gpu_mode: '0'
+[2024-02-01 15:55:37] 15:55:37 (9992): Cef initialization succeeded
+[2024-02-01 15:55:37] Successfully initialized local Chrome client
+[2024-02-01 15:55:37] 15:55:37 (2076): Cef context initialized
+[2024-02-01 15:55:37] 15:55:37 (2076): Registering custom scheme for rendering raw html
+[2024-02-01 15:55:37] 15:55:37 (2076): Successfully registered custom scheme
+[2024-02-01 15:55:37] 15:55:37 (2076): Cef engine initialization complete
+[2024-02-01 15:55:37] 15:55:37 (2076): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-02-01 15:55:37] 15:55:37 (2076): gpu_mode: '0'
+[2024-02-01 15:55:47] 'UsageData' module is disabled
+[2024-02-01 15:55:47] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-01 15:55:47] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:55:47] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:55:47] Warning! Error while retrieving app settings value
+[2024-02-01 15:55:47] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 15:55:47] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-01 15:55:47] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:55:47] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 15:55:47] Warning! Error while retrieving app settings value
+[2024-02-01 15:55:47] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 15:55:47] Setting license key to 'AppAnalytics' module
+[2024-02-01 15:55:47] Error 0x00 while validating license key
+[2024-02-01 15:55:47] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-01 15:55:47] 15:55:47 (13792): PdfDocumentFactory created document 000001AD2C9F0150 from 401320 bytes
+[2024-02-01 15:55:47] 15:55:47 (13792): Document opened from vector
+[2024-02-01 15:55:47] 15:55:47 (13792): Storing new document 0
+[2024-02-01 15:55:47] Document 0 has 1 references remaining (+1)
+[2024-02-01 15:55:47] In-memory object store fetching document 9db67ed0-7bbd-4eec-a895-8f775fd07965
+[2024-02-01 15:55:47] In-memory object store fetching document 9db67ed0-7bbd-4eec-a895-8f775fd07965
+[2024-02-01 15:56:01] Error 0x01 while validating license key
+[2024-02-01 15:56:01] 15:56:01 (17684): PdfDocumentFactory created document 000001AD2C9F11F0 from 267117 bytes
+[2024-02-01 15:56:01] 15:56:01 (17684): Document opened from vector
+[2024-02-01 15:56:01] 15:56:01 (17684): Storing new document 1
+[2024-02-01 15:56:01] Document 1 has 1 references remaining (+1)
+[2024-02-01 15:56:01] In-memory object store fetching document b03d9644-2377-4e38-8feb-198b108ae693
+[2024-02-01 15:56:01] In-memory object store fetching document b03d9644-2377-4e38-8feb-198b108ae693
+[2024-02-01 15:56:14] Error 0x01 while validating license key
+[2024-02-01 15:56:14] 15:56:14 (1268): PdfDocumentFactory created document 000001AD2CB6EB40 from 663426 bytes
+[2024-02-01 15:56:14] 15:56:14 (1268): Document opened from vector
+[2024-02-01 15:56:14] 15:56:14 (1268): Storing new document 2
+[2024-02-01 15:56:14] Document 2 has 1 references remaining (+1)
+[2024-02-01 15:56:14] In-memory object store fetching document 2ceb4237-415b-4b14-89ff-4cbc977edb20
+[2024-02-01 15:56:14] In-memory object store fetching document 2ceb4237-415b-4b14-89ff-4cbc977edb20
+[2024-02-01 15:56:20] Error 0x01 while validating license key
+[2024-02-01 15:56:20] 15:56:20 (22880): PdfDocumentFactory created document 000001AD2CB6E360 from 348388 bytes
+[2024-02-01 15:56:20] 15:56:20 (22880): Document opened from vector
+[2024-02-01 15:56:20] 15:56:20 (22880): Storing new document 3
+[2024-02-01 15:56:20] Document 3 has 1 references remaining (+1)
+[2024-02-01 15:56:20] In-memory object store fetching document ca30e60b-3ce2-41ab-8f5a-8126ec0557c5
+[2024-02-01 15:56:20] In-memory object store fetching document ca30e60b-3ce2-41ab-8f5a-8126ec0557c5
+[2024-02-01 15:56:29] Error 0x01 while validating license key
+[2024-02-01 15:56:29] 15:56:29 (1268): PdfDocumentFactory created document 000001AD2CB6CCA0 from 519928 bytes
+[2024-02-01 15:56:29] 15:56:29 (1268): Document opened from vector
+[2024-02-01 15:56:29] 15:56:29 (1268): Storing new document 4
+[2024-02-01 15:56:29] Document 4 has 1 references remaining (+1)
+[2024-02-01 15:56:29] In-memory object store fetching document 31542fc8-45a7-46a0-829d-8d0a527ef700
+[2024-02-01 15:56:29] In-memory object store fetching document 31542fc8-45a7-46a0-829d-8d0a527ef700
+[2024-02-01 15:56:41] Error 0x01 while validating license key
+[2024-02-01 15:56:41] 15:56:41 (1268): PdfDocumentFactory created document 000001AD2CB6D8E0 from 291493 bytes
+[2024-02-01 15:56:41] 15:56:41 (1268): Document opened from vector
+[2024-02-01 15:56:41] 15:56:41 (1268): Storing new document 5
+[2024-02-01 15:56:41] Document 5 has 1 references remaining (+1)
+[2024-02-01 15:56:41] In-memory object store fetching document b7277e95-9134-4c56-ad3e-ba7f48ac8af9
+[2024-02-01 15:56:41] In-memory object store fetching document b7277e95-9134-4c56-ad3e-ba7f48ac8af9
+[2024-02-01 15:56:48] Error 0x01 while validating license key
+[2024-02-01 15:56:48] 15:56:48 (22880): PdfDocumentFactory created document 000001AD2CB6DE20 from 173972 bytes
+[2024-02-01 15:56:48] 15:56:48 (22880): Document opened from vector
+[2024-02-01 15:56:48] 15:56:48 (22880): Storing new document 6
+[2024-02-01 15:56:48] Document 6 has 1 references remaining (+1)
+[2024-02-01 15:56:48] In-memory object store fetching document 5f90430b-e8d9-44bd-9b15-82d74e9a9b6c
+[2024-02-01 15:56:48] In-memory object store fetching document 5f90430b-e8d9-44bd-9b15-82d74e9a9b6c
+[2024-02-01 15:56:52] Error 0x01 while validating license key
+[2024-02-01 15:56:52] 15:56:52 (19752): PdfDocumentFactory created document 000001AD2CB6D560 from 401320 bytes
+[2024-02-01 15:56:52] 15:56:52 (19752): Document opened from vector
+[2024-02-01 15:56:52] 15:56:52 (19752): Storing new document 7
+[2024-02-01 15:56:52] Document 7 has 1 references remaining (+1)
+[2024-02-01 15:56:52] In-memory object store fetching document dba0816c-fff4-4781-ad74-ae45a3b2c174
+[2024-02-01 15:56:52] In-memory object store fetching document dba0816c-fff4-4781-ad74-ae45a3b2c174
+[2024-02-01 15:56:53] Error 0x01 while validating license key
+[2024-02-01 15:56:53] 15:56:53 (19752): PdfDocumentFactory created document 000001AD2CB6E7C0 from 261013 bytes
+[2024-02-01 15:56:53] 15:56:53 (19752): Document opened from vector
+[2024-02-01 15:56:53] 15:56:53 (19752): Storing new document 8
+[2024-02-01 15:56:53] Document 8 has 1 references remaining (+1)
+[2024-02-01 15:56:53] In-memory object store fetching document f46619fb-61ef-414e-aea0-8b67a8804990
+[2024-02-01 15:56:53] In-memory object store fetching document f46619fb-61ef-414e-aea0-8b67a8804990
+[2024-02-01 15:56:58] Error 0x01 while validating license key
+[2024-02-01 15:56:58] 15:56:58 (1268): PdfDocumentFactory created document 000001AD32C4A250 from 362751 bytes
+[2024-02-01 15:56:58] 15:56:58 (1268): Document opened from vector
+[2024-02-01 15:56:58] 15:56:58 (1268): Storing new document 9
+[2024-02-01 15:56:58] Document 9 has 1 references remaining (+1)
+[2024-02-01 15:56:58] In-memory object store fetching document 1fb6dd9d-0b46-40ea-bb3a-f9e240fb023e
+[2024-02-01 15:56:58] In-memory object store fetching document 1fb6dd9d-0b46-40ea-bb3a-f9e240fb023e
+[2024-02-01 15:57:06] Error 0x01 while validating license key
+[2024-02-01 15:57:06] 15:57:06 (1268): PdfDocumentFactory created document 000001AD32C4AA30 from 267117 bytes
+[2024-02-01 15:57:06] 15:57:06 (1268): Document opened from vector
+[2024-02-01 15:57:06] 15:57:06 (1268): Storing new document 10
+[2024-02-01 15:57:06] Document 10 has 1 references remaining (+1)
+[2024-02-01 15:57:06] In-memory object store fetching document 0d9409a7-f289-4c47-b82b-acd8901c529d
+[2024-02-01 15:57:06] In-memory object store fetching document 0d9409a7-f289-4c47-b82b-acd8901c529d
+[2024-02-01 15:57:09] Error 0x01 while validating license key
+[2024-02-01 15:57:09] 15:57:09 (19752): PdfDocumentFactory created document 000001AD32C4A950 from 287921 bytes
+[2024-02-01 15:57:09] 15:57:09 (19752): Document opened from vector
+[2024-02-01 15:57:09] 15:57:09 (19752): Storing new document 11
+[2024-02-01 15:57:09] Document 11 has 1 references remaining (+1)
+[2024-02-01 15:57:09] In-memory object store fetching document 67088cf7-6233-4d2b-8f3f-f7ae57e4d18c
+[2024-02-01 15:57:09] In-memory object store fetching document 67088cf7-6233-4d2b-8f3f-f7ae57e4d18c
+[2024-02-01 15:57:15] Error 0x01 while validating license key
+[2024-02-01 15:57:15] 15:57:15 (17684): PdfDocumentFactory created document 000001AD32C4B130 from 139045 bytes
+[2024-02-01 15:57:15] 15:57:15 (17684): Document opened from vector
+[2024-02-01 15:57:15] 15:57:15 (17684): Storing new document 12
+[2024-02-01 15:57:15] Document 12 has 1 references remaining (+1)
+[2024-02-01 15:57:15] In-memory object store fetching document 8742566c-0d7e-4373-aebc-f924fea49412
+[2024-02-01 15:57:15] In-memory object store fetching document 8742566c-0d7e-4373-aebc-f924fea49412
+[2024-02-01 15:57:19] Error 0x01 while validating license key
+[2024-02-01 15:57:19] 15:57:19 (13792): PdfDocumentFactory created document 000001AD32C497D0 from 663426 bytes
+[2024-02-01 15:57:19] 15:57:19 (13792): Document opened from vector
+[2024-02-01 15:57:19] 15:57:19 (13792): Storing new document 13
+[2024-02-01 15:57:19] Document 13 has 1 references remaining (+1)
+[2024-02-01 15:57:19] In-memory object store fetching document cb18e469-224f-4c2e-ae5d-8d5032923764
+[2024-02-01 15:57:19] In-memory object store fetching document cb18e469-224f-4c2e-ae5d-8d5032923764
+[2024-02-01 15:57:24] Error 0x01 while validating license key
+[2024-02-01 15:57:24] 15:57:24 (1268): PdfDocumentFactory created document 000001AD32C49C30 from 348388 bytes
+[2024-02-01 15:57:24] 15:57:24 (1268): Document opened from vector
+[2024-02-01 15:57:24] 15:57:24 (1268): Storing new document 14
+[2024-02-01 15:57:24] Document 14 has 1 references remaining (+1)
+[2024-02-01 15:57:24] In-memory object store fetching document b838e70d-ab34-44a2-8035-f15172510342
+[2024-02-01 15:57:24] In-memory object store fetching document b838e70d-ab34-44a2-8035-f15172510342
+[2024-02-01 15:57:34] Error 0x01 while validating license key
+[2024-02-01 15:57:34] 15:57:34 (19752): PdfDocumentFactory created document 000001AD32C498B0 from 519928 bytes
+[2024-02-01 15:57:34] 15:57:34 (19752): Document opened from vector
+[2024-02-01 15:57:34] 15:57:34 (19752): Storing new document 15
+[2024-02-01 15:57:34] Document 15 has 1 references remaining (+1)
+[2024-02-01 15:57:34] In-memory object store fetching document c9d26aa8-6563-4171-b6a6-8898dc058c69
+[2024-02-01 15:57:34] In-memory object store fetching document c9d26aa8-6563-4171-b6a6-8898dc058c69
+[2024-02-01 15:57:37] Error 0x01 while validating license key
+[2024-02-01 15:57:37] 15:57:37 (19384): PdfDocumentFactory created document 000001AD30A8A3F0 from 522100 bytes
+[2024-02-01 15:57:37] 15:57:37 (19384): Document opened from vector
+[2024-02-01 15:57:37] 15:57:37 (19384): Storing new document 16
+[2024-02-01 15:57:37] Document 16 has 1 references remaining (+1)
+[2024-02-01 15:57:37] In-memory object store fetching document 7a806be4-aea8-4296-99da-d6d1412c3c19
+[2024-02-01 15:57:37] In-memory object store fetching document 7a806be4-aea8-4296-99da-d6d1412c3c19
+[2024-02-01 15:57:45] Error 0x01 while validating license key
+[2024-02-01 15:57:45] 15:57:45 (19752): PdfDocumentFactory created document 000001AD30A8AA10 from 291493 bytes
+[2024-02-01 15:57:45] 15:57:45 (19752): Document opened from vector
+[2024-02-01 15:57:45] 15:57:45 (19752): Storing new document 17
+[2024-02-01 15:57:45] Document 17 has 1 references remaining (+1)
+[2024-02-01 15:57:45] In-memory object store fetching document c7330fda-ee5d-4dc1-a7d8-cd398ff9222d
+[2024-02-01 15:57:45] In-memory object store fetching document c7330fda-ee5d-4dc1-a7d8-cd398ff9222d
+[2024-02-01 15:57:49] Error 0x01 while validating license key
+[2024-02-01 15:57:49] 15:57:49 (20560): PdfDocumentFactory created document 000001AD30A8B2D0 from 183550 bytes
+[2024-02-01 15:57:49] 15:57:49 (20560): Document opened from vector
+[2024-02-01 15:57:49] 15:57:49 (20560): Storing new document 18
+[2024-02-01 15:57:49] Document 18 has 1 references remaining (+1)
+[2024-02-01 15:57:49] In-memory object store fetching document 4f5faf8c-7a99-49f8-a1ec-5e0816c510cf
+[2024-02-01 15:57:49] In-memory object store fetching document 4f5faf8c-7a99-49f8-a1ec-5e0816c510cf
+[2024-02-01 15:57:53] Error 0x01 while validating license key
+[2024-02-01 15:57:53] 15:57:53 (19752): PdfDocumentFactory created document 000001AD30A8A930 from 173972 bytes
+[2024-02-01 15:57:53] 15:57:53 (19752): Document opened from vector
+[2024-02-01 15:57:53] 15:57:53 (19752): Storing new document 19
+[2024-02-01 15:57:53] Document 19 has 1 references remaining (+1)
+[2024-02-01 15:57:53] In-memory object store fetching document 74b53c47-1e47-4ca9-a20e-5350a643a463
+[2024-02-01 15:57:53] In-memory object store fetching document 74b53c47-1e47-4ca9-a20e-5350a643a463
+[2024-02-01 15:57:59] Error 0x01 while validating license key
+[2024-02-01 15:57:59] 15:57:59 (19384): PdfDocumentFactory created document 000001AD30FE1020 from 273481 bytes
+[2024-02-01 15:57:59] 15:57:59 (19384): Document opened from vector
+[2024-02-01 15:57:59] 15:57:59 (19384): Storing new document 20
+[2024-02-01 15:57:59] Document 20 has 1 references remaining (+1)
+[2024-02-01 15:57:59] In-memory object store fetching document 1e5ec684-c922-49c1-b54d-1148a2ccb609
+[2024-02-01 15:57:59] In-memory object store fetching document 1e5ec684-c922-49c1-b54d-1148a2ccb609
+[2024-02-01 15:57:59] Error 0x01 while validating license key
+[2024-02-01 15:57:59] 15:57:59 (20560): PdfDocumentFactory created document 000001AD30FE1100 from 261013 bytes
+[2024-02-01 15:57:59] 15:57:59 (20560): Document opened from vector
+[2024-02-01 15:57:59] 15:57:59 (20560): Storing new document 21
+[2024-02-01 15:57:59] Document 21 has 1 references remaining (+1)
+[2024-02-01 15:57:59] In-memory object store fetching document 03204e97-d27d-4d42-a57b-0f7750cdf747
+[2024-02-01 15:57:59] In-memory object store fetching document 03204e97-d27d-4d42-a57b-0f7750cdf747
+[2024-02-01 15:58:02] Error 0x01 while validating license key
+[2024-02-01 15:58:02] 15:58:02 (20560): PdfDocumentFactory created document 000001AD30FE0760 from 362751 bytes
+[2024-02-01 15:58:02] 15:58:02 (20560): Document opened from vector
+[2024-02-01 15:58:02] 15:58:02 (20560): Storing new document 22
+[2024-02-01 15:58:02] Document 22 has 1 references remaining (+1)
+[2024-02-01 15:58:02] In-memory object store fetching document 13554d29-7965-4c46-9833-cbd7ccf05935
+[2024-02-01 15:58:02] In-memory object store fetching document 13554d29-7965-4c46-9833-cbd7ccf05935
+[2024-02-01 15:58:03] Error 0x01 while validating license key
+[2024-02-01 15:58:03] 15:58:03 (19384): PdfDocumentFactory created document 000001AD30FE13A0 from 273666 bytes
+[2024-02-01 15:58:03] 15:58:03 (19384): Document opened from vector
+[2024-02-01 15:58:03] 15:58:03 (19384): Storing new document 23
+[2024-02-01 15:58:03] Document 23 has 1 references remaining (+1)
+[2024-02-01 15:58:03] In-memory object store fetching document 4422a7e8-0fb6-442e-9322-b269dc0942c3
+[2024-02-01 15:58:03] In-memory object store fetching document 4422a7e8-0fb6-442e-9322-b269dc0942c3
+[2024-02-01 15:58:07] Error 0x01 while validating license key
+[2024-02-01 15:58:08] 15:58:08 (19752): PdfDocumentFactory created document 000001AD30FDFA40 from 397650 bytes
+[2024-02-01 15:58:08] 15:58:08 (19752): Document opened from vector
+[2024-02-01 15:58:08] 15:58:08 (19752): Storing new document 24
+[2024-02-01 15:58:08] Document 24 has 1 references remaining (+1)
+[2024-02-01 15:58:08] In-memory object store fetching document 9fb0b15c-dea3-4881-ba48-48b867e4ce80
+[2024-02-01 15:58:08] In-memory object store fetching document 9fb0b15c-dea3-4881-ba48-48b867e4ce80
+[2024-02-01 15:58:13] Error 0x01 while validating license key
+[2024-02-01 15:58:13] 15:58:13 (19752): PdfDocumentFactory created document 000001AD30FE1800 from 287921 bytes
+[2024-02-01 15:58:13] 15:58:13 (19752): Document opened from vector
+[2024-02-01 15:58:13] 15:58:13 (19752): Storing new document 25
+[2024-02-01 15:58:13] Document 25 has 1 references remaining (+1)
+[2024-02-01 15:58:13] In-memory object store fetching document 87eee706-3892-4989-914e-1c3cca779dad
+[2024-02-01 15:58:13] In-memory object store fetching document 87eee706-3892-4989-914e-1c3cca779dad
+[2024-02-01 15:58:16] Error 0x01 while validating license key
+[2024-02-01 15:58:16] 15:58:16 (13792): PdfDocumentFactory created document 000001AD30FE0060 from 81819 bytes
+[2024-02-01 15:58:16] 15:58:16 (13792): Document opened from vector
+[2024-02-01 15:58:16] 15:58:16 (13792): Storing new document 26
+[2024-02-01 15:58:16] Document 26 has 1 references remaining (+1)
+[2024-02-01 15:58:16] In-memory object store fetching document 939b4e84-29a7-49d6-b1bb-9bf9874ee519
+[2024-02-01 15:58:16] In-memory object store fetching document 939b4e84-29a7-49d6-b1bb-9bf9874ee519
+[2024-02-01 15:58:19] Error 0x01 while validating license key
+[2024-02-01 15:58:19] 15:58:19 (19752): PdfDocumentFactory created document 000001AD3121F2E0 from 139045 bytes
+[2024-02-01 15:58:19] 15:58:19 (19752): Document opened from vector
+[2024-02-01 15:58:19] 15:58:19 (19752): Storing new document 27
+[2024-02-01 15:58:19] Document 27 has 1 references remaining (+1)
+[2024-02-01 15:58:19] In-memory object store fetching document b794279e-6581-45dd-b8c7-e94bd7ad063b
+[2024-02-01 15:58:19] In-memory object store fetching document b794279e-6581-45dd-b8c7-e94bd7ad063b
+[2024-02-01 15:58:36] Error 0x01 while validating license key
+[2024-02-01 15:58:36] 15:58:36 (16000): PdfDocumentFactory created document 000001AD3121F900 from 522100 bytes
+[2024-02-01 15:58:36] 15:58:36 (16000): Document opened from vector
+[2024-02-01 15:58:36] 15:58:36 (16000): Storing new document 28
+[2024-02-01 15:58:36] Document 28 has 1 references remaining (+1)
+[2024-02-01 15:58:36] In-memory object store fetching document 8fcf8ae3-541b-49c7-b08f-d1fded12468d
+[2024-02-01 15:58:36] In-memory object store fetching document 8fcf8ae3-541b-49c7-b08f-d1fded12468d
+[2024-02-01 15:58:49] Error 0x01 while validating license key
+[2024-02-01 15:58:49] 15:58:49 (20560): PdfDocumentFactory created document 000001AD3121FBA0 from 183550 bytes
+[2024-02-01 15:58:49] 15:58:49 (20560): Document opened from vector
+[2024-02-01 15:58:49] 15:58:49 (20560): Storing new document 29
+[2024-02-01 15:58:49] Document 29 has 1 references remaining (+1)
+[2024-02-01 15:58:49] In-memory object store fetching document 62817ff6-53a7-4269-96ee-00e6a8aa1e83
+[2024-02-01 15:58:49] In-memory object store fetching document 62817ff6-53a7-4269-96ee-00e6a8aa1e83
+[2024-02-01 15:58:59] Error 0x01 while validating license key
+[2024-02-01 15:58:59] 15:58:59 (20560): PdfDocumentFactory created document 000001AD31220380 from 273481 bytes
+[2024-02-01 15:58:59] 15:58:59 (20560): Document opened from vector
+[2024-02-01 15:58:59] 15:58:59 (20560): Storing new document 30
+[2024-02-01 15:58:59] Document 30 has 1 references remaining (+1)
+[2024-02-01 15:58:59] In-memory object store fetching document 12a4f798-c249-411c-86b5-443c12a24015
+[2024-02-01 15:58:59] In-memory object store fetching document 12a4f798-c249-411c-86b5-443c12a24015
+[2024-02-01 15:59:05] Error 0x01 while validating license key
+[2024-02-01 15:59:05] 15:59:05 (20560): PdfDocumentFactory created document 000001AD33CCE3A0 from 273666 bytes
+[2024-02-01 15:59:05] 15:59:05 (20560): Document opened from vector
+[2024-02-01 15:59:05] 15:59:05 (20560): Storing new document 31
+[2024-02-01 15:59:05] Document 31 has 1 references remaining (+1)
+[2024-02-01 15:59:05] In-memory object store fetching document b32fdc76-fcb1-47a1-bdeb-508774f0d81c
+[2024-02-01 15:59:05] In-memory object store fetching document b32fdc76-fcb1-47a1-bdeb-508774f0d81c
+[2024-02-01 15:59:10] Error 0x01 while validating license key
+[2024-02-01 15:59:10] 15:59:10 (20560): PdfDocumentFactory created document 000001AD33CCF360 from 397650 bytes
+[2024-02-01 15:59:10] 15:59:10 (20560): Document opened from vector
+[2024-02-01 15:59:10] 15:59:10 (20560): Storing new document 32
+[2024-02-01 15:59:10] Document 32 has 1 references remaining (+1)
+[2024-02-01 15:59:10] In-memory object store fetching document cae2c4e7-0bbb-4d60-912b-1e2ff243d020
+[2024-02-01 15:59:10] In-memory object store fetching document cae2c4e7-0bbb-4d60-912b-1e2ff243d020
+[2024-02-01 15:59:21] Error 0x01 while validating license key
+[2024-02-01 15:59:21] 15:59:21 (19896): PdfDocumentFactory created document 000001AD33CD06A0 from 81819 bytes
+[2024-02-01 15:59:21] 15:59:21 (19896): Document opened from vector
+[2024-02-01 15:59:21] 15:59:21 (19896): Storing new document 33
+[2024-02-01 15:59:21] Document 33 has 1 references remaining (+1)
+[2024-02-01 15:59:21] In-memory object store fetching document 28b10f35-1b09-4bbd-b8cf-059993934a63
+[2024-02-01 15:59:21] In-memory object store fetching document 28b10f35-1b09-4bbd-b8cf-059993934a63
+[2024-02-01 16:05:13] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-02-01 16:05:13] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 16:05:13] Creating folder deployments for win-x64
+[2024-02-01 16:05:13] Creating embedded deployments for win-x64
+[2024-02-01 16:05:13] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-01 16:05:13] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 16:05:13] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 16:05:13] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-01 16:05:13] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Creating new job collection resource
+[2024-02-01 16:05:13] Creating new document collection resource
+[2024-02-01 16:05:13] Successfully initialized local pdf client
+[2024-02-01 16:05:13] Initializing local Chrome client...
+[2024-02-01 16:05:13] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-01 16:05:13] Creating folder deployments for win-x64
+[2024-02-01 16:05:13] Creating embedded deployments for win-x64
+[2024-02-01 16:05:13] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-01 16:05:13] Using deployment instructions for 'default' v
+[2024-02-01 16:05:13] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 16:05:13] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 16:05:13] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-01 16:05:13] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:13] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-02-01 16:05:14] 16:05:14 (15200): ~ Chrome renderer v2024.1.0.143~
+[2024-02-01 16:05:14] 16:05:14 (15200): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 16:05:14] 16:05:14 (15200): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-01 16:05:14] 16:05:14 (15200): IsSingleProcess: 0
+[2024-02-01 16:05:14] 16:05:14 (15200): Creating Cef proxy controller
+[2024-02-01 16:05:14] 16:05:14 (15200): Creating Cef interface
+[2024-02-01 16:05:14] 16:05:14 (15200): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 16:05:14] 16:05:14 (15200): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-01 16:05:14] 16:05:14 (15200): Destroying Cef proxy event handler
+[2024-02-01 16:05:14] 16:05:14 (15200): Initializing Cef proxy controller
+[2024-02-01 16:05:14] 16:05:14 (15200): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-01 16:05:14] 16:05:14 (15200): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:14] 16:05:14 (15200): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-01 16:05:14] 16:05:14 (15200): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-01 16:05:14] 16:05:14 (15200): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-01 16:05:14] 16:05:14 (15200): gpu_mode: '0'
+[2024-02-01 16:05:14] 16:05:14 (20328): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-02-01 16:05:14] 16:05:14 (20328): gpu_mode: '0'
+[2024-02-01 16:05:14] 16:05:14 (15200): Cef initialization succeeded
+[2024-02-01 16:05:14] Successfully initialized local Chrome client
+[2024-02-01 16:05:14] 16:05:14 (20328): Cef context initialized
+[2024-02-01 16:05:14] 16:05:14 (20328): Registering custom scheme for rendering raw html
+[2024-02-01 16:05:14] 16:05:14 (20328): Successfully registered custom scheme
+[2024-02-01 16:05:14] 16:05:14 (20328): Cef engine initialization complete
+[2024-02-01 16:05:14] 16:05:14 (20328): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-02-01 16:05:14] 16:05:14 (20328): gpu_mode: '0'
+[2024-02-01 16:05:23] 'UsageData' module is disabled
+[2024-02-01 16:05:23] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-01 16:05:23] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 16:05:23] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 16:05:23] Warning! Error while retrieving app settings value
+[2024-02-01 16:05:23] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 16:05:23] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-01 16:05:23] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 16:05:23] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-01 16:05:23] Warning! Error while retrieving app settings value
+[2024-02-01 16:05:23] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-01 16:05:23] Setting license key to 'AppAnalytics' module
+[2024-02-01 16:05:23] Error 0x00 while validating license key
+[2024-02-01 16:05:23] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-01 16:05:23] 16:05:23 (16520): PdfDocumentFactory created document 000002087D3C3A10 from 292889 bytes
+[2024-02-01 16:05:23] 16:05:23 (16520): Document opened from vector
+[2024-02-01 16:05:23] 16:05:23 (16520): Storing new document 0
+[2024-02-01 16:05:23] Document 0 has 1 references remaining (+1)
+[2024-02-01 16:05:23] In-memory object store fetching document 031a0f0d-0882-4329-9d42-d9bcd2eb44d9
+[2024-02-01 16:05:23] In-memory object store fetching document 031a0f0d-0882-4329-9d42-d9bcd2eb44d9
+[2024-02-01 16:05:30] Error 0x01 while validating license key
+[2024-02-01 16:05:30] 16:05:30 (2884): PdfDocumentFactory created document 000002087D3C3D90 from 401320 bytes
+[2024-02-01 16:05:30] 16:05:30 (2884): Document opened from vector
+[2024-02-01 16:05:30] 16:05:30 (2884): Storing new document 1
+[2024-02-01 16:05:30] Document 1 has 1 references remaining (+1)
+[2024-02-01 16:05:30] In-memory object store fetching document 39a6d488-22f4-4f42-a11a-ee4efc8e17f2
+[2024-02-01 16:05:30] In-memory object store fetching document 39a6d488-22f4-4f42-a11a-ee4efc8e17f2
+[2024-02-01 16:05:45] Error 0x01 while validating license key
+[2024-02-01 16:05:45] 16:05:45 (16520): PdfDocumentFactory created document 000002087D3C4E30 from 267117 bytes
+[2024-02-01 16:05:45] 16:05:45 (16520): Document opened from vector
+[2024-02-01 16:05:45] 16:05:45 (16520): Storing new document 2
+[2024-02-01 16:05:45] Document 2 has 1 references remaining (+1)
+[2024-02-01 16:05:45] In-memory object store fetching document 576bb303-87ea-43ba-99eb-98dd90ead8db
+[2024-02-01 16:05:45] In-memory object store fetching document 576bb303-87ea-43ba-99eb-98dd90ead8db
+[2024-02-01 16:05:57] Error 0x01 while validating license key
+[2024-02-01 16:05:57] 16:05:57 (11752): PdfDocumentFactory created document 0000020802E92140 from 663426 bytes
+[2024-02-01 16:05:57] 16:05:57 (11752): Document opened from vector
+[2024-02-01 16:05:57] 16:05:57 (11752): Storing new document 3
+[2024-02-01 16:05:57] Document 3 has 1 references remaining (+1)
+[2024-02-01 16:05:57] In-memory object store fetching document 8337c9fc-fdda-456c-931f-4f342857c4ef
+[2024-02-01 16:05:57] In-memory object store fetching document 8337c9fc-fdda-456c-931f-4f342857c4ef
+[2024-02-01 16:06:02] Error 0x01 while validating license key
+[2024-02-01 16:06:02] 16:06:02 (2884): PdfDocumentFactory created document 0000020802E92920 from 348388 bytes
+[2024-02-01 16:06:02] 16:06:02 (2884): Document opened from vector
+[2024-02-01 16:06:02] 16:06:02 (2884): Storing new document 4
+[2024-02-01 16:06:02] Document 4 has 1 references remaining (+1)
+[2024-02-01 16:06:02] In-memory object store fetching document 8fc1203a-29cd-4540-8ce8-a6c12dd85350
+[2024-02-01 16:06:02] In-memory object store fetching document 8fc1203a-29cd-4540-8ce8-a6c12dd85350
+[2024-02-01 16:06:08] Error 0x01 while validating license key
+[2024-02-01 16:06:08] 16:06:08 (2884): PdfDocumentFactory created document 0000020802E92220 from 519928 bytes
+[2024-02-01 16:06:08] 16:06:08 (2884): Document opened from vector
+[2024-02-01 16:06:08] 16:06:08 (2884): Storing new document 5
+[2024-02-01 16:06:08] Document 5 has 1 references remaining (+1)
+[2024-02-01 16:06:08] In-memory object store fetching document 3b46e4cc-5978-48ea-86a5-b017375f02ac
+[2024-02-01 16:06:08] In-memory object store fetching document 3b46e4cc-5978-48ea-86a5-b017375f02ac
+[2024-02-01 16:06:20] Error 0x01 while validating license key
+[2024-02-01 16:06:20] 16:06:20 (2884): PdfDocumentFactory created document 0000020802E92760 from 291493 bytes
+[2024-02-01 16:06:20] 16:06:20 (2884): Document opened from vector
+[2024-02-01 16:06:20] 16:06:20 (2884): Storing new document 6
+[2024-02-01 16:06:20] Document 6 has 1 references remaining (+1)
+[2024-02-01 16:06:20] In-memory object store fetching document 39db2b07-a22c-4022-86b5-bf54c3b6850d
+[2024-02-01 16:06:20] In-memory object store fetching document 39db2b07-a22c-4022-86b5-bf54c3b6850d
+[2024-02-01 16:06:26] Error 0x01 while validating license key
+[2024-02-01 16:06:26] 16:06:26 (11752): PdfDocumentFactory created document 0000020802E91F80 from 173972 bytes
+[2024-02-01 16:06:26] 16:06:26 (11752): Document opened from vector
+[2024-02-01 16:06:26] 16:06:26 (11752): Storing new document 7
+[2024-02-01 16:06:26] Document 7 has 1 references remaining (+1)
+[2024-02-01 16:06:26] In-memory object store fetching document 5e362d91-007e-4dd7-813e-3baa22aa3127
+[2024-02-01 16:06:26] In-memory object store fetching document 5e362d91-007e-4dd7-813e-3baa22aa3127
+[2024-02-01 16:06:32] Error 0x01 while validating license key
+[2024-02-01 16:06:32] 16:06:32 (16008): PdfDocumentFactory created document 0000020802E933A0 from 261013 bytes
+[2024-02-01 16:06:32] 16:06:32 (16008): Document opened from vector
+[2024-02-01 16:06:32] 16:06:32 (16008): Storing new document 8
+[2024-02-01 16:06:32] Document 8 has 1 references remaining (+1)
+[2024-02-01 16:06:32] In-memory object store fetching document a9216ef5-ed7e-480d-aa3c-c35481afc6c6
+[2024-02-01 16:06:32] In-memory object store fetching document a9216ef5-ed7e-480d-aa3c-c35481afc6c6
+[2024-02-01 16:06:35] Error 0x01 while validating license key
+[2024-02-01 16:06:35] 16:06:35 (14632): PdfDocumentFactory created document 000002080347F3D0 from 362751 bytes
+[2024-02-01 16:06:35] 16:06:35 (14632): Document opened from vector
+[2024-02-01 16:06:35] 16:06:35 (14632): Storing new document 9
+[2024-02-01 16:06:35] Document 9 has 1 references remaining (+1)
+[2024-02-01 16:06:35] In-memory object store fetching document b4f970d8-b41f-4ce2-a2a9-ba22880796b1
+[2024-02-01 16:06:35] In-memory object store fetching document b4f970d8-b41f-4ce2-a2a9-ba22880796b1
+[2024-02-01 16:06:48] Error 0x01 while validating license key
+[2024-02-01 16:06:48] 16:06:48 (14632): PdfDocumentFactory created document 000002080347F910 from 152250 bytes
+[2024-02-01 16:06:48] 16:06:48 (14632): Document opened from vector
+[2024-02-01 16:06:48] 16:06:48 (14632): Storing new document 10
+[2024-02-01 16:06:48] Document 10 has 1 references remaining (+1)
+[2024-02-01 16:06:48] In-memory object store fetching document f0df7ffd-a589-4591-8887-bf0b55028362
+[2024-02-01 16:06:48] In-memory object store fetching document f0df7ffd-a589-4591-8887-bf0b55028362
+[2024-02-01 16:06:52] Error 0x01 while validating license key
+[2024-02-01 16:06:52] 16:06:52 (23400): PdfDocumentFactory created document 000002080347ECD0 from 382457 bytes
+[2024-02-01 16:06:52] 16:06:52 (23400): Document opened from vector
+[2024-02-01 16:06:52] 16:06:52 (23400): Storing new document 11
+[2024-02-01 16:06:52] Document 11 has 1 references remaining (+1)
+[2024-02-01 16:06:52] In-memory object store fetching document f2dde8de-649f-4350-bf37-b588c25ce895
+[2024-02-01 16:06:52] In-memory object store fetching document f2dde8de-649f-4350-bf37-b588c25ce895
+[2024-02-01 16:07:04] Error 0x01 while validating license key
+[2024-02-01 16:07:04] 16:07:04 (10616): PdfDocumentFactory created document 000002080347FAD0 from 1220154 bytes
+[2024-02-01 16:07:04] 16:07:04 (10616): Document opened from vector
+[2024-02-01 16:07:04] 16:07:04 (10616): Storing new document 12
+[2024-02-01 16:07:04] Document 12 has 1 references remaining (+1)
+[2024-02-01 16:07:04] In-memory object store fetching document d19b70c4-7d04-4bfa-be2a-f97d0e810702
+[2024-02-01 16:07:04] In-memory object store fetching document d19b70c4-7d04-4bfa-be2a-f97d0e810702
+[2024-02-01 16:07:12] Error 0x01 while validating license key
+[2024-02-01 16:07:12] 16:07:12 (2884): PdfDocumentFactory created document 000002080347FE50 from 383671 bytes
+[2024-02-01 16:07:12] 16:07:12 (2884): Document opened from vector
+[2024-02-01 16:07:12] 16:07:12 (2884): Storing new document 13
+[2024-02-01 16:07:12] Document 13 has 1 references remaining (+1)
+[2024-02-01 16:07:12] In-memory object store fetching document 8394fc89-6462-477e-a68e-020effff8ee0
+[2024-02-01 16:07:12] In-memory object store fetching document 8394fc89-6462-477e-a68e-020effff8ee0
+[2024-02-01 16:07:15] Error 0x01 while validating license key
+[2024-02-01 16:07:15] 16:07:15 (14484): PdfDocumentFactory created document 000002080347EF70 from 287921 bytes
+[2024-02-01 16:07:15] 16:07:15 (14484): Document opened from vector
+[2024-02-01 16:07:15] 16:07:15 (14484): Storing new document 14
+[2024-02-01 16:07:15] Document 14 has 1 references remaining (+1)
+[2024-02-01 16:07:15] In-memory object store fetching document fe671d5f-ea61-47ce-8c54-adba98d005ec
+[2024-02-01 16:07:15] In-memory object store fetching document fe671d5f-ea61-47ce-8c54-adba98d005ec
+[2024-02-01 16:07:21] Error 0x01 while validating license key
+[2024-02-01 16:07:21] 16:07:21 (2884): PdfDocumentFactory created document 000002080347FBB0 from 186819 bytes
+[2024-02-01 16:07:21] 16:07:21 (2884): Document opened from vector
+[2024-02-01 16:07:21] 16:07:21 (2884): Storing new document 15
+[2024-02-01 16:07:21] Document 15 has 1 references remaining (+1)
+[2024-02-01 16:07:21] In-memory object store fetching document 3feb9bd4-6296-42f4-a715-13245a0efca5
+[2024-02-01 16:07:21] In-memory object store fetching document 3feb9bd4-6296-42f4-a715-13245a0efca5
+[2024-02-01 16:07:24] Error 0x01 while validating license key
+[2024-02-01 16:07:24] 16:07:24 (14632): PdfDocumentFactory created document 000002080347F830 from 139045 bytes
+[2024-02-01 16:07:24] 16:07:24 (14632): Document opened from vector
+[2024-02-01 16:07:24] 16:07:24 (14632): Storing new document 16
+[2024-02-01 16:07:24] Document 16 has 1 references remaining (+1)
+[2024-02-01 16:07:24] In-memory object store fetching document 322f9090-0d47-4d65-9829-00f68f93e3ad
+[2024-02-01 16:07:24] In-memory object store fetching document 322f9090-0d47-4d65-9829-00f68f93e3ad
+[2024-02-01 16:07:39] Error 0x01 while validating license key
+[2024-02-01 16:07:39] 16:07:39 (10616): PdfDocumentFactory created document 00000208041F55D0 from 522100 bytes
+[2024-02-01 16:07:39] 16:07:39 (10616): Document opened from vector
+[2024-02-01 16:07:39] 16:07:39 (10616): Storing new document 17
+[2024-02-01 16:07:39] Document 17 has 1 references remaining (+1)
+[2024-02-01 16:07:39] In-memory object store fetching document 919120d1-1ac3-4847-a3cd-fa67d29b9592
+[2024-02-01 16:07:39] In-memory object store fetching document 919120d1-1ac3-4847-a3cd-fa67d29b9592
+[2024-02-01 16:07:49] Error 0x01 while validating license key
+[2024-02-01 16:07:49] 16:07:49 (2884): PdfDocumentFactory created document 00000208041F5410 from 183550 bytes
+[2024-02-01 16:07:49] 16:07:49 (2884): Document opened from vector
+[2024-02-01 16:07:49] 16:07:49 (2884): Storing new document 18
+[2024-02-01 16:07:49] Document 18 has 1 references remaining (+1)
+[2024-02-01 16:07:49] In-memory object store fetching document f136e0f2-b382-4dfc-9356-542dd146c31a
+[2024-02-01 16:07:49] In-memory object store fetching document f136e0f2-b382-4dfc-9356-542dd146c31a
+[2024-02-01 16:08:00] Error 0x01 while validating license key
+[2024-02-01 16:08:00] 16:08:00 (2884): PdfDocumentFactory created document 00000208041F5790 from 273481 bytes
+[2024-02-01 16:08:00] 16:08:00 (2884): Document opened from vector
+[2024-02-01 16:08:00] 16:08:00 (2884): Storing new document 19
+[2024-02-01 16:08:00] Document 19 has 1 references remaining (+1)
+[2024-02-01 16:08:00] In-memory object store fetching document 8628bf39-4c42-4a37-bcd7-77513fdd647e
+[2024-02-01 16:08:00] In-memory object store fetching document 8628bf39-4c42-4a37-bcd7-77513fdd647e
+[2024-02-01 16:08:05] Error 0x01 while validating license key
+[2024-02-01 16:08:05] 16:08:05 (14632): PdfDocumentFactory created document 00000208041F41B0 from 273666 bytes
+[2024-02-01 16:08:05] 16:08:05 (14632): Document opened from vector
+[2024-02-01 16:08:05] 16:08:05 (14632): Storing new document 20
+[2024-02-01 16:08:05] Document 20 has 1 references remaining (+1)
+[2024-02-01 16:08:05] In-memory object store fetching document 1274baf4-a9d1-40da-8d3b-47cd0f400c37
+[2024-02-01 16:08:05] In-memory object store fetching document 1274baf4-a9d1-40da-8d3b-47cd0f400c37
+[2024-02-01 16:08:12] Error 0x01 while validating license key
+[2024-02-01 16:08:12] 16:08:12 (14632): PdfDocumentFactory created document 00000208041F4DF0 from 397650 bytes
+[2024-02-01 16:08:12] 16:08:12 (14632): Document opened from vector
+[2024-02-01 16:08:12] 16:08:12 (14632): Storing new document 21
+[2024-02-01 16:08:12] Document 21 has 1 references remaining (+1)
+[2024-02-01 16:08:12] In-memory object store fetching document 28ca6d05-db81-45cb-8a93-cdd7cee1925f
+[2024-02-01 16:08:12] In-memory object store fetching document 28ca6d05-db81-45cb-8a93-cdd7cee1925f
+[2024-02-01 16:08:20] Error 0x01 while validating license key
+[2024-02-01 16:08:20] 16:08:20 (6944): PdfDocumentFactory created document 0000020803480470 from 403441 bytes
+[2024-02-01 16:08:20] 16:08:20 (6944): Document opened from vector
+[2024-02-01 16:08:20] 16:08:20 (6944): Storing new document 22
+[2024-02-01 16:08:20] Document 22 has 1 references remaining (+1)
+[2024-02-01 16:08:20] In-memory object store fetching document 8a2df77b-ea51-4bac-8e0e-3b67b7ab6a65
+[2024-02-01 16:08:20] In-memory object store fetching document 8a2df77b-ea51-4bac-8e0e-3b67b7ab6a65
+[2024-02-01 16:08:21] Error 0x01 while validating license key
+[2024-02-01 16:08:21] 16:08:21 (10796): PdfDocumentFactory created document 0000020804935EE0 from 418629 bytes
+[2024-02-01 16:08:21] 16:08:21 (10796): Document opened from vector
+[2024-02-01 16:08:21] 16:08:21 (10796): Storing new document 23
+[2024-02-01 16:08:21] Document 23 has 1 references remaining (+1)
+[2024-02-01 16:08:21] In-memory object store fetching document 88c0ac49-b94d-4180-a425-763f1e15d189
+[2024-02-01 16:08:21] In-memory object store fetching document 88c0ac49-b94d-4180-a425-763f1e15d189
+[2024-02-01 16:08:29] Error 0x01 while validating license key
+[2024-02-01 16:08:29] 16:08:29 (6944): PdfDocumentFactory created document 0000020804935C40 from 81819 bytes
+[2024-02-01 16:08:29] 16:08:29 (6944): Document opened from vector
+[2024-02-01 16:08:29] 16:08:29 (6944): Storing new document 24
+[2024-02-01 16:08:29] Document 24 has 1 references remaining (+1)
+[2024-02-01 16:08:29] In-memory object store fetching document 95f0203e-49d7-420e-942c-5eb117841335
+[2024-02-01 16:08:29] In-memory object store fetching document 95f0203e-49d7-420e-942c-5eb117841335
+[2024-02-02 10:53:53] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-02-02 10:53:53] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:53] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-02 10:53:53] Creating folder deployments for win-x64
+[2024-02-02 10:53:53] Creating embedded deployments for win-x64
+[2024-02-02 10:53:53] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:53] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:53] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-02 10:53:53] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-02 10:53:53] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-02 10:53:53] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-02 10:53:53] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:53] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:53] Creating new job collection resource
+[2024-02-02 10:53:53] Creating new document collection resource
+[2024-02-02 10:53:53] Successfully initialized local pdf client
+[2024-02-02 10:53:53] Initializing local Chrome client...
+[2024-02-02 10:53:53] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:53] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-02 10:53:53] Creating folder deployments for win-x64
+[2024-02-02 10:53:53] Creating embedded deployments for win-x64
+[2024-02-02 10:53:53] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:54] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-02 10:53:54] Using deployment instructions for 'default' v
+[2024-02-02 10:53:54] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-02 10:53:54] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-02 10:53:54] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-02 10:53:54] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:54] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:54] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-02-02 10:53:54] 10:53:54 (20516): ~ Chrome renderer v2024.1.0.143~
+[2024-02-02 10:53:54] 10:53:54 (20516): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-02 10:53:54] 10:53:54 (20516): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-02 10:53:54] 10:53:54 (20516): IsSingleProcess: 0
+[2024-02-02 10:53:54] 10:53:54 (20516): Creating Cef proxy controller
+[2024-02-02 10:53:54] 10:53:54 (20516): Creating Cef interface
+[2024-02-02 10:53:54] 10:53:54 (20516): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-02 10:53:54] 10:53:54 (20516): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-02 10:53:54] 10:53:54 (20516): Destroying Cef proxy event handler
+[2024-02-02 10:53:54] 10:53:54 (20516): Initializing Cef proxy controller
+[2024-02-02 10:53:54] 10:53:54 (20516): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-02 10:53:54] 10:53:54 (20516): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:54] 10:53:54 (20516): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-02 10:53:54] 10:53:54 (20516): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 10:53:54] 10:53:54 (20516): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-02 10:53:54] 10:53:54 (20516): gpu_mode: '0'
+[2024-02-02 10:53:54] 10:53:54 (7956): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-02-02 10:53:54] 10:53:54 (7956): gpu_mode: '0'
+[2024-02-02 10:53:54] 10:53:54 (20516): Cef initialization succeeded
+[2024-02-02 10:53:54] Successfully initialized local Chrome client
+[2024-02-02 10:53:54] 10:53:54 (7956): Cef context initialized
+[2024-02-02 10:53:54] 10:53:54 (7956): Registering custom scheme for rendering raw html
+[2024-02-02 10:53:54] 10:53:54 (7956): Successfully registered custom scheme
+[2024-02-02 10:53:54] 10:53:54 (7956): Cef engine initialization complete
+[2024-02-02 10:53:54] 10:53:54 (7956): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-02-02 10:53:54] 10:53:54 (7956): gpu_mode: '0'
+[2024-02-02 10:54:03] 10:54:03 (22916): Generating pdf from html
+[2024-02-02 10:54:03] 10:54:03 (22916): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+Cookies len: 0
+
+[2024-02-02 10:54:03] 10:54:03 (22916): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0, GrayScale : 0
+WaitForType: RenderDelay, Timeout: 10000, NetworkIdle duration: 500, Num allowed inflight: 0, Html Query Str: 
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 0.39, Right: 0.38, Bottom: 0.38, Left: 0.39
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 20
+Max Header Height: 200, Max Footer Height : 200
+
+[2024-02-02 10:54:03] 10:54:03 (22916): Created new job group 0 for new document
+[2024-02-02 10:54:03] 10:54:03 (22916): Created job group 0
+[2024-02-02 10:54:03] 10:54:03 (22916): Queuing job 0
+[2024-02-02 10:54:03] 10:54:03 (22916): Checking for browser availability (0/30)
+[2024-02-02 10:54:03] 10:54:03 (22916): Creating new browser after waiting 0 seconds
+[2024-02-02 10:54:03] 10:54:03 (7956): Created browser id 1, 1 exist
+[2024-02-02 10:54:03] 10:54:03 (7956): Browser 1 created and ready for assignment
+[2024-02-02 10:54:03] 10:54:03 (7956): Assigning job 0 to browser 1
+[2024-02-02 10:54:03] 10:54:03 (7956): Processing job for html content on browser 1
+[2024-02-02 10:54:03] 10:54:03 (7956): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp"'
+[2024-02-02 10:54:03] 10:54:03 (7956): gpu_mode: '0'
+[2024-02-02 10:54:03] 10:54:03 (7956): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp"'
+[2024-02-02 10:54:03] 10:54:03 (7956): gpu_mode: '0'
+[2024-02-02 10:54:03] 10:54:03 (7956): Browser 1 loading state changed to 1 for url ''
+[2024-02-02 10:54:03] 10:54:03 (13552): Received resource request from null for [internal] on browser 1 (nav: 1, dl: 0)
+[2024-02-02 10:54:03] 10:54:03 (13552): Resolved resource request using default handler
+[2024-02-02 10:54:03] 10:54:03 (13552): Received resource request from null for [internal] on browser 1 (nav: 1, dl: 0)
+[2024-02-02 10:54:03] 10:54:03 (13552): Resolved resource request using default handler
+[2024-02-02 10:54:03] 10:54:03 (13552): Creating resource handler for scheme http using url [internal] on browser 1
+[2024-02-02 10:54:04] 10:54:04 (7956): Browser 1 frame 17179869185 started loading [internal]
+[2024-02-02 10:54:04] 10:54:04 (7956): Browser 1 status: 
+[2024-02-02 10:54:04] 10:54:04 (7956): Received IPC message 'OnBrowserCreated' from Renderer process: 'OnBrowserCreated'
+[2024-02-02 10:54:04] 10:54:04 (7956): Received message from render process with 0 bytes
+[2024-02-02 10:54:04] 10:54:04 (7956): [IPAER] (Browser process) message received from upstream CEF: browserId=1, message name=OnBrowserCreated
+[2024-02-02 10:54:04] 10:54:04 (7956): Browser 1 frame 17179869185 ended loading [internal]
+[2024-02-02 10:54:04] 10:54:04 (7956): Browser 1 loading state changed to 0 for url '[internal]'
+[2024-02-02 10:54:04] 10:54:04 (7956): Frame loaded for job 0 on browser 1
+[2024-02-02 10:54:04] 10:54:04 (7956): Found job 0 in group 0 (of 1 groups)
+[2024-02-02 10:54:04] 10:54:04 (7956): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+[2024-02-02 10:54:04] 10:54:04 (7956): Executing dev tools method 'Page.getLayoutMetrics' for browser 1
+[2024-02-02 10:54:04] 10:54:04 (7956): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+[2024-02-02 10:54:04] 10:54:04 (7956): Finished dev tools method on browser 1 (message ID: 1)
+[2024-02-02 10:54:04] 10:54:04 (7956): Received dev tools message on browser 1: '{"id":2,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2024-02-02 10:54:04] 10:54:04 (7956): Finished dev tools method on browser 1 (message ID: 2)
+[2024-02-02 10:54:04] 10:54:04 (7956): Sending DOM-visit process message for browser 1 (job ID: 0)
+[2024-02-02 10:54:04] 10:54:04 (7956): Received IPC message 'OnDomVisited' from Renderer process: 'OnDomVisited'
+[2024-02-02 10:54:04] 10:54:04 (7956): Received message from render process with 56 bytes
+[2024-02-02 10:54:04] 10:54:04 (7956): Processed html for browser 1
+[2024-02-02 10:54:04] 10:54:04 (7956): [IPAER] (Browser process) message received from upstream CEF: browserId=1, message name=OnDomVisited
+[2024-02-02 10:54:04] 10:54:04 (21420): Apply render delay for : 20 ms
+[2024-02-02 10:54:04] 10:54:04 (21420): Finished waiting for render delay
+[2024-02-02 10:54:04] 10:54:04 (21420): Scaling content to paper using a scale of 1
+[2024-02-02 10:54:04] 10:54:04 (21420): Printing from browser to 'C:\Users\Guilherme.peritto\AppData\Local\Temp\8C48.tmp'
+[2024-02-02 10:54:04] 10:54:04 (7956): Received browser print callback for path 'C:\Users\Guilherme.peritto\AppData\Local\Temp\8C48.tmp' (1)
+[2024-02-02 10:54:04] 10:54:04 (7956): Print finished for browser 1(success: 1)
+[2024-02-02 10:54:04] 10:54:04 (7956): Resolving job for browser 1 with 14862 bytes
+[2024-02-02 10:54:04] 10:54:04 (10676): Closing browser 1
+[2024-02-02 10:54:04] 10:54:04 (7956): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2024-02-02 10:54:04] 10:54:04 (7956): Destroying browser id 1, 0 remain
+[2024-02-02 10:54:04] 10:54:04 (7956): Browser 1 closed for job 0
+[2024-02-02 10:54:04] 10:54:04 (7956): Found job 0 in group 0 (of 1 groups)
+[2024-02-02 10:54:04] 10:54:04 (7956): Job group 0 finished
+[2024-02-02 10:54:04] 10:54:04 (7956): CefMessagePumpStd::Quit()
+[2024-02-02 10:54:04] 10:54:04 (22916): Storing new job result 0
+[2024-02-02 10:54:04] Received job result 0
+[2024-02-02 10:54:04] 10:54:04 (22916): Opening document from job result 0
+[2024-02-02 10:54:04] 10:54:04 (22916): Releasing job result 0
+[2024-02-02 10:54:04] 10:54:04 (22916): PdfDocumentFactory created document 00000194F17ACED0 from 14862 bytes
+[2024-02-02 10:54:04] 10:54:04 (22916): Document opened from pointer
+[2024-02-02 10:54:04] 10:54:04 (22916): Storing new document 0
+[2024-02-02 10:54:04] Created document 0 from job result 0
+[2024-02-02 10:54:04] Document 0 has 1 references remaining (+1)
+[2024-02-02 10:54:04] In-memory object store fetching document 7490b806-30aa-416d-974f-64546de83173
+[2024-02-02 10:54:04] In-memory object store fetching document 7490b806-30aa-416d-974f-64546de83173
+[2024-02-02 10:54:05] 10:54:05 (21976): Generating pdf from html
+[2024-02-02 10:54:05] 10:54:05 (21976): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+Cookies len: 0
+
+[2024-02-02 10:54:05] 10:54:05 (21976): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0, GrayScale : 0
+WaitForType: RenderDelay, Timeout: 10000, NetworkIdle duration: 500, Num allowed inflight: 0, Html Query Str: 
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 0.39, Right: 0.38, Bottom: 0.38, Left: 0.39
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 20
+Max Header Height: 200, Max Footer Height : 200
+
+[2024-02-02 10:54:05] 10:54:05 (21976): Created new job group 1 for new document
+[2024-02-02 10:54:05] 10:54:05 (21976): Created job group 1
+[2024-02-02 10:54:05] 10:54:05 (21976): Queuing job 1
+[2024-02-02 10:54:05] 10:54:05 (21976): Checking for browser availability (0/30)
+[2024-02-02 10:54:05] 10:54:05 (21976): Creating new browser after waiting 0 seconds
+[2024-02-02 10:54:05] 10:54:05 (7956): Created browser id 2, 1 exist
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 created and ready for assignment
+[2024-02-02 10:54:05] 10:54:05 (7956): Assigning job 1 to browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Processing job for html content on browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp"'
+[2024-02-02 10:54:05] 10:54:05 (7956): gpu_mode: '0'
+[2024-02-02 10:54:05] 10:54:05 (7956): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp"'
+[2024-02-02 10:54:05] 10:54:05 (7956): gpu_mode: '0'
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 loading state changed to 1 for url ''
+[2024-02-02 10:54:05] 10:54:05 (13552): Received resource request from null for [internal] on browser 2 (nav: 1, dl: 0)
+[2024-02-02 10:54:05] 10:54:05 (13552): Resolved resource request using default handler
+[2024-02-02 10:54:05] 10:54:05 (13552): Received resource request from null for [internal] on browser 2 (nav: 1, dl: 0)
+[2024-02-02 10:54:05] 10:54:05 (13552): Resolved resource request using default handler
+[2024-02-02 10:54:05] 10:54:05 (13552): Creating resource handler for scheme http using url [internal] on browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 frame 25769803777 started loading [internal]
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 status: 
+[2024-02-02 10:54:05] 10:54:05 (7956): Received IPC message 'OnBrowserCreated' from Renderer process: 'OnBrowserCreated'
+[2024-02-02 10:54:05] 10:54:05 (7956): Received message from render process with 0 bytes
+[2024-02-02 10:54:05] 10:54:05 (7956): [IPAER] (Browser process) message received from upstream CEF: browserId=2, message name=OnBrowserCreated
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 frame 25769803777 ended loading [internal]
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 loading state changed to 0 for url '[internal]'
+[2024-02-02 10:54:05] 10:54:05 (7956): Frame loaded for job 1 on browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Found job 1 in group 1 (of 1 groups)
+[2024-02-02 10:54:05] 10:54:05 (7956): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Executing dev tools method 'Page.getLayoutMetrics' for browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Received dev tools message on browser 2: '{"id":3,"result":{}}' (size: 20)
+[2024-02-02 10:54:05] 10:54:05 (7956): Finished dev tools method on browser 2 (message ID: 3)
+[2024-02-02 10:54:05] 10:54:05 (7956): Received dev tools message on browser 2: '{"id":4,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2024-02-02 10:54:05] 10:54:05 (7956): Finished dev tools method on browser 2 (message ID: 4)
+[2024-02-02 10:54:05] 10:54:05 (7956): Sending DOM-visit process message for browser 2 (job ID: 1)
+[2024-02-02 10:54:05] 10:54:05 (7956): Received IPC message 'OnDomVisited' from Renderer process: 'OnDomVisited'
+[2024-02-02 10:54:05] 10:54:05 (7956): Received message from render process with 56 bytes
+[2024-02-02 10:54:05] 10:54:05 (7956): Processed html for browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): [IPAER] (Browser process) message received from upstream CEF: browserId=2, message name=OnDomVisited
+[2024-02-02 10:54:05] 10:54:05 (10716): Apply render delay for : 20 ms
+[2024-02-02 10:54:05] 10:54:05 (10716): Finished waiting for render delay
+[2024-02-02 10:54:05] 10:54:05 (10716): Scaling content to paper using a scale of 1
+[2024-02-02 10:54:05] 10:54:05 (10716): Printing from browser to 'C:\Users\Guilherme.peritto\AppData\Local\Temp\915A.tmp'
+[2024-02-02 10:54:05] 10:54:05 (7956): Received browser print callback for path 'C:\Users\Guilherme.peritto\AppData\Local\Temp\915A.tmp' (1)
+[2024-02-02 10:54:05] 10:54:05 (7956): Print finished for browser 2(success: 1)
+[2024-02-02 10:54:05] 10:54:05 (7956): Resolving job for browser 2 with 15332 bytes
+[2024-02-02 10:54:05] 10:54:05 (10676): Closing browser 2
+[2024-02-02 10:54:05] 10:54:05 (7956): Received dev tools message on browser 2: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2024-02-02 10:54:05] 10:54:05 (7956): Destroying browser id 2, 0 remain
+[2024-02-02 10:54:05] 10:54:05 (7956): Browser 2 closed for job 1
+[2024-02-02 10:54:05] 10:54:05 (7956): Found job 1 in group 1 (of 1 groups)
+[2024-02-02 10:54:05] 10:54:05 (7956): Job group 1 finished
+[2024-02-02 10:54:05] 10:54:05 (7956): CefMessagePumpStd::Quit()
+[2024-02-02 10:54:05] 10:54:05 (21976): Storing new job result 1
+[2024-02-02 10:54:05] Received job result 1
+[2024-02-02 10:54:05] 10:54:05 (21976): Opening document from job result 1
+[2024-02-02 10:54:05] 10:54:05 (21976): Releasing job result 1
+[2024-02-02 10:54:05] 10:54:05 (21976): PdfDocumentFactory created document 00000194F016C8D0 from 15332 bytes
+[2024-02-02 10:54:05] 10:54:05 (21976): Document opened from pointer
+[2024-02-02 10:54:05] 10:54:05 (21976): Storing new document 1
+[2024-02-02 10:54:05] Created document 1 from job result 1
+[2024-02-02 10:54:05] Document 1 has 1 references remaining (+1)
+[2024-02-02 10:54:05] In-memory object store fetching document 0aa17cbd-b069-4dfb-813b-bca83c9fef72
+[2024-02-02 10:54:05] In-memory object store fetching document 0aa17cbd-b069-4dfb-813b-bca83c9fef72
+[2024-02-02 11:02:05] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\IronSoftware.log) ----------
+[2024-02-02 11:02:05] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-02 11:02:05] Creating folder deployments for win-x64
+[2024-02-02 11:02:05] Creating embedded deployments for win-x64
+[2024-02-02 11:02:05] Successfully located 'IronPdfInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Warning! Missing deployment configuration file for deployment 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException: Error while locating deployment configuration file 'Pdfium*.deployment.json' within 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+   at IronSoftware.Deployment.SmartDeploymentBase.GetDeploymentConfiguration(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.ExecuteDeploymentCommands(IDeployment deployment)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2024-02-02 11:02:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-02 11:02:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-02 11:02:05] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfInterop.dll'
+[2024-02-02 11:02:05] Successfully loaded 'IronPdfInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Successfully deployed 'Pdfium' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Creating new job collection resource
+[2024-02-02 11:02:05] Creating new document collection resource
+[2024-02-02 11:02:05] Successfully initialized local pdf client
+[2024-02-02 11:02:05] Initializing local Chrome client...
+[2024-02-02 11:02:05] Using deployment directory 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Creating deployment candidates using root path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\' (download: False)
+[2024-02-02 11:02:05] Creating folder deployments for win-x64
+[2024-02-02 11:02:05] Creating embedded deployments for win-x64
+[2024-02-02 11:02:05] Successfully located 'IronInterop' at 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-02-02 11:02:05] Using deployment instructions for 'default' v
+[2024-02-02 11:02:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-02 11:02:05] Attempting to load Windows library 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-02 11:02:05] Successfully loaded native library from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronInterop.dll'
+[2024-02-02 11:02:05] Successfully loaded 'IronInterop' version '2024.1.0.143' from 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Successfully deployed 'Chrome' using 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt
+[2024-02-02 11:02:05] 11:02:05 (4556): ~ Chrome renderer v2024.1.0.143~
+[2024-02-02 11:02:05] 11:02:05 (4556): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-02 11:02:05] 11:02:05 (4556): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-02-02 11:02:05] 11:02:05 (4556): IsSingleProcess: 0
+[2024-02-02 11:02:05] 11:02:05 (4556): Creating Cef proxy controller
+[2024-02-02 11:02:05] 11:02:05 (4556): Creating Cef interface
+[2024-02-02 11:02:05] 11:02:05 (4556): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-02 11:02:05] 11:02:05 (4556): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-02-02 11:02:05] 11:02:05 (4556): Destroying Cef proxy event handler
+[2024-02-02 11:02:05] 11:02:05 (4556): Initializing Cef proxy controller
+[2024-02-02 11:02:05] 11:02:05 (4556): Using subprocess path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe'
+[2024-02-02 11:02:05] 11:02:05 (4556): Using framework path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] 11:02:05 (4556): Using locales path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales'
+[2024-02-02 11:02:05] 11:02:05 (4556): Using resources path 'C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\'
+[2024-02-02 11:02:05] 11:02:05 (4556): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronPdfEngineConsole.exe" --browser-subprocess-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache host=127.0.0.1 port=33350 docker_build=false keep_alive=true linux_and_docker_auto_config=false skip_initialization=false single_process=false chrome_browser_limit=30 chrome_gpu_mode=0 linux_and_docker_auto_config=true programming_language=nodejs enable_debug=false'
+[2024-02-02 11:02:05] 11:02:05 (4556): gpu_mode: '0'
+[2024-02-02 11:02:05] 11:02:05 (6340): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:2'
+[2024-02-02 11:02:05] 11:02:05 (6340): gpu_mode: '0'
+[2024-02-02 11:02:05] 11:02:05 (4556): Cef initialization succeeded
+[2024-02-02 11:02:05] Successfully initialized local Chrome client
+[2024-02-02 11:02:05] 11:02:05 (6340): Cef context initialized
+[2024-02-02 11:02:05] 11:02:05 (6340): Registering custom scheme for rendering raw html
+[2024-02-02 11:02:05] 11:02:05 (6340): Successfully registered custom scheme
+[2024-02-02 11:02:05] 11:02:05 (6340): Cef engine initialization complete
+[2024-02-02 11:02:05] 11:02:05 (6340): Launching child process '"C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20\\locales" --log-severity=disable --resources-dir-path="C:\Users\Guilherme.peritto\Documents\Projetos\APIChatGpt\node_modules\@ironsoftware\ironpdf-engine-windows-x64\ironpdf-engine-bin-2024.1.20" --lang=en-US --user-data-dir="C:\Users\Guilherme.peritto\AppData\Local\Temp" /prefetch:8'
+[2024-02-02 11:02:05] 11:02:05 (6340): gpu_mode: '0'
+[2024-02-02 11:02:15] 'UsageData' module is disabled
+[2024-02-02 11:02:15] Attempting to obtain value for a key 'IronPdf.LicenseKey' from settings
+[2024-02-02 11:02:15] Couldn't find key 'IronPdf.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-02 11:02:15] Couldn't find key 'IronPdf.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-02 11:02:15] Warning! Error while retrieving app settings value
+[2024-02-02 11:02:15] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-02 11:02:15] Attempting to obtain value for a key 'IronSuite.LicenseKey' from settings
+[2024-02-02 11:02:15] Couldn't find key 'IronSuite.LicenseKey' in json config files: Value cannot be null. (Parameter 'path')
+[2024-02-02 11:02:15] Couldn't find key 'IronSuite.LicenseKey' in xml config files: Value cannot be null. (Parameter 'path')
+[2024-02-02 11:02:15] Warning! Error while retrieving app settings value
+[2024-02-02 11:02:15] System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.ReadAzureFunctionConfig(String key, Assembly context)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.TryReadFromDefaultConfigs(String key, Assembly context, String& configValue)
+   at IronSoftware.IronConfigurationManager.IronConfigurations.Read(String key, Assembly context)
+   at IronSoftware.Licenses.LicenseManager.GetConfigValue(String key, Assembly assembly)
+[2024-02-02 11:02:15] Setting license key to 'AppAnalytics' module
+[2024-02-02 11:02:15] Error 0x00 while validating license key
+[2024-02-02 11:02:15] Failed to create LicenseKey, returning null. Exception occured:'Error 0x00 while validating license key'
+[2024-02-02 11:02:15] 11:02:15 (14276): PdfDocumentFactory created document 000001F34AD82C20 from 292889 bytes
+[2024-02-02 11:02:15] 11:02:15 (14276): Document opened from vector
+[2024-02-02 11:02:15] 11:02:15 (14276): Storing new document 0
+[2024-02-02 11:02:15] Document 0 has 1 references remaining (+1)
+[2024-02-02 11:02:15] In-memory object store fetching document e84c531b-69c0-4405-983e-9ebd760c05b9
+[2024-02-02 11:02:15] In-memory object store fetching document e84c531b-69c0-4405-983e-9ebd760c05b9
+[2024-02-02 11:02:21] Error 0x01 while validating license key
+[2024-02-02 11:02:21] 11:02:21 (20472): PdfDocumentFactory created document 000001F34AD82360 from 292889 bytes
+[2024-02-02 11:02:21] 11:02:21 (20472): Document opened from vector
+[2024-02-02 11:02:21] 11:02:21 (20472): Storing new document 1
+[2024-02-02 11:02:21] Document 1 has 1 references remaining (+1)
+[2024-02-02 11:02:21] In-memory object store fetching document b6f3a36b-f992-4ccb-b47f-cb791c9d6fa5
+[2024-02-02 11:02:21] In-memory object store fetching document b6f3a36b-f992-4ccb-b47f-cb791c9d6fa5
+[2024-02-02 11:02:21] Error 0x01 while validating license key
+[2024-02-02 11:02:21] 11:02:21 (20472): PdfDocumentFactory created document 000001F34AD827C0 from 401320 bytes
+[2024-02-02 11:02:21] 11:02:21 (20472): Document opened from vector
+[2024-02-02 11:02:21] 11:02:21 (20472): Storing new document 2
+[2024-02-02 11:02:21] Document 2 has 1 references remaining (+1)
+[2024-02-02 11:02:21] In-memory object store fetching document 4efe62e0-6d80-4ff0-837c-d82492ae8e96
+[2024-02-02 11:02:21] In-memory object store fetching document 4efe62e0-6d80-4ff0-837c-d82492ae8e96
+[2024-02-02 11:02:28] Error 0x01 while validating license key
+[2024-02-02 11:02:28] 11:02:28 (17736): PdfDocumentFactory created document 000001F350461600 from 401320 bytes
+[2024-02-02 11:02:28] 11:02:28 (17736): Document opened from vector
+[2024-02-02 11:02:28] 11:02:28 (17736): Storing new document 3
+[2024-02-02 11:02:28] Document 3 has 1 references remaining (+1)
+[2024-02-02 11:02:28] In-memory object store fetching document cec8f7a2-0a62-4138-bab1-f6486d5a623a
+[2024-02-02 11:02:28] In-memory object store fetching document cec8f7a2-0a62-4138-bab1-f6486d5a623a
+[2024-02-02 11:02:33] Error 0x01 while validating license key
+[2024-02-02 11:02:33] 11:02:33 (14276): PdfDocumentFactory created document 000001F350462940 from 267117 bytes
+[2024-02-02 11:02:33] 11:02:33 (14276): Document opened from vector
+[2024-02-02 11:02:33] 11:02:33 (14276): Storing new document 4
+[2024-02-02 11:02:33] Document 4 has 1 references remaining (+1)
+[2024-02-02 11:02:33] In-memory object store fetching document 07925cc8-f85e-46de-9f47-d62da7aaf4fd
+[2024-02-02 11:02:33] In-memory object store fetching document 07925cc8-f85e-46de-9f47-d62da7aaf4fd
+[2024-02-02 11:02:39] Error 0x01 while validating license key
+[2024-02-02 11:02:39] 11:02:39 (20472): PdfDocumentFactory created document 000001F350462240 from 267117 bytes
+[2024-02-02 11:02:39] 11:02:39 (20472): Document opened from vector
+[2024-02-02 11:02:39] 11:02:39 (20472): Storing new document 5
+[2024-02-02 11:02:39] Document 5 has 1 references remaining (+1)
+[2024-02-02 11:02:39] In-memory object store fetching document 7babd046-0cf2-441f-91fd-b6215800ea37
+[2024-02-02 11:02:39] In-memory object store fetching document 7babd046-0cf2-441f-91fd-b6215800ea37
+[2024-02-02 11:02:44] Error 0x01 while validating license key
+[2024-02-02 11:02:44] 11:02:44 (14276): PdfDocumentFactory created document 000001F350462A20 from 663426 bytes
+[2024-02-02 11:02:44] 11:02:44 (14276): Document opened from vector
+[2024-02-02 11:02:44] 11:02:44 (14276): Storing new document 6
+[2024-02-02 11:02:44] Document 6 has 1 references remaining (+1)
+[2024-02-02 11:02:44] In-memory object store fetching document c204486e-1b9c-48a7-a965-ec0f9932bd23
+[2024-02-02 11:02:44] In-memory object store fetching document c204486e-1b9c-48a7-a965-ec0f9932bd23
+[2024-02-02 11:02:48] Error 0x01 while validating license key
+[2024-02-02 11:02:48] 11:02:48 (14276): PdfDocumentFactory created document 000001F3504617C0 from 348388 bytes
+[2024-02-02 11:02:49] 11:02:49 (14276): Document opened from vector
+[2024-02-02 11:02:49] 11:02:49 (14276): Storing new document 7
+[2024-02-02 11:02:49] Document 7 has 1 references remaining (+1)
+[2024-02-02 11:02:49] In-memory object store fetching document eac8602d-19b2-427a-b46e-d70483eac599
+[2024-02-02 11:02:49] In-memory object store fetching document eac8602d-19b2-427a-b46e-d70483eac599
+[2024-02-02 11:02:53] Error 0x01 while validating license key
+[2024-02-02 11:02:53] 11:02:53 (20472): PdfDocumentFactory created document 000001F350462400 from 519928 bytes
+[2024-02-02 11:02:53] 11:02:53 (20472): Document opened from vector
+[2024-02-02 11:02:53] 11:02:53 (20472): Storing new document 8
+[2024-02-02 11:02:53] Document 8 has 1 references remaining (+1)
+[2024-02-02 11:02:53] In-memory object store fetching document cf8e073c-e75a-449a-bd72-c85eda4159fc
+[2024-02-02 11:02:53] In-memory object store fetching document cf8e073c-e75a-449a-bd72-c85eda4159fc
+[2024-02-02 11:02:54] Error 0x01 while validating license key
+[2024-02-02 11:02:54] 11:02:54 (17736): PdfDocumentFactory created document 000001F350757E80 from 663426 bytes
+[2024-02-02 11:02:54] 11:02:54 (17736): Document opened from vector
+[2024-02-02 11:02:54] 11:02:54 (17736): Storing new document 9
+[2024-02-02 11:02:54] Document 9 has 1 references remaining (+1)
+[2024-02-02 11:02:54] In-memory object store fetching document c9ea13ad-f1a5-4099-b27a-d5d58f910946
+[2024-02-02 11:02:54] In-memory object store fetching document c9ea13ad-f1a5-4099-b27a-d5d58f910946
+[2024-02-02 11:02:59] Error 0x01 while validating license key
+[2024-02-02 11:02:59] 11:02:59 (21008): PdfDocumentFactory created document 000001F350756C20 from 348388 bytes
+[2024-02-02 11:02:59] 11:02:59 (21008): Document opened from vector
+[2024-02-02 11:02:59] 11:02:59 (21008): Storing new document 10
+[2024-02-02 11:02:59] Document 10 has 1 references remaining (+1)
+[2024-02-02 11:02:59] In-memory object store fetching document 224b26b4-3bbd-42e7-97a6-a5a676ae574b
+[2024-02-02 11:02:59] In-memory object store fetching document 224b26b4-3bbd-42e7-97a6-a5a676ae574b
+[2024-02-02 11:03:04] Error 0x01 while validating license key
+[2024-02-02 11:03:04] 11:03:04 (20472): PdfDocumentFactory created document 000001F350757860 from 519928 bytes
+[2024-02-02 11:03:04] 11:03:04 (20472): Document opened from vector
+[2024-02-02 11:03:04] 11:03:04 (20472): Storing new document 11
+[2024-02-02 11:03:04] Document 11 has 1 references remaining (+1)
+[2024-02-02 11:03:04] In-memory object store fetching document 6c34600f-c852-4ca2-a4f9-64113547ad0b
+[2024-02-02 11:03:04] In-memory object store fetching document 6c34600f-c852-4ca2-a4f9-64113547ad0b
+[2024-02-02 11:03:04] Error 0x01 while validating license key
+[2024-02-02 11:03:04] 11:03:04 (14276): PdfDocumentFactory created document 000001F350757780 from 291493 bytes
+[2024-02-02 11:03:04] 11:03:04 (14276): Document opened from vector
+[2024-02-02 11:03:04] 11:03:04 (14276): Storing new document 12
+[2024-02-02 11:03:04] Document 12 has 1 references remaining (+1)
+[2024-02-02 11:03:04] In-memory object store fetching document 68ba212c-7ed7-46b9-be45-558570929579
+[2024-02-02 11:03:04] In-memory object store fetching document 68ba212c-7ed7-46b9-be45-558570929579
+[2024-02-02 11:03:11] Error 0x01 while validating license key
+[2024-02-02 11:03:11] 11:03:11 (21008): PdfDocumentFactory created document 000001F350757400 from 173972 bytes
+[2024-02-02 11:03:11] 11:03:11 (21008): Document opened from vector
+[2024-02-02 11:03:11] 11:03:11 (21008): Storing new document 13
+[2024-02-02 11:03:11] Document 13 has 1 references remaining (+1)
+[2024-02-02 11:03:11] In-memory object store fetching document 167dcf48-c91e-4a72-82e7-a1e98f8291f0
+[2024-02-02 11:03:11] In-memory object store fetching document 167dcf48-c91e-4a72-82e7-a1e98f8291f0
+[2024-02-02 11:03:13] Error 0x01 while validating license key
+[2024-02-02 11:03:13] 11:03:13 (21008): PdfDocumentFactory created document 000001F350757B00 from 291493 bytes
+[2024-02-02 11:03:13] 11:03:13 (21008): Document opened from vector
+[2024-02-02 11:03:13] 11:03:13 (21008): Storing new document 14
+[2024-02-02 11:03:13] Document 14 has 1 references remaining (+1)
+[2024-02-02 11:03:13] In-memory object store fetching document 97669f2e-37a9-4d42-adde-41b390618295
+[2024-02-02 11:03:13] In-memory object store fetching document 97669f2e-37a9-4d42-adde-41b390618295
+[2024-02-02 11:03:16] Error 0x01 while validating license key
+[2024-02-02 11:03:16] 11:03:16 (6860): PdfDocumentFactory created document 000001F3512DFEF0 from 261013 bytes
+[2024-02-02 11:03:16] 11:03:16 (6860): Document opened from vector
+[2024-02-02 11:03:16] 11:03:16 (6860): Storing new document 15
+[2024-02-02 11:03:16] Document 15 has 1 references remaining (+1)
+[2024-02-02 11:03:16] In-memory object store fetching document 7c156c95-5b4a-441f-b044-5d52100de661
+[2024-02-02 11:03:16] In-memory object store fetching document 7c156c95-5b4a-441f-b044-5d52100de661
+[2024-02-02 11:03:19] Error 0x01 while validating license key
+[2024-02-02 11:03:19] 11:03:19 (21008): PdfDocumentFactory created document 000001F3512E0C10 from 362751 bytes
+[2024-02-02 11:03:19] 11:03:19 (21008): Document opened from vector
+[2024-02-02 11:03:19] 11:03:19 (21008): Storing new document 16
+[2024-02-02 11:03:19] Document 16 has 1 references remaining (+1)
+[2024-02-02 11:03:19] In-memory object store fetching document 12fae669-ea43-4298-aac1-170849e393fc
+[2024-02-02 11:03:19] In-memory object store fetching document 12fae669-ea43-4298-aac1-170849e393fc
+[2024-02-02 11:03:20] Error 0x01 while validating license key
+[2024-02-02 11:03:20] 11:03:20 (17736): PdfDocumentFactory created document 000001F3512E0270 from 173972 bytes
+[2024-02-02 11:03:20] 11:03:20 (17736): Document opened from vector
+[2024-02-02 11:03:20] 11:03:20 (17736): Storing new document 17
+[2024-02-02 11:03:20] Document 17 has 1 references remaining (+1)
+[2024-02-02 11:03:20] In-memory object store fetching document 88abffc3-eb87-486e-8307-e27365045c8f
+[2024-02-02 11:03:20] In-memory object store fetching document 88abffc3-eb87-486e-8307-e27365045c8f
+[2024-02-02 11:03:26] Error 0x01 while validating license key
+[2024-02-02 11:03:26] 11:03:26 (19972): PdfDocumentFactory created document 000001F3512DFD30 from 261013 bytes
+[2024-02-02 11:03:26] 11:03:26 (19972): Document opened from vector
+[2024-02-02 11:03:26] 11:03:26 (19972): Storing new document 18
+[2024-02-02 11:03:26] Document 18 has 1 references remaining (+1)
+[2024-02-02 11:03:26] In-memory object store fetching document cd23c9c8-f6ae-40b7-8ed8-f8823ba863c5
+[2024-02-02 11:03:26] In-memory object store fetching document cd23c9c8-f6ae-40b7-8ed8-f8823ba863c5
+[2024-02-02 11:03:27] Error 0x01 while validating license key
+[2024-02-02 11:03:27] 11:03:27 (12124): PdfDocumentFactory created document 000001F3512E0430 from 362751 bytes
+[2024-02-02 11:03:27] 11:03:27 (12124): Document opened from vector
+[2024-02-02 11:03:27] 11:03:27 (12124): Storing new document 19
+[2024-02-02 11:03:27] Document 19 has 1 references remaining (+1)
+[2024-02-02 11:03:27] In-memory object store fetching document 3e074a65-1b92-452d-bdf5-bf0e02800bbe
+[2024-02-02 11:03:27] In-memory object store fetching document 3e074a65-1b92-452d-bdf5-bf0e02800bbe
+[2024-02-02 11:03:28] Error 0x01 while validating license key
+[2024-02-02 11:03:28] 11:03:28 (21008): PdfDocumentFactory created document 000001F3512DFB70 from 152250 bytes
+[2024-02-02 11:03:28] 11:03:28 (21008): Document opened from vector
+[2024-02-02 11:03:28] 11:03:28 (21008): Storing new document 20
+[2024-02-02 11:03:28] Document 20 has 1 references remaining (+1)
+[2024-02-02 11:03:28] In-memory object store fetching document 0f681e3a-94e4-4f20-a8ad-9f2bac317bd6
+[2024-02-02 11:03:28] In-memory object store fetching document 0f681e3a-94e4-4f20-a8ad-9f2bac317bd6
+[2024-02-02 11:03:32] Error 0x01 while validating license key
+[2024-02-02 11:03:32] 11:03:32 (19972): PdfDocumentFactory created document 000001F3512E1310 from 382457 bytes
+[2024-02-02 11:03:32] 11:03:32 (19972): Document opened from vector
+[2024-02-02 11:03:32] 11:03:32 (19972): Storing new document 21
+[2024-02-02 11:03:32] Document 21 has 1 references remaining (+1)
+[2024-02-02 11:03:32] In-memory object store fetching document ae96ec8a-6d21-43ce-a765-332213e824b0
+[2024-02-02 11:03:32] In-memory object store fetching document ae96ec8a-6d21-43ce-a765-332213e824b0
+[2024-02-02 11:03:35] Error 0x01 while validating license key
+[2024-02-02 11:03:35] 11:03:35 (21008): PdfDocumentFactory created document 000001F3512E1230 from 152250 bytes
+[2024-02-02 11:03:35] 11:03:35 (21008): Document opened from vector
+[2024-02-02 11:03:35] 11:03:35 (21008): Storing new document 22
+[2024-02-02 11:03:35] Document 22 has 1 references remaining (+1)
+[2024-02-02 11:03:35] In-memory object store fetching document 6f7efb64-5e3d-403f-b5fc-71be4d0efa01
+[2024-02-02 11:03:35] In-memory object store fetching document 6f7efb64-5e3d-403f-b5fc-71be4d0efa01
+[2024-02-02 11:03:40] Error 0x01 while validating license key
+[2024-02-02 11:03:40] 11:03:40 (19972): PdfDocumentFactory created document 000001F351CE7920 from 382457 bytes
+[2024-02-02 11:03:40] 11:03:40 (19972): Document opened from vector
+[2024-02-02 11:03:40] 11:03:40 (19972): Storing new document 23
+[2024-02-02 11:03:40] Document 23 has 1 references remaining (+1)
+[2024-02-02 11:03:40] In-memory object store fetching document 54414d59-71f4-4508-8461-cabff6a6020b
+[2024-02-02 11:03:40] In-memory object store fetching document 54414d59-71f4-4508-8461-cabff6a6020b
+[2024-02-02 11:03:41] Error 0x01 while validating license key
+[2024-02-02 11:03:41] 11:03:41 (12124): PdfDocumentFactory created document 000001F351CE7760 from 1220154 bytes
+[2024-02-02 11:03:41] 11:03:41 (12124): Document opened from vector
+[2024-02-02 11:03:41] 11:03:41 (12124): Storing new document 24
+[2024-02-02 11:03:41] Document 24 has 1 references remaining (+1)
+[2024-02-02 11:03:41] In-memory object store fetching document 1dad6129-fd9b-4d79-829f-a2bfc21427e0
+[2024-02-02 11:03:41] In-memory object store fetching document 1dad6129-fd9b-4d79-829f-a2bfc21427e0
+[2024-02-02 11:03:49] Error 0x01 while validating license key
+[2024-02-02 11:03:49] 11:03:49 (12124): PdfDocumentFactory created document 000001F351CE7840 from 1220154 bytes
+[2024-02-02 11:03:49] 11:03:49 (12124): Document opened from vector
+[2024-02-02 11:03:49] 11:03:49 (12124): Storing new document 25
+[2024-02-02 11:03:49] Document 25 has 1 references remaining (+1)
+[2024-02-02 11:03:49] In-memory object store fetching document 5a41c40a-e5da-4a63-8247-e629db62ec2a
+[2024-02-02 11:03:49] In-memory object store fetching document 5a41c40a-e5da-4a63-8247-e629db62ec2a
+[2024-02-02 11:03:49] Error 0x01 while validating license key
+[2024-02-02 11:03:49] 11:03:49 (20472): PdfDocumentFactory created document 000001F351CE7AE0 from 383671 bytes
+[2024-02-02 11:03:49] 11:03:49 (20472): Document opened from vector
+[2024-02-02 11:03:49] 11:03:49 (20472): Storing new document 26
+[2024-02-02 11:03:49] Document 26 has 1 references remaining (+1)
+[2024-02-02 11:03:49] In-memory object store fetching document 2e732a00-d1cb-413a-9fac-e842814a6960
+[2024-02-02 11:03:49] In-memory object store fetching document 2e732a00-d1cb-413a-9fac-e842814a6960
+[2024-02-02 11:03:52] Error 0x01 while validating license key
+[2024-02-02 11:03:52] 11:03:52 (19972): PdfDocumentFactory created document 000001F351CE6B20 from 287921 bytes
+[2024-02-02 11:03:52] 11:03:52 (19972): Document opened from vector
+[2024-02-02 11:03:52] 11:03:52 (19972): Storing new document 27
+[2024-02-02 11:03:52] Document 27 has 1 references remaining (+1)
+[2024-02-02 11:03:52] In-memory object store fetching document f697b5da-2604-4d2e-ba35-c08a66eccd01
+[2024-02-02 11:03:52] In-memory object store fetching document f697b5da-2604-4d2e-ba35-c08a66eccd01
+[2024-02-02 11:03:54] Error 0x01 while validating license key
+[2024-02-02 11:03:54] 11:03:54 (21264): PdfDocumentFactory created document 000001F351CE6960 from 383671 bytes
+[2024-02-02 11:03:54] 11:03:54 (21264): Document opened from vector
+[2024-02-02 11:03:54] 11:03:54 (21264): Storing new document 28
+[2024-02-02 11:03:54] Document 28 has 1 references remaining (+1)
+[2024-02-02 11:03:54] In-memory object store fetching document 2ee6c637-0318-4759-82cd-e85fae07aff7
+[2024-02-02 11:03:54] In-memory object store fetching document 2ee6c637-0318-4759-82cd-e85fae07aff7
+[2024-02-02 11:03:57] Error 0x01 while validating license key
+[2024-02-02 11:03:57] 11:03:57 (12124): PdfDocumentFactory created document 000001F351CE6260 from 287921 bytes
+[2024-02-02 11:03:57] 11:03:57 (12124): Document opened from vector
+[2024-02-02 11:03:57] 11:03:57 (12124): Storing new document 29
+[2024-02-02 11:03:57] Document 29 has 1 references remaining (+1)
+[2024-02-02 11:03:57] In-memory object store fetching document 36278f77-70ae-4762-a7c4-e5d069fddfbd
+[2024-02-02 11:03:57] In-memory object store fetching document 36278f77-70ae-4762-a7c4-e5d069fddfbd
+[2024-02-02 11:03:57] Error 0x01 while validating license key
+[2024-02-02 11:03:57] 11:03:57 (12124): PdfDocumentFactory created document 000001F351CE75A0 from 186819 bytes
+[2024-02-02 11:03:57] 11:03:57 (12124): Document opened from vector
+[2024-02-02 11:03:57] 11:03:57 (12124): Storing new document 30
+[2024-02-02 11:03:57] Document 30 has 1 references remaining (+1)
+[2024-02-02 11:03:57] In-memory object store fetching document 8b6a5df1-4bb9-4641-98dd-e18abd133731
+[2024-02-02 11:03:57] In-memory object store fetching document 8b6a5df1-4bb9-4641-98dd-e18abd133731
+[2024-02-02 11:04:01] Error 0x01 while validating license key
+[2024-02-02 11:04:01] 11:04:01 (21264): PdfDocumentFactory created document 000001F3512E0DD0 from 139045 bytes
+[2024-02-02 11:04:01] 11:04:01 (21264): Document opened from vector
+[2024-02-02 11:04:01] 11:04:01 (21264): Storing new document 31
+[2024-02-02 11:04:01] Document 31 has 1 references remaining (+1)
+[2024-02-02 11:04:01] In-memory object store fetching document 3850f001-a7a0-4962-b83e-bd0eca0d5794
+[2024-02-02 11:04:01] In-memory object store fetching document 3850f001-a7a0-4962-b83e-bd0eca0d5794
+[2024-02-02 11:04:17] Error 0x01 while validating license key
+[2024-02-02 11:04:17] 11:04:17 (20472): PdfDocumentFactory created document 000001F34C844920 from 522100 bytes
+[2024-02-02 11:04:17] 11:04:17 (20472): Document opened from vector
+[2024-02-02 11:04:17] 11:04:17 (20472): Storing new document 32
+[2024-02-02 11:04:17] Document 32 has 1 references remaining (+1)
+[2024-02-02 11:04:17] In-memory object store fetching document 93dc3c11-ea46-42c3-a973-d31ece536887
+[2024-02-02 11:04:17] In-memory object store fetching document 93dc3c11-ea46-42c3-a973-d31ece536887
+[2024-02-02 11:05:32] Error 0x01 while validating license key
+[2024-02-02 11:05:32] 11:05:32 (6268): PdfDocumentFactory created document 000001F34C843B20 from 186819 bytes
+[2024-02-02 11:05:32] 11:05:32 (6268): Document opened from vector
+[2024-02-02 11:05:32] 11:05:32 (6268): Storing new document 33
+[2024-02-02 11:05:32] Document 33 has 1 references remaining (+1)
+[2024-02-02 11:05:32] In-memory object store fetching document 8c72cd26-96dc-4e41-81ee-04785d473f19
+[2024-02-02 11:05:32] In-memory object store fetching document 8c72cd26-96dc-4e41-81ee-04785d473f19
+[2024-02-02 11:05:35] Error 0x01 while validating license key
+[2024-02-02 11:05:35] 11:05:35 (20980): PdfDocumentFactory created document 000001F34C8443E0 from 139045 bytes
+[2024-02-02 11:05:35] 11:05:35 (20980): Document opened from vector
+[2024-02-02 11:05:35] 11:05:35 (20980): Storing new document 34
+[2024-02-02 11:05:35] Document 34 has 1 references remaining (+1)
+[2024-02-02 11:05:35] In-memory object store fetching document 0d232970-500c-4fee-b5d1-44e8a669ee7d
+[2024-02-02 11:05:35] In-memory object store fetching document 0d232970-500c-4fee-b5d1-44e8a669ee7d
+[2024-02-02 11:05:48] Error 0x01 while validating license key
+[2024-02-02 11:05:48] 11:05:48 (2800): PdfDocumentFactory created document 000001F34C843420 from 522100 bytes
+[2024-02-02 11:05:48] 11:05:48 (2800): Document opened from vector
+[2024-02-02 11:05:48] 11:05:48 (2800): Storing new document 35
+[2024-02-02 11:05:48] Document 35 has 1 references remaining (+1)
+[2024-02-02 11:05:48] In-memory object store fetching document 405b4751-a78c-42bb-8869-4b930c5130e0
+[2024-02-02 11:05:48] In-memory object store fetching document 405b4751-a78c-42bb-8869-4b930c5130e0
+[2024-02-02 11:05:56] Error 0x01 while validating license key
+[2024-02-02 11:05:56] 11:05:56 (20980): PdfDocumentFactory created document 000001F3532BB500 from 183550 bytes
+[2024-02-02 11:05:56] 11:05:56 (20980): Document opened from vector
+[2024-02-02 11:05:56] 11:05:56 (20980): Storing new document 36
+[2024-02-02 11:05:56] Document 36 has 1 references remaining (+1)
+[2024-02-02 11:05:56] In-memory object store fetching document a02a85b8-84c8-4241-9804-db76cdfd6b54
+[2024-02-02 11:05:56] In-memory object store fetching document a02a85b8-84c8-4241-9804-db76cdfd6b54
+[2024-02-02 11:05:58] Error 0x01 while validating license key
+[2024-02-02 11:05:58] 11:05:58 (6268): PdfDocumentFactory created document 000001F3532BB420 from 183550 bytes
+[2024-02-02 11:05:58] 11:05:58 (6268): Document opened from vector
+[2024-02-02 11:05:58] 11:05:58 (6268): Storing new document 37
+[2024-02-02 11:05:58] Document 37 has 1 references remaining (+1)
+[2024-02-02 11:05:58] In-memory object store fetching document 80d0c361-618e-44d2-b06e-253310502297
+[2024-02-02 11:05:58] In-memory object store fetching document 80d0c361-618e-44d2-b06e-253310502297
+[2024-02-02 11:06:05] Error 0x01 while validating license key
+[2024-02-02 11:06:05] 11:06:05 (11840): PdfDocumentFactory created document 000001F3532BCE60 from 273481 bytes
+[2024-02-02 11:06:05] 11:06:05 (11840): Document opened from vector
+[2024-02-02 11:06:05] 11:06:05 (11840): Storing new document 38
+[2024-02-02 11:06:05] Document 38 has 1 references remaining (+1)
+[2024-02-02 11:06:05] In-memory object store fetching document 288fc002-9b1f-4719-a0ed-c9787f515399
+[2024-02-02 11:06:05] In-memory object store fetching document 288fc002-9b1f-4719-a0ed-c9787f515399
+[2024-02-02 11:06:08] Error 0x01 while validating license key
+[2024-02-02 11:06:08] 11:06:08 (2800): PdfDocumentFactory created document 000001F3532BC680 from 273481 bytes
+[2024-02-02 11:06:08] 11:06:08 (2800): Document opened from vector
+[2024-02-02 11:06:08] 11:06:08 (2800): Storing new document 39
+[2024-02-02 11:06:08] Document 39 has 1 references remaining (+1)
+[2024-02-02 11:06:08] In-memory object store fetching document 00fdc8fb-f442-440b-b1ec-0cbba820eb77
+[2024-02-02 11:06:08] In-memory object store fetching document 00fdc8fb-f442-440b-b1ec-0cbba820eb77
+[2024-02-02 11:06:14] Error 0x01 while validating license key
+[2024-02-02 11:06:14] 11:06:14 (11840): PdfDocumentFactory created document 000001F34C843CE0 from 273666 bytes
+[2024-02-02 11:06:14] 11:06:14 (11840): Document opened from vector
+[2024-02-02 11:06:14] 11:06:14 (11840): Storing new document 40
+[2024-02-02 11:06:14] Document 40 has 1 references remaining (+1)
+[2024-02-02 11:06:14] In-memory object store fetching document fb77e735-9610-4c7e-b6cf-cea02cfd9ad5
+[2024-02-02 11:06:14] In-memory object store fetching document fb77e735-9610-4c7e-b6cf-cea02cfd9ad5
+[2024-02-02 11:06:18] Error 0x01 while validating license key
+[2024-02-02 11:06:18] 11:06:18 (17712): PdfDocumentFactory created document 000001F353A06600 from 397650 bytes
+[2024-02-02 11:06:18] 11:06:18 (17712): Document opened from vector
+[2024-02-02 11:06:18] 11:06:18 (17712): Storing new document 41
+[2024-02-02 11:06:18] Document 41 has 1 references remaining (+1)
+[2024-02-02 11:06:18] In-memory object store fetching document 5046323b-bc95-45c2-b109-743b6153aaf4
+[2024-02-02 11:06:18] In-memory object store fetching document 5046323b-bc95-45c2-b109-743b6153aaf4
+[2024-02-02 11:06:28] Error 0x01 while validating license key
+[2024-02-02 11:06:28] 11:06:28 (20980): PdfDocumentFactory created document 000001F353A061A0 from 403441 bytes
+[2024-02-02 11:06:28] 11:06:28 (20980): Document opened from vector
+[2024-02-02 11:06:28] 11:06:28 (20980): Storing new document 42
+[2024-02-02 11:06:28] Document 42 has 1 references remaining (+1)
+[2024-02-02 11:06:28] In-memory object store fetching document 52e830bc-638e-4b3d-ace9-b3ca2eb3f405
+[2024-02-02 11:06:28] In-memory object store fetching document 52e830bc-638e-4b3d-ace9-b3ca2eb3f405
+[2024-02-02 11:06:29] Error 0x01 while validating license key
+[2024-02-02 11:06:29] 11:06:29 (22872): PdfDocumentFactory created document 000001F353A05B80 from 418629 bytes
+[2024-02-02 11:06:29] 11:06:29 (22872): Document opened from vector
+[2024-02-02 11:06:29] 11:06:29 (22872): Storing new document 43
+[2024-02-02 11:06:29] Document 43 has 1 references remaining (+1)
+[2024-02-02 11:06:29] In-memory object store fetching document 99662b05-af19-43aa-8a08-5920ff6bed85
+[2024-02-02 11:06:29] In-memory object store fetching document 99662b05-af19-43aa-8a08-5920ff6bed85
+[2024-02-02 11:06:36] Error 0x01 while validating license key
+[2024-02-02 11:06:36] 11:06:36 (22872): PdfDocumentFactory created document 000001F353A06980 from 81819 bytes
+[2024-02-02 11:06:36] 11:06:36 (22872): Document opened from vector
+[2024-02-02 11:06:36] 11:06:36 (22872): Storing new document 44
+[2024-02-02 11:06:36] Document 44 has 1 references remaining (+1)
+[2024-02-02 11:06:36] In-memory object store fetching document 7918b722-3fa1-4d0e-94da-e5ca4391521d
+[2024-02-02 11:06:36] In-memory object store fetching document 7918b722-3fa1-4d0e-94da-e5ca4391521d
+[2024-02-02 11:07:40] Error 0x01 while validating license key
+[2024-02-02 11:07:40] 11:07:40 (7648): PdfDocumentFactory created document 000001F353A075C0 from 273666 bytes
+[2024-02-02 11:07:40] 11:07:40 (7648): Document opened from vector
+[2024-02-02 11:07:40] 11:07:40 (7648): Storing new document 45
+[2024-02-02 11:07:40] Document 45 has 1 references remaining (+1)
+[2024-02-02 11:07:40] In-memory object store fetching document d7091ebf-a97e-4785-a89c-471c23425ea3
+[2024-02-02 11:07:40] In-memory object store fetching document d7091ebf-a97e-4785-a89c-471c23425ea3
+[2024-02-02 11:07:44] Error 0x01 while validating license key
+[2024-02-02 11:07:44] 11:07:44 (7648): PdfDocumentFactory created document 000001F353A08200 from 397650 bytes
+[2024-02-02 11:07:44] 11:07:44 (7648): Document opened from vector
+[2024-02-02 11:07:44] 11:07:44 (7648): Storing new document 46
+[2024-02-02 11:07:44] Document 46 has 1 references remaining (+1)
+[2024-02-02 11:07:44] In-memory object store fetching document 07a35149-9fc4-4a63-82e0-3c990842424e
+[2024-02-02 11:07:44] In-memory object store fetching document 07a35149-9fc4-4a63-82e0-3c990842424e
+[2024-02-02 11:07:50] Error 0x01 while validating license key
+[2024-02-02 11:07:50] 11:07:50 (17544): PdfDocumentFactory created document 000001F353A07CC0 from 403441 bytes
+[2024-02-02 11:07:50] 11:07:50 (17544): Document opened from vector
+[2024-02-02 11:07:50] 11:07:50 (17544): Storing new document 47
+[2024-02-02 11:07:50] Document 47 has 1 references remaining (+1)
+[2024-02-02 11:07:50] In-memory object store fetching document 2b1f74c9-d567-4bd9-931c-0feabdd73d19
+[2024-02-02 11:07:50] In-memory object store fetching document 2b1f74c9-d567-4bd9-931c-0feabdd73d19
+[2024-02-02 11:07:52] Error 0x01 while validating license key
+[2024-02-02 11:07:52] 11:07:52 (12148): PdfDocumentFactory created document 000001F353A07E80 from 418629 bytes
+[2024-02-02 11:07:52] 11:07:52 (12148): Document opened from vector
+[2024-02-02 11:07:52] 11:07:52 (12148): Storing new document 48
+[2024-02-02 11:07:52] Document 48 has 1 references remaining (+1)
+[2024-02-02 11:07:52] In-memory object store fetching document cdc7b83a-3951-4594-aaf3-7069b7e4651c
+[2024-02-02 11:07:52] In-memory object store fetching document cdc7b83a-3951-4594-aaf3-7069b7e4651c
+[2024-02-02 11:07:59] Error 0x01 while validating license key
+[2024-02-02 11:07:59] 11:07:59 (7648): PdfDocumentFactory created document 000001F353A08C80 from 81819 bytes
+[2024-02-02 11:07:59] 11:07:59 (7648): Document opened from vector
+[2024-02-02 11:07:59] 11:07:59 (7648): Storing new document 49
+[2024-02-02 11:07:59] Document 49 has 1 references remaining (+1)
+[2024-02-02 11:07:59] In-memory object store fetching document 61c9a7d9-367e-4803-81ab-a96cd7d77666
+[2024-02-02 11:07:59] In-memory object store fetching document 61c9a7d9-367e-4803-81ab-a96cd7d77666
