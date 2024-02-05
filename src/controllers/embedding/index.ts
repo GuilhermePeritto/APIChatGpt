@@ -17,6 +17,7 @@ class EmbeddingController {
                 dictPDFPath = {
                     [EnumTipoSistemas.Loja]: `${PDFPath}/Loja`,
                     [EnumTipoSistemas.Crm]: `${PDFPath}/Crm`,
+                    [EnumTipoSistemas.Servicos]: `${PDFPath}/Servico`,
                 };
 
             fs.readdir(dictPDFPath[enumTipoSistema], async (err, arquivos) => {

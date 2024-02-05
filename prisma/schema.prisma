@@ -13,6 +13,7 @@ datasource db {
 enum EnumTipoSistemas {
   Loja
   Crm
+  Servicos
 }
 
 model Embedding {
