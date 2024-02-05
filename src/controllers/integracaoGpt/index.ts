@@ -135,7 +135,8 @@ class IntegracaoGPTController {
 
     public async perguntaComBaseEmManuais(req: Request, res: Response) {
         try {
-            const pergunta = req.body.texto;
+            const pergunta = req.body.texto,
+            enumTipoSistemas = req.body.enumTipoSistema;
 
             if (!pergunta) return res.status(400).send({ message: "Texto não informado" });
 
@@ -144,19 +145,20 @@ class IntegracaoGPTController {
                 model: "text-embedding-3-small",
             })
 
-            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding);
+            const semanticSearch = await embeddingService.semanticSearch(data[0].embedding, 0, 4, enumTipoSistemas);
 
             if (!semanticSearch.length) return res.status(404).send({ message: "Nenhum resultado encontrado" });
 
             const contexto = semanticSearch.map(el => el.text);
 
             let response = await openai.chat.completions.create({
-                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${pergunta} e apenas isso, e caso nao
-                 consiga responder, responda: Não consigo responder a essa pergunta` }],
+                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")} responda: ${pergunta} e caso não encontrar no uma resposta exata no 
+                contexto, responda: Não consigo responder a essa pergunta` }],
                 model: "gpt-4"
             });
 
-            if(response.choices[0].message.content === "Não consigo responder a essa pergunta"){
+            if(response.choices[0].message.content?.toLocaleLowerCase().includes("não consigo responder a essa pergunta")){
+                console.log("Carro chefe")
                  response = await openai.chat.completions.create({
                     messages: [{ role: 'user', content: `Com base na sua base de conhecimento responda ${pergunta} e caso nao 
                     consiga responder, responda: Não consigo responder a essa pergunta` }],
