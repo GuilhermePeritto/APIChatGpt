@@ -152,12 +152,13 @@ class IntegracaoGPTController {
             const contexto = semanticSearch.map(el => el.text);
 
             let response = await openai.chat.completions.create({
-                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")}  responda: ${pergunta} e apenas isso, e caso nao
-                 consiga responder, responda: Não consigo responder a essa pergunta` }],
+                messages: [{ role: 'user', content: `Com base neste contexto ${contexto.join(" ")} responda: ${pergunta} e caso não encontrar no uma resposta exata no 
+                contexto, responda: Não consigo responder a essa pergunta` }],
                 model: "gpt-4"
             });
 
-            if(response.choices[0].message.content === "Não consigo responder a essa pergunta"){
+            if(response.choices[0].message.content?.toLocaleLowerCase().includes("não consigo responder a essa pergunta")){
+                console.log("Carro chefe")
                  response = await openai.chat.completions.create({
                     messages: [{ role: 'user', content: `Com base na sua base de conhecimento responda ${pergunta} e caso nao 
                     consiga responder, responda: Não consigo responder a essa pergunta` }],

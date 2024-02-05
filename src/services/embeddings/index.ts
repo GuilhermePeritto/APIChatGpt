@@ -17,8 +17,6 @@ class EmbeddingService {
     }
 
     public async semanticSearch(embedding: number[], trashHold = 0.5, limit = 4, enumTipoSistemas: EnumTipoSistemas) {
-        console.log(enumTipoSistemas)
-
         await prisma.$queryRawUnsafe(`
                     CREATE OR REPLACE FUNCTION cosine_similarity(vector1 double precision[], vector2 double precision[])
             RETURNS double precision AS $$
@@ -54,13 +52,14 @@ class EmbeddingService {
             SELECT
                 _id,
                 "text",
-                cosine_similarity("data", ARRAY[${embedding}]) AS similarity
+                cosine_similarity("data", ARRAY[${embedding}]) AS similarity,
+                "tipoSistema"
             FROM
                 "Embedding"
             WHERE
-                "tipoSistema" = '${enumTipoSistemas}'
-            AND
                 cosine_similarity("data", ARRAY[${embedding}]) > ${trashHold}
+            AND
+                "Embedding"."tipoSistema" = '${enumTipoSistemas}'
             ORDER BY
                 similarity DESC
             LIMIT
