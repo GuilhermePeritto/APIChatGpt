@@ -158,7 +158,6 @@ class IntegracaoGPTController {
             });
 
             if(response.choices[0].message.content?.toLocaleLowerCase().includes("não consigo responder a essa pergunta")){
-                console.log("Carro chefe")
                  response = await openai.chat.completions.create({
                     messages: [{ role: 'user', content: `Com base na sua base de conhecimento responda ${pergunta} e caso nao 
                     consiga responder, responda: Não consigo responder a essa pergunta` }],
