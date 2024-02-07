@@ -5,54 +5,52 @@ import { embeddingObject } from "../../types/embedding";
 import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
-import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
-import { PDFPath } from "../../global/constants/PDFPath";
+import { formatTextToEmbbeding, splitIntoParagraphs } from "../../utils/formatTextToEmbbeding";
+import { PDFPath as PDFPathRoot } from "../../global/constants/PDFPath";
 import { EnumTipoSistemas } from "@prisma/client";
 
 class EmbeddingController {
 
     public async create(req: Request, res: Response) {
         try {
-            const embedding: embeddingObject[] = [];
-            const enumTipoSistema: EnumTipoSistemas = req.body.enumTipoSistema;
-            const dictPDFPath = {
-                [EnumTipoSistemas.Loja]: `${PDFPath}/Loja`,
-                [EnumTipoSistemas.Crm]: `${PDFPath}/Crm`,
-                [EnumTipoSistemas.Servicos]: `${PDFPath}/Servicos`,
-            };
+            const tipoSistema: EnumTipoSistemas = req.body.tipoSistema,
+                PDFPath = `${PDFPathRoot}/${tipoSistema}`,
+                chunks: string[] = [];
 
-            if (!Object.keys(dictPDFPath).includes(enumTipoSistema)) {
+            if (!Object.keys(EnumTipoSistemas).includes(tipoSistema)) {
                 return res.status(500).send("Tipo de sistema não encontrado.");
             }
 
-            fs.readdir(dictPDFPath[enumTipoSistema], async (err, arquivos) => {
+            fs.readdir(PDFPath, async (err, arquivos) => {
                 if (err) {
                     return res.status(500).send(err);
                 }
 
                 for (const arquivo of arquivos) {
-                    const text = await readPdf(`${dictPDFPath[enumTipoSistema]}/${arquivo}`);
-                    const formattedText = formatTextToEmbbeding(text);
+                    const text = await readPdf(`${PDFPath}/${arquivo}`),
+                        tempChunks = splitIntoParagraphs(text);
 
-                    for (let i = 0; i < formattedText.length; i += chunkSize) {
-                        const chunk = formattedText.substring(i, i + chunkSize);
-                        const { data } = await openai.embeddings.create({
-                            input: chunk,
-                            model: "text-embedding-3-small",
-                        });
-
-                        const emb: embeddingObject = {
-                            text: chunk,
-                            embedding: data[0].embedding,
-                            enum: enumTipoSistema
-                        };
-
-                        await embeddingService.create(emb);
-                        embedding.push(emb);
-                    }
+                    chunks.push(...tempChunks.map(el => formatTextToEmbbeding(el)));
                 }
 
-                return res.send(embedding);
+                const response = await Promise.all(chunks.map(async (chunk) => {
+                    const { data } = await openai.embeddings.create({
+                        input: chunk,
+                        model: "text-embedding-3-small",
+                    });
+
+                    const emb: embeddingObject = {
+                        text: chunk,
+                        embedding: data[0].embedding,
+                        enum: tipoSistema
+                    };
+
+                    await embeddingService.create(emb);
+
+                    return emb;
+                }));
+
+                return res.send(response);
             });
         } catch (error) {
             res.status(500).send(error);
