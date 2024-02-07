@@ -10,29 +10,6 @@ import { PDFPath } from "../../global/constants/PDFPath";
 import { EnumTipoSistemas } from "@prisma/client";
 
 class EmbeddingController {
-    private async processTextChunk(text: string, enumTipoSistema: EnumTipoSistemas) {
-        const embedding: embeddingObject[] = [];
-
-        for (let i = 0; i < text.length; i += chunkSize) {
-            const chunk = text.substring(i, i + chunkSize);
-
-            const { data } = await openai.embeddings.create({
-                input: chunk,
-                model: "text-embedding-3-small",
-            });
-
-            const emb: embeddingObject = {
-                text: chunk,
-                embedding: data[0].embedding,
-                enum: enumTipoSistema
-            };
-
-            await embeddingService.create(emb);
-            embedding.push(emb);
-        }
-
-        return embedding;
-    }
 
     public async create(req: Request, res: Response) {
         try {
@@ -41,6 +18,7 @@ class EmbeddingController {
             const dictPDFPath = {
                 [EnumTipoSistemas.Loja]: `${PDFPath}/Loja`,
                 [EnumTipoSistemas.Crm]: `${PDFPath}/Crm`,
+                [EnumTipoSistemas.Servicos]: `${PDFPath}/Servicos`,
             };
 
             if (!Object.keys(dictPDFPath).includes(enumTipoSistema)) {
@@ -58,8 +36,19 @@ class EmbeddingController {
 
                     for (let i = 0; i < formattedText.length; i += chunkSize) {
                         const chunk = formattedText.substring(i, i + chunkSize);
-                        const chunkEmbedding = await this.processTextChunk(chunk, enumTipoSistema);
-                        embedding.push(...chunkEmbedding);
+                        const { data } = await openai.embeddings.create({
+                            input: chunk,
+                            model: "text-embedding-3-small",
+                        });
+
+                        const emb: embeddingObject = {
+                            text: chunk,
+                            embedding: data[0].embedding,
+                            enum: enumTipoSistema
+                        };
+
+                        await embeddingService.create(emb);
+                        embedding.push(emb);
                     }
                 }
 
