@@ -1,1 +1,1 @@
-export const chunkSize = 300;
+export const chunkSize = 800;
