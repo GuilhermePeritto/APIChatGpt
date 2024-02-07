@@ -8,7 +8,7 @@ import { chunkSize } from "../../global/constants/embeddings";
 import { formatTextToEmbbeding, splitIntoParagraphs } from "../../utils/formatTextToEmbbeding";
 import { PDFPath as PDFPathRoot } from "../../global/constants/PDFPath";
 import { EnumTipoSistemas } from "@prisma/client";
-
+import { CharacterTextSplitter } from "langchain/text_splitter";
 class EmbeddingController {
 
     public async create(req: Request, res: Response) {
@@ -28,7 +28,11 @@ class EmbeddingController {
 
                 for (const arquivo of arquivos) {
                     const text = await readPdf(`${PDFPath}/${arquivo}`),
-                        tempChunks = splitIntoParagraphs(text);
+                        textSplitter = new CharacterTextSplitter({
+                            chunkSize: chunkSize,
+                            chunkOverlap: 200
+                        }),
+                        tempChunks = await textSplitter.splitText(text);
 
                     chunks.push(...tempChunks.map(el => formatTextToEmbbeding(el)));
                 }

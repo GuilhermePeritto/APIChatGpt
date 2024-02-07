@@ -9,6 +9,7 @@
   "author": "Bruno Sezar M. Aiolfi & Guilherme Peritto",
   "license": "ISC",
   "dependencies": {
+    "@dqbd/tiktoken": "^1.0.13",
     "@ironsoftware/ironpdf": "^2024.1.1",
     "@ironsoftware/ironpdf-engine-windows-x64": "^2024.1.1",
     "@prisma/client": "^5.8.1",
@@ -22,11 +23,13 @@
     "ffmpeg-static": "^5.2.0",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
+    "langchain": "^0.1.15",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.20",
     "openai": "^4.24.7",
     "pdf2json": "^3.0.5",
-    "pdfreader": "^3.0.2"
+    "pdfreader": "^3.0.2",
+    "tiktoken": "^1.0.13"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
