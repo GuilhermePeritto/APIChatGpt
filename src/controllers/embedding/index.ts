@@ -5,7 +5,7 @@ import { embeddingObject } from "../../types/embedding";
 import embeddingService from "../../services/embeddings";
 import { readPdf } from "../../utils/readPdf";
 import { chunkSize } from "../../global/constants/embeddings";
-import { formatTextToEmbbeding, splitIntoParagraphs } from "../../utils/formatTextToEmbbeding";
+import { formatTextToEmbbeding } from "../../utils/formatTextToEmbbeding";
 import { PDFPath as PDFPathRoot } from "../../global/constants/PDFPath";
 import { EnumTipoSistemas } from "@prisma/client";
 import { CharacterTextSplitter } from "langchain/text_splitter";

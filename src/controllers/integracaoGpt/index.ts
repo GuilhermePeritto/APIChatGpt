@@ -7,6 +7,10 @@ import path from "path";
 import fs from "fs";
 import embeddingService from "../../services/embeddings";
 
+const { OPENAIMODEL } = process.env;
+if (!OPENAIMODEL) throw new Error("SECRET não encontrado nas variáveis de ambiente");
+
+
 class IntegracaoGPTController {
 
     public async resumirConversasPorTexto(req: Request, res: Response) {
@@ -17,10 +21,9 @@ class IntegracaoGPTController {
 
             const response = await openai.completions.create({
                 prompt: texto,
-                model: "ft:babbage-002:useall-software::8mQ0sWmr",
+                model: OPENAIMODEL!,
                 temperature: 0.5,
                 max_tokens: 300,
-
             });
 
             res.status(200).send(response)
@@ -161,7 +164,7 @@ class IntegracaoGPTController {
                  response = await openai.chat.completions.create({
                     messages: [{ role: 'user', content: `Com base na sua base de conhecimento responda ${pergunta} e caso nao 
                     consiga responder, responda: Não consigo responder a essa pergunta` }],
-                    model: "ft:gpt-3.5-turbo-0613:useall-software::8nRvUp93",
+                    model: OPENAIMODEL!,
                 });
             }
 
